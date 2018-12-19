@@ -64,13 +64,13 @@ ion-slides 无法固定height导致内容一直居中显示的问题<br />
 ```JavaScript
     <!-- index.ts -->
     slideDidChange () {
-    this.slidesMoving = false;
-    let slideIndex : number = this.slides.getActiveIndex();
-    let currentSlide : Element = this.slides._slides[slideIndex];
-    this.slidesHeight = currentSlide.clientHeight;
+        this.slidesMoving = false;
+        let slideIndex : number = this.slides.getActiveIndex();
+        let currentSlide : Element = this.slides._slides[slideIndex];
+        this.slidesHeight = currentSlide.clientHeight;
     }
     slideWillChange () {
-    this.slidesMoving = true;
+        this.slidesMoving = true;
     }
 ```
 
