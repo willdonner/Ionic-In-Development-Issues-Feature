@@ -1,0 +1,7 @@
+{
+  "name": "ionic-infinite-swiped-tabs",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
