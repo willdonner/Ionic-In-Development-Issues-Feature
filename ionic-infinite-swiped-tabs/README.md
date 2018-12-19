@@ -52,8 +52,8 @@ iOS / Android UX compatible<br />
 ```
 
 ## Issues
-    ion-slides 无法固定height导致内容一直居中显示的问题
-    解决办法：
+ion-slides 无法固定height导致内容一直居中显示的问题。<br />
+解决办法：<br />
 <!-- index.html -->
 <ion-slides [ngStyle]="{ 'height': slidesMoving ? 'auto' : (slidesHeight + 'px') }"
             (ionSlideDidChange)="slideDidChange()"
