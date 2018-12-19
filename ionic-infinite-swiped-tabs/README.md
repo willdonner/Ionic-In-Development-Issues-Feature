@@ -60,13 +60,5 @@ iOS / Android UX compatible<br />
             (ionSlideWillChange)="slideWillChange()">
 </ion-slides>
 <!-- index.ts -->
-    slideDidChange () {
-        this.slidesMoving = false;
-        let slideIndex : number = this.slides.getActiveIndex();
-        let currentSlide : Element = this.slides._slides[slideIndex];
-        this.slidesHeight = currentSlide.clientHeight;
-    }
-    slideWillChange () {
-        this.slidesMoving = true;
-    }
-    ![Screenshot](http://yuntu88.oss-cn-beijing.aliyuncs.com/fromlocal/Screenshot_20181219-163219_MyApp.jpg)
+    
+![Screenshot](http://yuntu88.oss-cn-beijing.aliyuncs.com/fromlocal/Screenshot_20181219-163219_MyApp.jpg)
