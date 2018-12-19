@@ -2,9 +2,6 @@
 
 ![Screenshot](https://raw.githubusercontent.com/julienkermarec/ionic-infinite-swiped-tabs/master/screenshots/header.png)
 
-## Tutoriel
-
-https://blog.julienkermarec.com/ionic-3-infinite-swiped-tabs/
 
 ## Features
 Infinite Tabs / Segments<br />
@@ -54,14 +51,22 @@ iOS / Android UX compatible<br />
 
 ```
 
-## TODO
-- [X] Ion-segment
-- [X] Ion-slides
-- [X] Center active segment
-- [X] Animate active segment
-
-## Info/Support
-
-If you need support, or business inquiry contact-me :
-
-@JulienKermarec - contact@julienkermarec.com
+## Issues
+    ion-slides 无法固定height导致内容一直居中显示的问题
+    解决办法：
+<!-- index.html -->
+<ion-slides [ngStyle]="{ 'height': slidesMoving ? 'auto' : (slidesHeight + 'px') }"
+            (ionSlideDidChange)="slideDidChange()"
+            (ionSlideWillChange)="slideWillChange()">
+</ion-slides>
+<!-- index.ts -->
+    slideDidChange () {
+        this.slidesMoving = false;
+        let slideIndex : number = this.slides.getActiveIndex();
+        let currentSlide : Element = this.slides._slides[slideIndex];
+        this.slidesHeight = currentSlide.clientHeight;
+    }
+    slideWillChange () {
+        this.slidesMoving = true;
+    }
+    ![Screenshot](http://yuntu88.oss-cn-beijing.aliyuncs.com/fromlocal/Screenshot_20181219-163219_MyApp.jpg)
