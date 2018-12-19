@@ -54,21 +54,20 @@ iOS / Android UX compatible<br />
 ## Issues
 ion-slides 无法固定height导致内容一直居中显示的问题<br />
 解决办法：<br />
- `
-<!-- index.html -->
-<ion-slides [ngStyle]="{ 'height': slidesMoving ? 'auto' : (slidesHeight + 'px') }"
-            (ionSlideDidChange)="slideDidChange()"
-            (ionSlideWillChange)="slideWillChange()">
-</ion-slides>
-<!-- index.ts -->
+    <!-- index.html -->
+    <ion-slides [ngStyle]="{ 'height': slidesMoving ? 'auto' : (slidesHeight + 'px') }"
+    (ionSlideDidChange)="slideDidChange()"
+    (ionSlideWillChange)="slideWillChange()">
+    </ion-slides>
+    <!-- index.ts -->
     slideDidChange () {
-        this.slidesMoving = false;
-        let slideIndex : number = this.slides.getActiveIndex();
-        let currentSlide : Element = this.slides._slides[slideIndex];
-        this.slidesHeight = currentSlide.clientHeight;
+    this.slidesMoving = false;
+    let slideIndex : number = this.slides.getActiveIndex();
+    let currentSlide : Element = this.slides._slides[slideIndex];
+    this.slidesHeight = currentSlide.clientHeight;
     }
     slideWillChange () {
-        this.slidesMoving = true;
+    this.slidesMoving = true;
     }
- `
+    
 ![Screenshot](http://yuntu88.oss-cn-beijing.aliyuncs.com/fromlocal/Screenshot_20181219-163219_MyApp.jpg)
