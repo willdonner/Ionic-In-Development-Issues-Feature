@@ -37,17 +37,6 @@ export class HelloIonicPage {
       // handle error
     });
   }
-  open(){
-    console.log("open");
-    console.log(this.url);
-  this.fileOpener.open(this.url, this.getFileMimeType("pdf"))
-  .then(() => {
-    console.log('打开成功');
-  })
-  .catch(() => {
-    console.log('打开失败');
-  });
-  }
   getFileMimeType(fileType: string): string {
     let mimeType: string = '';
   
