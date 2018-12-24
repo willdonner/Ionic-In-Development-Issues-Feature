@@ -13,11 +13,8 @@ export class HelloIonicPage {
     private file: File,private fileOpener: FileOpener) {
 
   }
-  url:any
   download() {
     const fileTransfer: FileTransferObject = this.transfer.create();
-    
-    
     const url = 'http://www.fortresearch.com/upload/WiFi_Uncle/test.pdf';
     fileTransfer.download(url, this.file.dataDirectory + 'file.pdf').then((entry) => {
       fileTransfer.onProgress(progressEvent => {
@@ -29,12 +26,7 @@ export class HelloIonicPage {
         }
       });
       console.log('download complete: ' + entry.toURL());
-      this.url = entry.toURL();
-      console.log('this.url');
-      console.log(this.url);
-      console.log("open");
-    console.log(this.url);
-  this.fileOpener.open(this.url, this.getFileMimeType("pdf"))
+  this.fileOpener.open(entry.toURL(), this.getFileMimeType("pdf"))
   .then(() => {
     console.log('打开成功');
   })
