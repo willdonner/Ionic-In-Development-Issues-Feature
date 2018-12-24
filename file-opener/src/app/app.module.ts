@@ -10,6 +10,8 @@ import { ListPage } from '../pages/list/list';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { FileOpener } from '@ionic-native/file-opener';
+import { FileTransfer, FileTransferObject, FileUploadOptions } from '@ionic-native/file-transfer';
+import { File } from '@ionic-native/file';
 @NgModule({
   declarations: [
     MyApp,
@@ -32,6 +34,7 @@ import { FileOpener } from '@ionic-native/file-opener';
     StatusBar,
     SplashScreen,
     FileOpener,
+    FileTransfer, FileTransferObject,File,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })
