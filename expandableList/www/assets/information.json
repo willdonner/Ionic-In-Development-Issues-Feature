@@ -1,0 +1,94 @@
+{
+    "items": [
+        {
+            "name": "1",
+            "children": [
+                {
+                    "name": "test",
+                    "information": "",
+                    "price": "232131"
+                },
+                {
+                    "name": "dsda",
+                    "information": "",
+                    "price": "454561"
+                }
+            ]
+        },
+        {
+            "name": "直属机构",
+            "children": [
+                {
+                    "name": "省委办公厅服务中心机关",
+                    "children": [
+                        {
+                            "name": "刘玉芳",
+                            "information": "",
+                            "price": "13608888555"
+                        },
+                        {
+                            "name": "张立伟",
+                            "information": "",
+                            "price": "13678770412"
+                        }
+                    ]
+                },
+                {
+                    "name": "省人大常委会办公厅机关服务中心",
+                    "children": [
+                        {
+                            "name": "刘玉芳",
+                            "information": "",
+                            "price": "13608888555"
+                        },
+                        {
+                            "name": "张立伟",
+                            "information": "",
+                            "price": "13678770412"
+                        },
+                        {
+                            "name": "刘承迎",
+                            "information": "",
+                            "price": "13508763572"
+                        },
+                        {
+                            "name": "李源凤",
+                            "information": "",
+                            "price": "15687163288"
+                        }
+                    ]
+                },
+                {
+                    "name": "省政府机关服务中心",
+                    "children": [
+                        {
+                            "name": "廖江文",
+                            "information": "",
+                            "price": "13769195811"
+                        },
+                        {
+                            "name": "于洋",
+                            "information": "",
+                            "price": "15808885006"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "3",
+            "children": [
+                {
+                    "name": "wrwq",
+                    "information": "",
+                    "price": "15451231"
+                },
+                {
+                    "name": "eeqw",
+                    "information": "",
+                    "price": "156871"
+                }
+            ]
+        }
+    ]
+}

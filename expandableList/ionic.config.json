@@ -1,0 +1,7 @@
+{
+  "name": "expandableList",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
