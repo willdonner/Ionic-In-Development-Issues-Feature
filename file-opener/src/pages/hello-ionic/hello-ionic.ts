@@ -15,18 +15,20 @@ export class HelloIonicPage {
   }
   download() {
     const fileTransfer: FileTransferObject = this.transfer.create();
-    const url = 'http://www.fortresearch.com/upload/WiFi_Uncle/test.pdf';
-    fileTransfer.download(url, this.file.dataDirectory + 'file.pdf').then((entry) => {
-      fileTransfer.onProgress(progressEvent => {
-        if (progressEvent.lengthComputable) {
-          // 下载过程会一直打印，完成的时候会显示 1
-          console.log(progressEvent.loaded / progressEvent.total);
-        } else {
-          console.log('下载失败')
-        }
-      });
+    const url = 'http://www.fortresearch.com/upload/WiFi_Uncle/cat.jpg';
+    fileTransfer.onProgress(progressEvent => {
+      if (progressEvent.lengthComputable) {
+        // 下载过程会一直打印，完成的时候会显示 1
+        console.log('progressEvent');
+        console.log(progressEvent.loaded / progressEvent.total);
+      } else {
+        console.log('下载失败')
+      }
+    });
+    fileTransfer.download(url, this.file.dataDirectory + 'cat.jpg').then((entry) => {
+      
       console.log('download complete: ' + entry.toURL());
-  this.fileOpener.open(entry.toURL(), this.getFileMimeType("pdf"))
+  this.fileOpener.open(entry.toURL(), this.getFileMimeType("jpg"))
   .then(() => {
     console.log('打开成功');
   })

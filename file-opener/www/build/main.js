@@ -65,24 +65,20 @@ var HelloIonicPage = /** @class */ (function () {
     HelloIonicPage.prototype.download = function () {
         var _this = this;
         var fileTransfer = this.transfer.create();
-        var url = 'http://www.fortresearch.com/upload/WiFi_Uncle/test.pdf';
-        fileTransfer.download(url, this.file.dataDirectory + 'file.pdf').then(function (entry) {
-            fileTransfer.onProgress(function (progressEvent) {
-                if (progressEvent.lengthComputable) {
-                    // 下载过程会一直打印，完成的时候会显示 1
-                    console.log(progressEvent.loaded / progressEvent.total);
-                }
-                else {
-                    console.log('下载失败');
-                }
-            });
+        var url = 'http://www.fortresearch.com/upload/WiFi_Uncle/cat.jpg';
+        fileTransfer.onProgress(function (progressEvent) {
+            if (progressEvent.lengthComputable) {
+                // 下载过程会一直打印，完成的时候会显示 1
+                console.log('progressEvent');
+                console.log(progressEvent.loaded / progressEvent.total);
+            }
+            else {
+                console.log('下载失败');
+            }
+        });
+        fileTransfer.download(url, this.file.dataDirectory + 'cat.jpg').then(function (entry) {
             console.log('download complete: ' + entry.toURL());
-            _this.url = entry.toURL();
-            console.log('this.url');
-            console.log(_this.url);
-            console.log("open");
-            console.log(_this.url);
-            _this.fileOpener.open(_this.url, _this.getFileMimeType("pdf"))
+            _this.fileOpener.open(entry.toURL(), _this.getFileMimeType("jpg"))
                 .then(function () {
                 console.log('打开成功');
             })
@@ -91,17 +87,6 @@ var HelloIonicPage = /** @class */ (function () {
             });
         }, function (error) {
             // handle error
-        });
-    };
-    HelloIonicPage.prototype.open = function () {
-        console.log("open");
-        console.log(this.url);
-        this.fileOpener.open(this.url, this.getFileMimeType("pdf"))
-            .then(function () {
-            console.log('打开成功');
-        })
-            .catch(function () {
-            console.log('打开失败');
         });
     };
     HelloIonicPage.prototype.getFileMimeType = function (fileType) {
