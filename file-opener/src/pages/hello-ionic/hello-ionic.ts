@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component,OnInit } from '@angular/core';
 import { FileOpener } from '@ionic-native/file-opener';
 import { FileTransfer, FileTransferObject, FileUploadOptions } from '@ionic-native/file-transfer';
 import { File } from '@ionic-native/file';
@@ -8,19 +8,29 @@ import { File } from '@ionic-native/file';
   selector: 'page-hello-ionic',
   templateUrl: 'hello-ionic.html'
 })
-export class HelloIonicPage {
+
+export class HelloIonicPage implements OnInit{
   constructor(private transfer: FileTransfer,
     private file: File,private fileOpener: FileOpener) {
 
   }
+  ngOnInit() {
+    this.progress="0";
+  }
+  
+  progress:any
   download() {
     const fileTransfer: FileTransferObject = this.transfer.create();
     const url = 'http://www.fortresearch.com/upload/WiFi_Uncle/cat.jpg';
     fileTransfer.onProgress(progressEvent => {
+      console.log(progressEvent.lengthComputable); 
+      console.log(progressEvent.loaded);
+      console.log(progressEvent.lengthComputable);
       if (progressEvent.lengthComputable) {
         // 下载过程会一直打印，完成的时候会显示 1
         console.log('progressEvent');
-        console.log(progressEvent.loaded / progressEvent.total);
+        this.progress = Math.round((progressEvent.loaded / progressEvent.total)*100);
+        console.log(this.progress);
       } else {
         console.log('下载失败')
       }

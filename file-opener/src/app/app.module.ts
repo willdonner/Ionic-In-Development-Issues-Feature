@@ -12,6 +12,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { FileOpener } from '@ionic-native/file-opener';
 import { FileTransfer, FileTransferObject, FileUploadOptions } from '@ionic-native/file-transfer';
 import { File } from '@ionic-native/file';
+import {ProgressBarModule} from "angular-progress-bar"
+
 @NgModule({
   declarations: [
     MyApp,
@@ -20,6 +22,7 @@ import { File } from '@ionic-native/file';
     ListPage
   ],
   imports: [
+    ProgressBarModule,
     BrowserModule,
     IonicModule.forRoot(MyApp),
   ],
