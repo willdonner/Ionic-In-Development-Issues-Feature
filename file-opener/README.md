@@ -13,4 +13,4 @@
 >> 2. npm install --save @ionic-native/file
 
 
-![Screenshot](http://yuntu88.oss-cn-beijing.aliyuncs.com/fromlocal/fileopen.jpg)
+![Screenshot](https://github.com/willdonner/Ionic-In-Development-Issues-Feature/blob/master/file-opener/Screenshot/SM-G9650_20181226145603.gif)
