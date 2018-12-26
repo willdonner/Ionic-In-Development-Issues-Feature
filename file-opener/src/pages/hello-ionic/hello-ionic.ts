@@ -3,25 +3,31 @@ import { FileOpener } from '@ionic-native/file-opener';
 import { FileTransfer, FileTransferObject, FileUploadOptions } from '@ionic-native/file-transfer';
 import { File } from '@ionic-native/file';
 
-
 @Component({
   selector: 'page-hello-ionic',
   templateUrl: 'hello-ionic.html'
 })
 
 export class HelloIonicPage implements OnInit{
+
+  
+  
+  timer1:any;
+  progress:any;
+  load:any;
   constructor(private transfer: FileTransfer,
     private file: File,private fileOpener: FileOpener) {
 
   }
   ngOnInit() {
-    this.progress="0";
+    this.progress=0;
+    this.load=0
   }
   
-  progress:any
+  
   download() {
     const fileTransfer: FileTransferObject = this.transfer.create();
-    const url = 'http://www.fortresearch.com/upload/WiFi_Uncle/cat.jpg';
+    const url = 'http://yuntu88.oss-cn-beijing.aliyuncs.com/fromlocal/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202017-10-18%20%E4%B8%8B%E5%8D%885.43.16.png';
     fileTransfer.onProgress(progressEvent => {
       console.log(progressEvent.lengthComputable); 
       console.log(progressEvent.loaded);
@@ -35,10 +41,19 @@ export class HelloIonicPage implements OnInit{
         console.log('下载失败')
       }
     });
-    fileTransfer.download(url, this.file.dataDirectory + 'cat.jpg').then((entry) => {
+    this.timer1 = setInterval(() => {
+
+      this.load =this.progress;
+
+      if(this.progress>99){
+        clearInterval(this.timer1)
+      }
+
+    }, 300);
+    fileTransfer.download(url, this.file.dataDirectory + 'cat1.png').then((entry) => {
       
       console.log('download complete: ' + entry.toURL());
-  this.fileOpener.open(entry.toURL(), this.getFileMimeType("jpg"))
+  this.fileOpener.open(entry.toURL(), this.getFileMimeType("png"))
   .then(() => {
     console.log('打开成功');
   })
