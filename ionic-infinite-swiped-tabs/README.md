@@ -8,6 +8,7 @@ Infinite Tabs / Segments<br />
 Auto-centering active segment with animation<br />
 iOS / Android UX compatible<br />
 
+
 ## Usage
 ```html
 <!-- TOOLBAR + SEGMENTS -->
