@@ -3,6 +3,7 @@ import { FileOpener } from '@ionic-native/file-opener';
 import { FileTransfer, FileTransferObject, FileUploadOptions } from '@ionic-native/file-transfer';
 import { File } from '@ionic-native/file';
 
+declare let cordova: any;
 @Component({
   selector: 'page-hello-ionic',
   templateUrl: 'hello-ionic.html'
@@ -53,7 +54,7 @@ export class HelloIonicPage implements OnInit{
     fileTransfer.download(url, this.file.dataDirectory + 'cat1.png').then((entry) => {
       
       console.log('download complete: ' + entry.toURL());
-  this.fileOpener.open(entry.toURL(), this.getFileMimeType("png"))
+      cordova.plugins.fileOpener2.open(entry.toURL(), this.getFileMimeType("png"))
   .then(() => {
     console.log('打开成功');
   })

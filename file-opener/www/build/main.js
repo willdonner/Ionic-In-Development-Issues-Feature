@@ -92,7 +92,7 @@ var HelloIonicPage = /** @class */ (function () {
         }, 300);
         fileTransfer.download(url, this.file.dataDirectory + 'cat1.png').then(function (entry) {
             console.log('download complete: ' + entry.toURL());
-            _this.fileOpener.open(entry.toURL(), _this.getFileMimeType("png"))
+            cordova.plugins.fileOpener2.open(entry.toURL(), _this.getFileMimeType("png"))
                 .then(function () {
                 console.log('打开成功');
             })
