@@ -1,0 +1,7 @@
+{
+  "name": "hot-code-push",
+  "ios_identifier": "com.willdonner.hot-code-push",
+  "android_identifier": "com.willdonner.hot-code-push",
+  "update": "now",
+  "content_url": "http://172.24.240.57:8080/www/"
+}
