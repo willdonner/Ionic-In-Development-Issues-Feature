@@ -11,6 +11,8 @@ export class HomePage {
 
   }
   hot_code_push(){
-    alert('热更新测试成功👌');
+    alert('android热更新测试成功👌👌👌👌👌');
+    alert('确认服务器实打实的');
+    alert("更不高兴🙏")
   }
 }

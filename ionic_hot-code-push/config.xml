@@ -20,7 +20,7 @@
     <preference name="SplashScreen" value="screen" />
     <preference name="SplashScreenDelay" value="3000" />
     <chcp>
-        <config-file url="http://172.24.240.57:8080/www/chcp.json" />
+        <config-file url="http://www.fortresearch.com/upload/WiFi_Uncle/www/chcp.json" />
     </chcp>
     <platform name="android">
         <allow-intent href="market:*" />
@@ -87,4 +87,5 @@
     <plugin name="cordova-plugin-ionic-keyboard" spec="^2.0.5" />
     <plugin name="cordova-hot-code-push-plugin" spec="^1.5.3" />
     <engine name="android" spec="7.0.0" />
+    <engine name="ios" spec="4.5.5" />
 </widget>

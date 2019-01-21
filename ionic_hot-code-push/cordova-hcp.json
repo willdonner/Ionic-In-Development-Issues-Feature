@@ -1,7 +1,7 @@
 {
-  "name": "hot-code-push",
-  "ios_identifier": "com.willdonner.hot-code-push",
-  "android_identifier": "com.willdonner.hot-code-push",
+  "name": "q",
+  "ios_identifier": "q",
+  "android_identifier": "q",
   "update": "now",
-  "content_url": "http://172.24.240.57:8080/www/"
+  "content_url": "http://www.fortresearch.com/upload/WiFi_Uncle/www/"
 }
