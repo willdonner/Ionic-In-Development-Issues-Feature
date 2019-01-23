@@ -6,7 +6,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
-
+import { IonRefreshNativeModule } from 'ion-refresh-native';
 @NgModule({
   declarations: [
     MyApp,
@@ -14,6 +14,7 @@ import { HomePage } from '../pages/home/home';
   ],
   imports: [
     BrowserModule,
+    IonRefreshNativeModule,
     IonicModule.forRoot(MyApp)
   ],
   bootstrap: [IonicApp],
