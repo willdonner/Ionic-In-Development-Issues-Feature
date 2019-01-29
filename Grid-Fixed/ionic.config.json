@@ -1,0 +1,7 @@
+{
+  "name": "Grid-Fixed",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
