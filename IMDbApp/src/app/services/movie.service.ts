@@ -21,6 +21,12 @@ export class MovieService {
 
   constructor(private http: HttpClient) { }
   searchData(title: string, type: SerachType): Observable<any> {
-    return this.http.get(`${this.url}?s=${encodeURI(title)}`);
+    return this.http.get(`${this.url}?s=${encodeURI(title)}&type=${type}&apiKey=${this.apiKey}`).pipe(
+      map(results => results['Sarach'])
+    );
+  }
+
+  getDetails(id) {
+    return this.http.get(`${this.url}?i=${id}&plot=full&apiKey=${this.apiKey}`);
   }
 }
