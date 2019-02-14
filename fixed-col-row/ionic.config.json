@@ -1,0 +1,7 @@
+{
+  "name": "fixed-col-row",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
