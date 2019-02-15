@@ -27,8 +27,6 @@ export class ServicesMovieProvider {
       map(
         ret =>{
           let d = ret;
-          console.log("d");
-          console.log(d);
           return d;
         }
       )
@@ -36,4 +34,17 @@ export class ServicesMovieProvider {
     return act;
   }
 
+  searchDetail(id:string): Observable<any>{
+    let act = this.http.get(`${this.url}?i=${id}&apiKey=${this.apiKey}`).pipe(
+      map(
+        ret =>{
+          let d = ret;
+          console.log("d");
+          console.log(d);
+          return d;
+        }
+      )
+    )
+    return act;
+  }
 }

@@ -34,7 +34,10 @@ export class PagesMoviesPage {
             this.results = res.Search;
           }
         )
-  
+  }
+  viewdetail(item){
+    console.log(item)
+    this.navCtrl.push('lookMeetingFeedbacks',{item:item});
   }
 
 }
