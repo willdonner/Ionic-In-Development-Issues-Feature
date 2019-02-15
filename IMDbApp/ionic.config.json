@@ -1,0 +1,7 @@
+{
+  "name": "IMDbApp",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
