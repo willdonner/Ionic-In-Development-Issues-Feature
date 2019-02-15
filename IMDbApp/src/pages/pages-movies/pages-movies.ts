@@ -15,19 +15,26 @@ import {ServicesMovieProvider,SearchType} from '../../providers/services-movie/s
   templateUrl: 'pages-movies.html',
 })
 export class PagesMoviesPage {
+  searchTerm: string = '';
   type: SearchType = SearchType.all;
+  results:any;
   constructor(public navCtrl: NavController, public navParams: NavParams, public ServicesMovieProvider:ServicesMovieProvider) {
   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad PagesMoviesPage');
-    this.ServicesMovieProvider.searchData('car',this.type)
+  }
+
+  searchChanged(){
+    this.ServicesMovieProvider.searchData(this.searchTerm, this.type)
         .subscribe(
           res => {
             console.log("res");
             console.log(res);
+            this.results = res.Search;
           }
         )
+  
   }
 
 }

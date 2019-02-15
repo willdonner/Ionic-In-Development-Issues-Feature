@@ -30,7 +30,8 @@ import { HttpClientModule } from '@angular/common/http';
     StatusBar,
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
-    ServicesMovieProvider
+    ServicesMovieProvider,
+    PagesMoviesPage
   ]
 })
 export class AppModule {}
