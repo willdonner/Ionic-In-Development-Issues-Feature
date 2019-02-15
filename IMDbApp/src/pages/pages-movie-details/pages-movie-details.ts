@@ -19,11 +19,11 @@ import {ServicesMovieProvider} from '../../providers/services-movie/services-mov
 })
 export class PagesMovieDetailsPage {
   detailData:any
+  information:any
   constructor(public navCtrl: NavController, public navParams: NavParams, public ServicesMovieProvider: ServicesMovieProvider) {
   }
 
   ionViewDidLoad() {
-    
     console.log('ionViewDidLoad PagesMovieDetailsPage');
     this.detailData = this.navParams.get('item');
     console.log(this.detailData);
@@ -32,6 +32,7 @@ export class PagesMovieDetailsPage {
           res => {
             console.log("res");
             console.log(res)
+            this.information = res;
           }
         )
   }
