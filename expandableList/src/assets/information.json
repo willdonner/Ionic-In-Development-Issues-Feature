@@ -1,94 +1,4798 @@
 {
-    "items": [
+    "code": 200,
+    "msg": "加载通讯录成功！",
+    "data": {
+      "gpList": [
         {
-            "name": "1",
-            "children": [
+          "userList": [
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13888197077",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "杨承贤",
+              "userNo": null,
+              "mobile": "13888197077",
+              "uid": "df78478b02544f4eb919109440759dee",
+              "name": "杨承贤",
+              "Id": "df78478b02544f4eb919109440759dee",
+              "userType": 1,
+              "groupInfo": [
                 {
-                    "name": "test",
-                    "information": "",
-                    "price": "232131"
-                },
-                {
-                    "name": "dsda",
-                    "information": "",
-                    "price": "454561"
+                  "holdPostDate": null,
+                  "groupName": "局领导",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "ccccf8e15f21460d8d969b6771ef702e",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 10,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.ccccf8e15f21460d8d969b6771ef702e",
+                  "Id": "ccccf8e15f21460d8d969b6771ef702e"
                 }
-            ]
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13888337000",
+              "userPhoto": null,
+              "gender": "0",
+              "nickName": "李红梅",
+              "userNo": "",
+              "mobile": "13888337000",
+              "uid": "f9a4fbcaeb3a4be09c31b9e19ba70a27",
+              "name": "李红梅",
+              "Id": "f9a4fbcaeb3a4be09c31b9e19ba70a27",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "局领导",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "ccccf8e15f21460d8d969b6771ef702e",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 10,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.ccccf8e15f21460d8d969b6771ef702e",
+                  "Id": "ccccf8e15f21460d8d969b6771ef702e"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13888493826",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "谢永忠",
+              "userNo": null,
+              "mobile": "13888493826",
+              "uid": "d1e89d572396419eabc2e9675f52562b",
+              "name": "谢永忠",
+              "Id": "d1e89d572396419eabc2e9675f52562b",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "局领导",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "ccccf8e15f21460d8d969b6771ef702e",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 10,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.ccccf8e15f21460d8d969b6771ef702e",
+                  "Id": "ccccf8e15f21460d8d969b6771ef702e"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "xyc",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "许玉才",
+              "userNo": null,
+              "mobile": "18887145678",
+              "uid": "58af995b47d1458489758e3087b14702",
+              "name": "许玉才",
+              "Id": "58af995b47d1458489758e3087b14702",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "局领导",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "ccccf8e15f21460d8d969b6771ef702e",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 10,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.ccccf8e15f21460d8d969b6771ef702e",
+                  "Id": "ccccf8e15f21460d8d969b6771ef702e"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13888158899",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "彭晓朋",
+              "userNo": "",
+              "mobile": "13888158899",
+              "uid": "34cce5ae6d2a4ecaa69a797b47a54bb3",
+              "name": "彭晓朋",
+              "Id": "34cce5ae6d2a4ecaa69a797b47a54bb3",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "局领导",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "ccccf8e15f21460d8d969b6771ef702e",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 10,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.ccccf8e15f21460d8d969b6771ef702e",
+                  "Id": "ccccf8e15f21460d8d969b6771ef702e"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13888992248",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "晏中",
+              "userNo": null,
+              "mobile": "13888992248",
+              "uid": "0740b13d10484603bda38d49cd827cc1",
+              "name": "晏中",
+              "Id": "0740b13d10484603bda38d49cd827cc1",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "局领导",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "ccccf8e15f21460d8d969b6771ef702e",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 10,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.ccccf8e15f21460d8d969b6771ef702e",
+                  "Id": "ccccf8e15f21460d8d969b6771ef702e"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13808721855",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "王力",
+              "userNo": null,
+              "mobile": "13808721855",
+              "uid": "8cd0b9bf160f4f488dc560562161a895",
+              "name": "王力",
+              "Id": "8cd0b9bf160f4f488dc560562161a895",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "局领导",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "ccccf8e15f21460d8d969b6771ef702e",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 10,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.ccccf8e15f21460d8d969b6771ef702e",
+                  "Id": "ccccf8e15f21460d8d969b6771ef702e"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13708428731",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "张驰",
+              "userNo": null,
+              "mobile": "13708428731",
+              "uid": "9b91a6323aa64552b729a7a2ccac1f49",
+              "name": "张驰",
+              "Id": "9b91a6323aa64552b729a7a2ccac1f49",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "局领导",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "ccccf8e15f21460d8d969b6771ef702e",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 10,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.ccccf8e15f21460d8d969b6771ef702e",
+                  "Id": "ccccf8e15f21460d8d969b6771ef702e"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13330501023",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "沈玉林",
+              "userNo": null,
+              "mobile": "13330501023",
+              "uid": "cf12c5d0ca6c49888ea6e5b490b88c9d",
+              "name": "沈玉林",
+              "Id": "cf12c5d0ca6c49888ea6e5b490b88c9d",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "局领导",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "ccccf8e15f21460d8d969b6771ef702e",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 10,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.ccccf8e15f21460d8d969b6771ef702e",
+                  "Id": "ccccf8e15f21460d8d969b6771ef702e"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13888576699",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "王元林",
+              "userNo": null,
+              "mobile": "13888576699",
+              "uid": "52057ced95044b7bb0b316d839efde32",
+              "name": "王元林",
+              "Id": "52057ced95044b7bb0b316d839efde32",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "局领导",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "ccccf8e15f21460d8d969b6771ef702e",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 10,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.ccccf8e15f21460d8d969b6771ef702e",
+                  "Id": "ccccf8e15f21460d8d969b6771ef702e"
+                }
+              ],
+              "email": null
+            }
+          ],
+          "deptInfo": {
+            "specialUnitType": 1,
+            "displayOrder": 10,
+            "icon": "fa-university",
+            "name": "局领导",
+            "fullName": "局领导",
+            "childCount": 0,
+            "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.ccccf8e15f21460d8d969b6771ef702e",
+            "Id": "ccccf8e15f21460d8d969b6771ef702e",
+            "auditorLevel": 0,
+            "parentId": "8ac6f779ea7644138a5af5f8f45f92a5",
+            "depCode": null
+          }
         },
         {
-            "name": "直属机构",
-            "children": [
+          "userList": [
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "18988290799",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "桂龙伟",
+              "userNo": null,
+              "mobile": "18988290799",
+              "uid": "cec51be8083544989656624acaea563f",
+              "name": "桂龙伟",
+              "Id": "cec51be8083544989656624acaea563f",
+              "userType": 1,
+              "groupInfo": [
                 {
-                    "name": "省委办公厅服务中心机关",
-                    "children": [
-                        {
-                            "name": "刘玉芳",
-                            "information": "",
-                            "price": "13608888555"
-                        },
-                        {
-                            "name": "张立伟",
-                            "information": "",
-                            "price": "13678770412"
-                        }
-                    ]
-                },
-                {
-                    "name": "省人大常委会办公厅机关服务中心",
-                    "children": [
-                        {
-                            "name": "刘玉芳",
-                            "information": "",
-                            "price": "13608888555"
-                        },
-                        {
-                            "name": "张立伟",
-                            "information": "",
-                            "price": "13678770412"
-                        },
-                        {
-                            "name": "刘承迎",
-                            "information": "",
-                            "price": "13508763572"
-                        },
-                        {
-                            "name": "李源凤",
-                            "information": "",
-                            "price": "15687163288"
-                        }
-                    ]
-                },
-                {
-                    "name": "省政府机关服务中心",
-                    "children": [
-                        {
-                            "name": "廖江文",
-                            "information": "",
-                            "price": "13769195811"
-                        },
-                        {
-                            "name": "于洋",
-                            "information": "",
-                            "price": "15808885006"
-                        }
-                    ]
+                  "holdPostDate": null,
+                  "groupName": "办公室",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "c6227c06f9d64131aa6fb44e1924898d",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 20,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.c6227c06f9d64131aa6fb44e1924898d",
+                  "Id": "c6227c06f9d64131aa6fb44e1924898d"
                 }
-            ]
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13769197028",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "梁崇礼",
+              "userNo": null,
+              "mobile": "13769197028",
+              "uid": "f39b3f563ef547c898e2423cc10a2666",
+              "name": "梁崇礼",
+              "Id": "f39b3f563ef547c898e2423cc10a2666",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "办公室",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "c6227c06f9d64131aa6fb44e1924898d",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 20,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.c6227c06f9d64131aa6fb44e1924898d",
+                  "Id": "c6227c06f9d64131aa6fb44e1924898d"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13887322628",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "王君兰",
+              "userNo": null,
+              "mobile": "13887322628",
+              "uid": "66f38f36d64a4c64a13dae432c2c071c",
+              "name": "王君兰",
+              "Id": "66f38f36d64a4c64a13dae432c2c071c",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "办公室",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "c6227c06f9d64131aa6fb44e1924898d",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 20,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.c6227c06f9d64131aa6fb44e1924898d",
+                  "Id": "c6227c06f9d64131aa6fb44e1924898d"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13759151046",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "徐飞",
+              "userNo": null,
+              "mobile": "13759151046",
+              "uid": "512dc0612ac94946b960de8421e6e0c8",
+              "name": "徐飞",
+              "Id": "512dc0612ac94946b960de8421e6e0c8",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "办公室",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "c6227c06f9d64131aa6fb44e1924898d",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 20,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.c6227c06f9d64131aa6fb44e1924898d",
+                  "Id": "c6227c06f9d64131aa6fb44e1924898d"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13888182486",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "罗建国",
+              "userNo": null,
+              "mobile": "13888182486",
+              "uid": "2754f94ae099451cbeec348c7f7e209b",
+              "name": "罗建国",
+              "Id": "2754f94ae099451cbeec348c7f7e209b",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "办公室",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "c6227c06f9d64131aa6fb44e1924898d",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 20,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.c6227c06f9d64131aa6fb44e1924898d",
+                  "Id": "c6227c06f9d64131aa6fb44e1924898d"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13888217326",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "唐勇",
+              "userNo": null,
+              "mobile": "13888217326",
+              "uid": "7ccb51b4636a455f9e9c42d74d5d099b",
+              "name": "唐勇",
+              "Id": "7ccb51b4636a455f9e9c42d74d5d099b",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "办公室",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "c6227c06f9d64131aa6fb44e1924898d",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 20,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.c6227c06f9d64131aa6fb44e1924898d",
+                  "Id": "c6227c06f9d64131aa6fb44e1924898d"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13888291931",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "殷文忠",
+              "userNo": null,
+              "mobile": "13888291931",
+              "uid": "a6f27d54e12f4698b726bf34fc02cb2b",
+              "name": "殷文忠",
+              "Id": "a6f27d54e12f4698b726bf34fc02cb2b",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "办公室",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "c6227c06f9d64131aa6fb44e1924898d",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 20,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.c6227c06f9d64131aa6fb44e1924898d",
+                  "Id": "c6227c06f9d64131aa6fb44e1924898d"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13769908989",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "刘泽富",
+              "userNo": null,
+              "mobile": "13769908989",
+              "uid": "cd28d1c868a24153a7a2198dd650b140",
+              "name": "刘泽富",
+              "Id": "cd28d1c868a24153a7a2198dd650b140",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "办公室",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "c6227c06f9d64131aa6fb44e1924898d",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 20,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.c6227c06f9d64131aa6fb44e1924898d",
+                  "Id": "c6227c06f9d64131aa6fb44e1924898d"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "18887166767",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "周清",
+              "userNo": null,
+              "mobile": "18887166767",
+              "uid": "1b21e002269745119ee1697570548257",
+              "name": "周清",
+              "Id": "1b21e002269745119ee1697570548257",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "办公室",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "c6227c06f9d64131aa6fb44e1924898d",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 20,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.c6227c06f9d64131aa6fb44e1924898d",
+                  "Id": "c6227c06f9d64131aa6fb44e1924898d"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13888060406",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "何婷婷",
+              "userNo": null,
+              "mobile": "13888060406",
+              "uid": "9fd37e51c2244ed8a50b82199986897d",
+              "name": "何婷婷",
+              "Id": "9fd37e51c2244ed8a50b82199986897d",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "办公室",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "c6227c06f9d64131aa6fb44e1924898d",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 20,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.c6227c06f9d64131aa6fb44e1924898d",
+                  "Id": "c6227c06f9d64131aa6fb44e1924898d"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13888559973",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "钟习卫",
+              "userNo": null,
+              "mobile": "13888559973",
+              "uid": "ddba306e3e7d45c4bfe96ca10412058f",
+              "name": "钟习卫",
+              "Id": "ddba306e3e7d45c4bfe96ca10412058f",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "办公室",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "c6227c06f9d64131aa6fb44e1924898d",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 20,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.c6227c06f9d64131aa6fb44e1924898d",
+                  "Id": "c6227c06f9d64131aa6fb44e1924898d"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13987155766",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "张黎",
+              "userNo": null,
+              "mobile": "13987155766",
+              "uid": "a6b8ed06035d4983b55d355f45b7cfbf",
+              "name": "张黎",
+              "Id": "a6b8ed06035d4983b55d355f45b7cfbf",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "办公室",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "c6227c06f9d64131aa6fb44e1924898d",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 20,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.c6227c06f9d64131aa6fb44e1924898d",
+                  "Id": "c6227c06f9d64131aa6fb44e1924898d"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13529211987",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "袁戬",
+              "userNo": null,
+              "mobile": "13529211987",
+              "uid": "80067e7648df48a4bf9ddb72bdd8639e",
+              "name": "袁戬",
+              "Id": "80067e7648df48a4bf9ddb72bdd8639e",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "办公室",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "c6227c06f9d64131aa6fb44e1924898d",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 20,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.c6227c06f9d64131aa6fb44e1924898d",
+                  "Id": "c6227c06f9d64131aa6fb44e1924898d"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "18987112088",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "莫必真",
+              "userNo": null,
+              "mobile": "18987112088",
+              "uid": "f6934fd0bab34b22a763e868d7bfbd16",
+              "name": "莫必真",
+              "Id": "f6934fd0bab34b22a763e868d7bfbd16",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "办公室",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "c6227c06f9d64131aa6fb44e1924898d",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 20,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.c6227c06f9d64131aa6fb44e1924898d",
+                  "Id": "c6227c06f9d64131aa6fb44e1924898d"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "15331759657",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "张发虞",
+              "userNo": null,
+              "mobile": "15331759657",
+              "uid": "36454abca28a431dbe779be869c06f22",
+              "name": "张发虞",
+              "Id": "36454abca28a431dbe779be869c06f22",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "办公室",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "c6227c06f9d64131aa6fb44e1924898d",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 20,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.c6227c06f9d64131aa6fb44e1924898d",
+                  "Id": "c6227c06f9d64131aa6fb44e1924898d"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "15912668749",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "罗婕",
+              "userNo": null,
+              "mobile": "15912668749",
+              "uid": "af28a8ef4e2043f7af91d4c3b9e1391c",
+              "name": "罗婕",
+              "Id": "af28a8ef4e2043f7af91d4c3b9e1391c",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "办公室",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "c6227c06f9d64131aa6fb44e1924898d",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 20,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.c6227c06f9d64131aa6fb44e1924898d",
+                  "Id": "c6227c06f9d64131aa6fb44e1924898d"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13888053063",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "谭青松",
+              "userNo": null,
+              "mobile": "13888053063",
+              "uid": "0cd3a3d9cefd475b838564fa805dbd6d",
+              "name": "谭青松",
+              "Id": "0cd3a3d9cefd475b838564fa805dbd6d",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "办公室",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "c6227c06f9d64131aa6fb44e1924898d",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 20,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.c6227c06f9d64131aa6fb44e1924898d",
+                  "Id": "c6227c06f9d64131aa6fb44e1924898d"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13668772021",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "张茜",
+              "userNo": null,
+              "mobile": "13668772021",
+              "uid": "caaa87da476f471f84f36741265f6a16",
+              "name": "张茜",
+              "Id": "caaa87da476f471f84f36741265f6a16",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "办公室",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "c6227c06f9d64131aa6fb44e1924898d",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 20,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.c6227c06f9d64131aa6fb44e1924898d",
+                  "Id": "c6227c06f9d64131aa6fb44e1924898d"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13518754412",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "李杰",
+              "userNo": null,
+              "mobile": "13518754412",
+              "uid": "0571a544c76a42f3814d84b5fdc460cc",
+              "name": "李杰",
+              "Id": "0571a544c76a42f3814d84b5fdc460cc",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "办公室",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "c6227c06f9d64131aa6fb44e1924898d",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 20,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.c6227c06f9d64131aa6fb44e1924898d",
+                  "Id": "c6227c06f9d64131aa6fb44e1924898d"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13116205671",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "张晟骁",
+              "userNo": null,
+              "mobile": "13116205671",
+              "uid": "197a5d0d21fb471ab3ac1b195d34ac05",
+              "name": "张晟骁",
+              "Id": "197a5d0d21fb471ab3ac1b195d34ac05",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "办公室",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "c6227c06f9d64131aa6fb44e1924898d",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 20,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.c6227c06f9d64131aa6fb44e1924898d",
+                  "Id": "c6227c06f9d64131aa6fb44e1924898d"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13888078186",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "李文华",
+              "userNo": null,
+              "mobile": "13888078186",
+              "uid": "234d977d8ac74f03b1b3370ac2c3acbf",
+              "name": "李文华",
+              "Id": "234d977d8ac74f03b1b3370ac2c3acbf",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "办公室",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "c6227c06f9d64131aa6fb44e1924898d",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 20,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.c6227c06f9d64131aa6fb44e1924898d",
+                  "Id": "c6227c06f9d64131aa6fb44e1924898d"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "wx",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "武鑫",
+              "userNo": null,
+              "mobile": "16687100881",
+              "uid": "8d8878280fb541a68524b09adc4de024",
+              "name": "武鑫",
+              "Id": "8d8878280fb541a68524b09adc4de024",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "办公室",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "c6227c06f9d64131aa6fb44e1924898d",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 20,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.c6227c06f9d64131aa6fb44e1924898d",
+                  "Id": "c6227c06f9d64131aa6fb44e1924898d"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "xwq",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "行武强",
+              "userNo": null,
+              "mobile": "18206806631",
+              "uid": "a3357fac516a424087734439e454efd4",
+              "name": "行武强",
+              "Id": "a3357fac516a424087734439e454efd4",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "办公室",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "c6227c06f9d64131aa6fb44e1924898d",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 20,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.c6227c06f9d64131aa6fb44e1924898d",
+                  "Id": "c6227c06f9d64131aa6fb44e1924898d"
+                }
+              ],
+              "email": null
+            }
+          ],
+          "deptInfo": {
+            "specialUnitType": 1,
+            "displayOrder": 20,
+            "icon": "fa-university",
+            "name": "办公室",
+            "fullName": "办公室",
+            "childCount": 0,
+            "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.c6227c06f9d64131aa6fb44e1924898d",
+            "Id": "c6227c06f9d64131aa6fb44e1924898d",
+            "auditorLevel": 0,
+            "parentId": "8ac6f779ea7644138a5af5f8f45f92a5",
+            "depCode": null
+          }
         },
         {
-            "name": "3",
-            "children": [
+          "userList": [
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13987156189",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "宪定国",
+              "userNo": null,
+              "mobile": "13987156189",
+              "uid": "7a411d2484454a1fbaf70cbcee89c233",
+              "name": "完定国",
+              "Id": "7a411d2484454a1fbaf70cbcee89c233",
+              "userType": 1,
+              "groupInfo": [
                 {
-                    "name": "wrwq",
-                    "information": "",
-                    "price": "15451231"
+                  "holdPostDate": null,
+                  "groupName": "政策法规处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "b97d4d3ddfa4427581a1f9d1b37d1fcd",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 30,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.b97d4d3ddfa4427581a1f9d1b37d1fcd",
+                  "Id": "b97d4d3ddfa4427581a1f9d1b37d1fcd"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13888506655",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "李晓玟",
+              "userNo": null,
+              "mobile": "13888506655",
+              "uid": "bf78a288058c4cf78800df701dfbe768",
+              "name": "李晓玫",
+              "Id": "bf78a288058c4cf78800df701dfbe768",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "政策法规处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "b97d4d3ddfa4427581a1f9d1b37d1fcd",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 30,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.b97d4d3ddfa4427581a1f9d1b37d1fcd",
+                  "Id": "b97d4d3ddfa4427581a1f9d1b37d1fcd"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13808737950",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "李丹",
+              "userNo": null,
+              "mobile": "13808737950",
+              "uid": "43d9255ce0624ed290f3578b4824b5a9",
+              "name": "李丹",
+              "Id": "43d9255ce0624ed290f3578b4824b5a9",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "政策法规处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "b97d4d3ddfa4427581a1f9d1b37d1fcd",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 30,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.b97d4d3ddfa4427581a1f9d1b37d1fcd",
+                  "Id": "b97d4d3ddfa4427581a1f9d1b37d1fcd"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "15887077555",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "洪浩",
+              "userNo": null,
+              "mobile": "15887077555",
+              "uid": "c926dac69bb64d44b75f2765e309792e",
+              "name": "洪浩",
+              "Id": "c926dac69bb64d44b75f2765e309792e",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "政策法规处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "b97d4d3ddfa4427581a1f9d1b37d1fcd",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 30,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.b97d4d3ddfa4427581a1f9d1b37d1fcd",
+                  "Id": "b97d4d3ddfa4427581a1f9d1b37d1fcd"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13987800881",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "邵成举",
+              "userNo": null,
+              "mobile": "13987800881",
+              "uid": "ac1dca1bb7154f1ea0378ce6d10ac7f3",
+              "name": "邵成举",
+              "Id": "ac1dca1bb7154f1ea0378ce6d10ac7f3",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "政策法规处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "b97d4d3ddfa4427581a1f9d1b37d1fcd",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 30,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.b97d4d3ddfa4427581a1f9d1b37d1fcd",
+                  "Id": "b97d4d3ddfa4427581a1f9d1b37d1fcd"
+                }
+              ],
+              "email": null
+            }
+          ],
+          "deptInfo": {
+            "specialUnitType": 1,
+            "displayOrder": 30,
+            "icon": "fa-university",
+            "name": "政策法规处",
+            "fullName": "政策法规处",
+            "childCount": 0,
+            "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.b97d4d3ddfa4427581a1f9d1b37d1fcd",
+            "Id": "b97d4d3ddfa4427581a1f9d1b37d1fcd",
+            "auditorLevel": 0,
+            "parentId": "8ac6f779ea7644138a5af5f8f45f92a5",
+            "depCode": null
+          }
+        },
+        {
+          "userList": [
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13888977389",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "钱正忠",
+              "userNo": null,
+              "mobile": "13888977389",
+              "uid": "942b9da8bb7d473192f4042ef675c9b1",
+              "name": "钱正忠",
+              "Id": "942b9da8bb7d473192f4042ef675c9b1",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "财务管理处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "e1eaa72959c7471ab6b83246aa98a1fa",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 40,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.e1eaa72959c7471ab6b83246aa98a1fa",
+                  "Id": "e1eaa72959c7471ab6b83246aa98a1fa"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13888662928",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "向华",
+              "userNo": null,
+              "mobile": "13888662928",
+              "uid": "591abde7d92643a2b8b0f0acbed47361",
+              "name": "向华",
+              "Id": "591abde7d92643a2b8b0f0acbed47361",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "财务管理处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "e1eaa72959c7471ab6b83246aa98a1fa",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 40,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.e1eaa72959c7471ab6b83246aa98a1fa",
+                  "Id": "e1eaa72959c7471ab6b83246aa98a1fa"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13508800407",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "李雪霞",
+              "userNo": null,
+              "mobile": "13508800407",
+              "uid": "f2bd095c940f4eee81774e6aa6ae59c6",
+              "name": "李雪霞",
+              "Id": "f2bd095c940f4eee81774e6aa6ae59c6",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "财务管理处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "e1eaa72959c7471ab6b83246aa98a1fa",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 40,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.e1eaa72959c7471ab6b83246aa98a1fa",
+                  "Id": "e1eaa72959c7471ab6b83246aa98a1fa"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "18687169696",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "张娟",
+              "userNo": null,
+              "mobile": "18687169696",
+              "uid": "129afb77fef742aa9366e051fabbfb8e",
+              "name": "张娟",
+              "Id": "129afb77fef742aa9366e051fabbfb8e",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "财务管理处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "e1eaa72959c7471ab6b83246aa98a1fa",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 40,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.e1eaa72959c7471ab6b83246aa98a1fa",
+                  "Id": "e1eaa72959c7471ab6b83246aa98a1fa"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13888131667",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "张颖",
+              "userNo": null,
+              "mobile": "13888131667",
+              "uid": "476e8552218a439192ce3c52cf2cd062",
+              "name": "张颖",
+              "Id": "476e8552218a439192ce3c52cf2cd062",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "财务管理处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "e1eaa72959c7471ab6b83246aa98a1fa",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 40,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.e1eaa72959c7471ab6b83246aa98a1fa",
+                  "Id": "e1eaa72959c7471ab6b83246aa98a1fa"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "15096616130",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "黄培源",
+              "userNo": null,
+              "mobile": "15096616130",
+              "uid": "ea57a86f2de44ca8b476b0e618f32a93",
+              "name": "黄培源",
+              "Id": "ea57a86f2de44ca8b476b0e618f32a93",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "财务管理处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "e1eaa72959c7471ab6b83246aa98a1fa",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 40,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.e1eaa72959c7471ab6b83246aa98a1fa",
+                  "Id": "e1eaa72959c7471ab6b83246aa98a1fa"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13888203937",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "杨慧源",
+              "userNo": null,
+              "mobile": "13888203937",
+              "uid": "185803ed60d3455b9810840089562e87",
+              "name": "杨慧源",
+              "Id": "185803ed60d3455b9810840089562e87",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "财务管理处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "e1eaa72959c7471ab6b83246aa98a1fa",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 40,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.e1eaa72959c7471ab6b83246aa98a1fa",
+                  "Id": "e1eaa72959c7471ab6b83246aa98a1fa"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "15808867634",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "鲁俊岩",
+              "userNo": null,
+              "mobile": "15808867634",
+              "uid": "ec5fb793a8704c289cb91b184c0cc3cf",
+              "name": "鲁俊岩",
+              "Id": "ec5fb793a8704c289cb91b184c0cc3cf",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "财务管理处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "e1eaa72959c7471ab6b83246aa98a1fa",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 40,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.e1eaa72959c7471ab6b83246aa98a1fa",
+                  "Id": "e1eaa72959c7471ab6b83246aa98a1fa"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13577099113",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "刘宇",
+              "userNo": null,
+              "mobile": "13577099113",
+              "uid": "340de357b4984f1db55caa82781507c1",
+              "name": "刘宇",
+              "Id": "340de357b4984f1db55caa82781507c1",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "财务管理处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "e1eaa72959c7471ab6b83246aa98a1fa",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 40,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.e1eaa72959c7471ab6b83246aa98a1fa",
+                  "Id": "e1eaa72959c7471ab6b83246aa98a1fa"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "15877856252",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "文丽",
+              "userNo": null,
+              "mobile": "15877856252",
+              "uid": "0778503a19474afa9f915ac149d94f4b",
+              "name": "文丽",
+              "Id": "0778503a19474afa9f915ac149d94f4b",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "财务管理处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "e1eaa72959c7471ab6b83246aa98a1fa",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 40,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.e1eaa72959c7471ab6b83246aa98a1fa",
+                  "Id": "e1eaa72959c7471ab6b83246aa98a1fa"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "17708710650",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "毕韵章",
+              "userNo": null,
+              "mobile": "17708710650",
+              "uid": "22b06e5828114cc0866db0b42b52dc4b",
+              "name": "毕韵章",
+              "Id": "22b06e5828114cc0866db0b42b52dc4b",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "财务管理处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "e1eaa72959c7471ab6b83246aa98a1fa",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 40,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.e1eaa72959c7471ab6b83246aa98a1fa",
+                  "Id": "e1eaa72959c7471ab6b83246aa98a1fa"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13577036966",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "王水英",
+              "userNo": null,
+              "mobile": "13577036966",
+              "uid": "fa7d2a8123a64299a78e1525886da457",
+              "name": "王水英",
+              "Id": "fa7d2a8123a64299a78e1525886da457",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "财务管理处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "e1eaa72959c7471ab6b83246aa98a1fa",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 40,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.e1eaa72959c7471ab6b83246aa98a1fa",
+                  "Id": "e1eaa72959c7471ab6b83246aa98a1fa"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "18725050585",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "粟航",
+              "userNo": null,
+              "mobile": "18725050585",
+              "uid": "54599de6a4ac4f2cad0240898db0c419",
+              "name": "粟航",
+              "Id": "54599de6a4ac4f2cad0240898db0c419",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "财务管理处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "e1eaa72959c7471ab6b83246aa98a1fa",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 40,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.e1eaa72959c7471ab6b83246aa98a1fa",
+                  "Id": "e1eaa72959c7471ab6b83246aa98a1fa"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13648825562",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "鲁能",
+              "userNo": null,
+              "mobile": "13648825562",
+              "uid": "94cd17bc00d14227bd65611ffef0b0a8",
+              "name": "鲁能",
+              "Id": "94cd17bc00d14227bd65611ffef0b0a8",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "财务管理处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "e1eaa72959c7471ab6b83246aa98a1fa",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 40,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.e1eaa72959c7471ab6b83246aa98a1fa",
+                  "Id": "e1eaa72959c7471ab6b83246aa98a1fa"
+                }
+              ],
+              "email": null
+            }
+          ],
+          "deptInfo": {
+            "specialUnitType": 1,
+            "displayOrder": 40,
+            "icon": "fa-university",
+            "name": "财务管理处",
+            "fullName": "财务管理处",
+            "childCount": 0,
+            "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.e1eaa72959c7471ab6b83246aa98a1fa",
+            "Id": "e1eaa72959c7471ab6b83246aa98a1fa",
+            "auditorLevel": 0,
+            "parentId": "8ac6f779ea7644138a5af5f8f45f92a5",
+            "depCode": null
+          }
+        },
+        {
+          "userList": [
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13708720899",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "蔡昆华",
+              "userNo": null,
+              "mobile": "13708720899",
+              "uid": "9abcb2ce5cdc425ca2d16294caf21b8a",
+              "name": "蔡昆华",
+              "Id": "9abcb2ce5cdc425ca2d16294caf21b8a",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "资产管理处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "13591b18ec304da48d768f5052be7c7a",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 50,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.13591b18ec304da48d768f5052be7c7a",
+                  "Id": "13591b18ec304da48d768f5052be7c7a"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13888062032",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "周锐",
+              "userNo": null,
+              "mobile": "13888062032",
+              "uid": "fd72bef71de74f58a17613da605f0fc7",
+              "name": "周锐",
+              "Id": "fd72bef71de74f58a17613da605f0fc7",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "资产管理处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "13591b18ec304da48d768f5052be7c7a",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 50,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.13591b18ec304da48d768f5052be7c7a",
+                  "Id": "13591b18ec304da48d768f5052be7c7a"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13708485766",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "杨知兵",
+              "userNo": null,
+              "mobile": "13708485766",
+              "uid": "0f64a5ddbe0a402fb04bb513bf2c8e03",
+              "name": "杨知兵",
+              "Id": "0f64a5ddbe0a402fb04bb513bf2c8e03",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "资产管理处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "13591b18ec304da48d768f5052be7c7a",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 50,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.13591b18ec304da48d768f5052be7c7a",
+                  "Id": "13591b18ec304da48d768f5052be7c7a"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13187427766",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "袁玉琪",
+              "userNo": null,
+              "mobile": "13187427766",
+              "uid": "f93d363609854f88a3894920d8af890a",
+              "name": "袁玉琪",
+              "Id": "f93d363609854f88a3894920d8af890a",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "资产管理处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "13591b18ec304da48d768f5052be7c7a",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 50,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.13591b18ec304da48d768f5052be7c7a",
+                  "Id": "13591b18ec304da48d768f5052be7c7a"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13678792443",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "陈英",
+              "userNo": null,
+              "mobile": "13678792443",
+              "uid": "e8e293efbc99464c8c4604e3e5641065",
+              "name": "陈英",
+              "Id": "e8e293efbc99464c8c4604e3e5641065",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "资产管理处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "13591b18ec304da48d768f5052be7c7a",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 50,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.13591b18ec304da48d768f5052be7c7a",
+                  "Id": "13591b18ec304da48d768f5052be7c7a"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13888631189",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "赵惠君",
+              "userNo": null,
+              "mobile": "13888631189",
+              "uid": "0e4486d929694691bf260c91a63661a5",
+              "name": "赵惠君",
+              "Id": "0e4486d929694691bf260c91a63661a5",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "资产管理处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "13591b18ec304da48d768f5052be7c7a",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 50,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.13591b18ec304da48d768f5052be7c7a",
+                  "Id": "13591b18ec304da48d768f5052be7c7a"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13064231888",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "李开艺",
+              "userNo": null,
+              "mobile": "13064231888",
+              "uid": "ed56635c5576404dbfe53b510ca31ada",
+              "name": "李开艺",
+              "Id": "ed56635c5576404dbfe53b510ca31ada",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "资产管理处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "13591b18ec304da48d768f5052be7c7a",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 50,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.13591b18ec304da48d768f5052be7c7a",
+                  "Id": "13591b18ec304da48d768f5052be7c7a"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "lby",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "李本勇",
+              "userNo": null,
+              "mobile": "13888830422",
+              "uid": "8080d57e639e40e4857af9b1d50d448b",
+              "name": "李本勇",
+              "Id": "8080d57e639e40e4857af9b1d50d448b",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "资产管理处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "13591b18ec304da48d768f5052be7c7a",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 50,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.13591b18ec304da48d768f5052be7c7a",
+                  "Id": "13591b18ec304da48d768f5052be7c7a"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13708446528",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "黄海",
+              "userNo": null,
+              "mobile": "13708446528",
+              "uid": "b2d192278b294b6eab551ea39310264e",
+              "name": "黄海",
+              "Id": "b2d192278b294b6eab551ea39310264e",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "资产管理处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "13591b18ec304da48d768f5052be7c7a",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 50,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.13591b18ec304da48d768f5052be7c7a",
+                  "Id": "13591b18ec304da48d768f5052be7c7a"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13987176176",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "蒲旭",
+              "userNo": null,
+              "mobile": "13987176176",
+              "uid": "87cd32d88d2b4ffd9f3b0af49eac4ced",
+              "name": "蒲旭",
+              "Id": "87cd32d88d2b4ffd9f3b0af49eac4ced",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "资产管理处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "13591b18ec304da48d768f5052be7c7a",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 50,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.13591b18ec304da48d768f5052be7c7a",
+                  "Id": "13591b18ec304da48d768f5052be7c7a"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13888300011",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "那圣丰竹",
+              "userNo": null,
+              "mobile": "13888300011",
+              "uid": "52e240d4e23c4d699162b8d03c4a9721",
+              "name": "那圣丰竹",
+              "Id": "52e240d4e23c4d699162b8d03c4a9721",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "资产管理处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "13591b18ec304da48d768f5052be7c7a",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 50,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.13591b18ec304da48d768f5052be7c7a",
+                  "Id": "13591b18ec304da48d768f5052be7c7a"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "18183822779",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "秦川迪",
+              "userNo": null,
+              "mobile": "18183822779",
+              "uid": "11ae07857d97496082d97e2c03246f55",
+              "name": "秦川迪",
+              "Id": "11ae07857d97496082d97e2c03246f55",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "资产管理处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "13591b18ec304da48d768f5052be7c7a",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 50,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.13591b18ec304da48d768f5052be7c7a",
+                  "Id": "13591b18ec304da48d768f5052be7c7a"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "sky",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "孙康耀",
+              "userNo": null,
+              "mobile": "18687198776",
+              "uid": "6eb48381bbda4a03ace38d420f9f327b",
+              "name": "孙康耀",
+              "Id": "6eb48381bbda4a03ace38d420f9f327b",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "资产管理处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "13591b18ec304da48d768f5052be7c7a",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 50,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.13591b18ec304da48d768f5052be7c7a",
+                  "Id": "13591b18ec304da48d768f5052be7c7a"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "15398545554",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "何晓岚",
+              "userNo": null,
+              "mobile": "15398545554",
+              "uid": "f2acd29ca7b9459095088490260258a1",
+              "name": "何晓岚",
+              "Id": "f2acd29ca7b9459095088490260258a1",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "资产管理处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "13591b18ec304da48d768f5052be7c7a",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 50,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.13591b18ec304da48d768f5052be7c7a",
+                  "Id": "13591b18ec304da48d768f5052be7c7a"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13888075531",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "谭劲",
+              "userNo": null,
+              "mobile": "13888075531",
+              "uid": "9d9dbbb2d4d5423591066690ce81a0af",
+              "name": "谭劲",
+              "Id": "9d9dbbb2d4d5423591066690ce81a0af",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "资产管理处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "13591b18ec304da48d768f5052be7c7a",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 50,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.13591b18ec304da48d768f5052be7c7a",
+                  "Id": "13591b18ec304da48d768f5052be7c7a"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13888697899",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "李绍文",
+              "userNo": null,
+              "mobile": "13888697899",
+              "uid": "5d3bea44421344b7b41ca27ff11bd2a6",
+              "name": "李绍文",
+              "Id": "5d3bea44421344b7b41ca27ff11bd2a6",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "资产管理处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "13591b18ec304da48d768f5052be7c7a",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 50,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.13591b18ec304da48d768f5052be7c7a",
+                  "Id": "13591b18ec304da48d768f5052be7c7a"
+                }
+              ],
+              "email": null
+            }
+          ],
+          "deptInfo": {
+            "specialUnitType": 1,
+            "displayOrder": 50,
+            "icon": "fa-university",
+            "name": "资产管理处",
+            "fullName": "资产管理处",
+            "childCount": 0,
+            "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.13591b18ec304da48d768f5052be7c7a",
+            "Id": "13591b18ec304da48d768f5052be7c7a",
+            "auditorLevel": 0,
+            "parentId": "8ac6f779ea7644138a5af5f8f45f92a5",
+            "depCode": null
+          }
+        },
+        {
+          "userList": [
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13888666999",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "黄崇旭",
+              "userNo": null,
+              "mobile": "13888666999",
+              "uid": "eb95335e186d4e3594518262877da33b",
+              "name": "黄崇旭",
+              "Id": "eb95335e186d4e3594518262877da33b",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "房地产管理处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "144c0a398a574150a7670feb8756d076",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 60,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.144c0a398a574150a7670feb8756d076",
+                  "Id": "144c0a398a574150a7670feb8756d076"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13577146899",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "尹笋",
+              "userNo": null,
+              "mobile": "13577146899",
+              "uid": "e027107ed14849ea9b5117ebc8e062bf",
+              "name": "尹笋",
+              "Id": "e027107ed14849ea9b5117ebc8e062bf",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "房地产管理处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "144c0a398a574150a7670feb8756d076",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 60,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.144c0a398a574150a7670feb8756d076",
+                  "Id": "144c0a398a574150a7670feb8756d076"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "15887015761",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "刘伟",
+              "userNo": null,
+              "mobile": "15887015761",
+              "uid": "7cb9ab2f6b08438bb128092743a43e90",
+              "name": "刘伟",
+              "Id": "7cb9ab2f6b08438bb128092743a43e90",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "房地产管理处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "144c0a398a574150a7670feb8756d076",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 60,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.144c0a398a574150a7670feb8756d076",
+                  "Id": "144c0a398a574150a7670feb8756d076"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13888269858",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "侯剑",
+              "userNo": null,
+              "mobile": "13888269858",
+              "uid": "1707c900b9f7483fae67d5c80f96cdf5",
+              "name": "侯剑",
+              "Id": "1707c900b9f7483fae67d5c80f96cdf5",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "房地产管理处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "144c0a398a574150a7670feb8756d076",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 60,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.144c0a398a574150a7670feb8756d076",
+                  "Id": "144c0a398a574150a7670feb8756d076"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "15308809819",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "杨谦",
+              "userNo": null,
+              "mobile": "15308809819",
+              "uid": "3df7bdff43684caf948a0e6ce15ba6ed",
+              "name": "杨谦",
+              "Id": "3df7bdff43684caf948a0e6ce15ba6ed",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "房地产管理处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "144c0a398a574150a7670feb8756d076",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 60,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.144c0a398a574150a7670feb8756d076",
+                  "Id": "144c0a398a574150a7670feb8756d076"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13330506945",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "汪学平",
+              "userNo": null,
+              "mobile": "13330506945",
+              "uid": "016e129691324e8dbcb4bf5052729994",
+              "name": "汪学平",
+              "Id": "016e129691324e8dbcb4bf5052729994",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "房地产管理处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "144c0a398a574150a7670feb8756d076",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 60,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.144c0a398a574150a7670feb8756d076",
+                  "Id": "144c0a398a574150a7670feb8756d076"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13888987112",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "宁渝",
+              "userNo": null,
+              "mobile": "13888987112",
+              "uid": "dca56751f6034cb0a0e6cb6b461ee8b1",
+              "name": "宁渝",
+              "Id": "dca56751f6034cb0a0e6cb6b461ee8b1",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "房地产管理处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "144c0a398a574150a7670feb8756d076",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 60,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.144c0a398a574150a7670feb8756d076",
+                  "Id": "144c0a398a574150a7670feb8756d076"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13888381730",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "张文海",
+              "userNo": null,
+              "mobile": "13888381730",
+              "uid": "92f05a0d97c34fb6b854c5a299e327ed",
+              "name": "张文海",
+              "Id": "92f05a0d97c34fb6b854c5a299e327ed",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "房地产管理处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "144c0a398a574150a7670feb8756d076",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 60,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.144c0a398a574150a7670feb8756d076",
+                  "Id": "144c0a398a574150a7670feb8756d076"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13888996606",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "刘显阳",
+              "userNo": null,
+              "mobile": "13888996606",
+              "uid": "d84a4d78c6bf4624bce1f7fbdf445de5",
+              "name": "刘显阳",
+              "Id": "d84a4d78c6bf4624bce1f7fbdf445de5",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "房地产管理处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "144c0a398a574150a7670feb8756d076",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 60,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.144c0a398a574150a7670feb8756d076",
+                  "Id": "144c0a398a574150a7670feb8756d076"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13700615613",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "李鹤昆",
+              "userNo": null,
+              "mobile": "13700615613",
+              "uid": "81975dd5722241dca0c5d01069b4c907",
+              "name": "李鹤昆",
+              "Id": "81975dd5722241dca0c5d01069b4c907",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "房地产管理处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "144c0a398a574150a7670feb8756d076",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 60,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.144c0a398a574150a7670feb8756d076",
+                  "Id": "144c0a398a574150a7670feb8756d076"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13888956322",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "谢莉",
+              "userNo": null,
+              "mobile": "13888956322",
+              "uid": "0dac7080b8f343da91a4d56cadb23994",
+              "name": "谢莉",
+              "Id": "0dac7080b8f343da91a4d56cadb23994",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "房地产管理处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "144c0a398a574150a7670feb8756d076",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 60,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.144c0a398a574150a7670feb8756d076",
+                  "Id": "144c0a398a574150a7670feb8756d076"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "17787113966",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "刘娇",
+              "userNo": null,
+              "mobile": "17787113966",
+              "uid": "77bd0eda6cba4a6bb7b5980d3fdb70ef",
+              "name": "刘娇",
+              "Id": "77bd0eda6cba4a6bb7b5980d3fdb70ef",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "房地产管理处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "144c0a398a574150a7670feb8756d076",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 60,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.144c0a398a574150a7670feb8756d076",
+                  "Id": "144c0a398a574150a7670feb8756d076"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "18669105231",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "王孟",
+              "userNo": null,
+              "mobile": "18669105231",
+              "uid": "93daa2302f8e4c1687af4bcba3b3f56e",
+              "name": "王孟",
+              "Id": "93daa2302f8e4c1687af4bcba3b3f56e",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "房地产管理处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "144c0a398a574150a7670feb8756d076",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 60,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.144c0a398a574150a7670feb8756d076",
+                  "Id": "144c0a398a574150a7670feb8756d076"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13759592919",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "郝艺兰",
+              "userNo": null,
+              "mobile": "13759592919",
+              "uid": "3a995d02ef61493cbf5ad8f96a49efe7",
+              "name": "郝艺兰",
+              "Id": "3a995d02ef61493cbf5ad8f96a49efe7",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "房地产管理处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "144c0a398a574150a7670feb8756d076",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 60,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.144c0a398a574150a7670feb8756d076",
+                  "Id": "144c0a398a574150a7670feb8756d076"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "15288193711",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "刘孝勤",
+              "userNo": null,
+              "mobile": "15288193711",
+              "uid": "deaa38a8e0b045848c5e3fdd225813cd",
+              "name": "刘孝勤",
+              "Id": "deaa38a8e0b045848c5e3fdd225813cd",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "房地产管理处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "144c0a398a574150a7670feb8756d076",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 60,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.144c0a398a574150a7670feb8756d076",
+                  "Id": "144c0a398a574150a7670feb8756d076"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "18288706883",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "贺南熙",
+              "userNo": null,
+              "mobile": "18288706883",
+              "uid": "99d8742e5d9a457a8469e2521914a122",
+              "name": "贺南熙",
+              "Id": "99d8742e5d9a457a8469e2521914a122",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "房地产管理处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "144c0a398a574150a7670feb8756d076",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 60,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.144c0a398a574150a7670feb8756d076",
+                  "Id": "144c0a398a574150a7670feb8756d076"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13608882848",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "杨晨翊",
+              "userNo": null,
+              "mobile": "13608882848",
+              "uid": "a2ffac3787b3416dae7fd286f243b9b2",
+              "name": "杨晨翊",
+              "Id": "a2ffac3787b3416dae7fd286f243b9b2",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "房地产管理处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "144c0a398a574150a7670feb8756d076",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 60,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.144c0a398a574150a7670feb8756d076",
+                  "Id": "144c0a398a574150a7670feb8756d076"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13708891826",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "缪红玲",
+              "userNo": null,
+              "mobile": "13708891826",
+              "uid": "4dd22362424a4280bdcdbd15a5c7f635",
+              "name": "缪红玲",
+              "Id": "4dd22362424a4280bdcdbd15a5c7f635",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "房地产管理处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "144c0a398a574150a7670feb8756d076",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 60,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.144c0a398a574150a7670feb8756d076",
+                  "Id": "144c0a398a574150a7670feb8756d076"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13888176774",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "邓韩斌",
+              "userNo": null,
+              "mobile": "13888176774",
+              "uid": "f42d95d9b92346c3b94167b8da9914d2",
+              "name": "邓韩斌",
+              "Id": "f42d95d9b92346c3b94167b8da9914d2",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "房地产管理处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "144c0a398a574150a7670feb8756d076",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 60,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.144c0a398a574150a7670feb8756d076",
+                  "Id": "144c0a398a574150a7670feb8756d076"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13888215703",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "万学敏",
+              "userNo": null,
+              "mobile": "13888215703",
+              "uid": "c01ba1b0863d4538a6e685b311adfbb5",
+              "name": "万学敏",
+              "Id": "c01ba1b0863d4538a6e685b311adfbb5",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "房地产管理处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "144c0a398a574150a7670feb8756d076",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 60,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.144c0a398a574150a7670feb8756d076",
+                  "Id": "144c0a398a574150a7670feb8756d076"
+                }
+              ],
+              "email": null
+            }
+          ],
+          "deptInfo": {
+            "specialUnitType": 1,
+            "displayOrder": 60,
+            "icon": "fa-university",
+            "name": "房地产管理处",
+            "fullName": "房地产管理处",
+            "childCount": 0,
+            "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.144c0a398a574150a7670feb8756d076",
+            "Id": "144c0a398a574150a7670feb8756d076",
+            "auditorLevel": 0,
+            "parentId": "8ac6f779ea7644138a5af5f8f45f92a5",
+            "depCode": null
+          }
+        },
+        {
+          "userList": [
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13708850298",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "杨红林",
+              "userNo": null,
+              "mobile": "13708850298",
+              "uid": "87ed96a8c2884240b328426fe4299617",
+              "name": "杨红林",
+              "Id": "87ed96a8c2884240b328426fe4299617",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "公共机构节能管理处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "824a351a8c4e4797be3df55f122c26fe",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 70,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.824a351a8c4e4797be3df55f122c26fe",
+                  "Id": "824a351a8c4e4797be3df55f122c26fe"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13888078196",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "李锟",
+              "userNo": null,
+              "mobile": "13888078196",
+              "uid": "411e5d858ab14d8785282a9fc7775d9d",
+              "name": "李锟",
+              "Id": "411e5d858ab14d8785282a9fc7775d9d",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "公共机构节能管理处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "824a351a8c4e4797be3df55f122c26fe",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 70,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.824a351a8c4e4797be3df55f122c26fe",
+                  "Id": "824a351a8c4e4797be3df55f122c26fe"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13888078161",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "金波",
+              "userNo": null,
+              "mobile": "13888078161",
+              "uid": "bbf7a8e4a47f494392e7f248f5ea0099",
+              "name": "金波",
+              "Id": "bbf7a8e4a47f494392e7f248f5ea0099",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "公共机构节能管理处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "824a351a8c4e4797be3df55f122c26fe",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 70,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.824a351a8c4e4797be3df55f122c26fe",
+                  "Id": "824a351a8c4e4797be3df55f122c26fe"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13888191189",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "孙琳",
+              "userNo": null,
+              "mobile": "13888191189",
+              "uid": "91ac4adfb57b4b36977751f42c84e83a",
+              "name": "孙琳",
+              "Id": "91ac4adfb57b4b36977751f42c84e83a",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "公共机构节能管理处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "824a351a8c4e4797be3df55f122c26fe",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 70,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.824a351a8c4e4797be3df55f122c26fe",
+                  "Id": "824a351a8c4e4797be3df55f122c26fe"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13308803838",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "郑瑜",
+              "userNo": null,
+              "mobile": "13308803838",
+              "uid": "e69d7e7792c24947b077b15e03f81a3b",
+              "name": "郑瑜",
+              "Id": "e69d7e7792c24947b077b15e03f81a3b",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "公共机构节能管理处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "824a351a8c4e4797be3df55f122c26fe",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 70,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.824a351a8c4e4797be3df55f122c26fe",
+                  "Id": "824a351a8c4e4797be3df55f122c26fe"
+                }
+              ],
+              "email": null
+            }
+          ],
+          "deptInfo": {
+            "specialUnitType": 1,
+            "displayOrder": 70,
+            "icon": "fa-university",
+            "name": "公共机构节能管理处",
+            "fullName": "公共机构节能管理处",
+            "childCount": 0,
+            "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.824a351a8c4e4797be3df55f122c26fe",
+            "Id": "824a351a8c4e4797be3df55f122c26fe",
+            "auditorLevel": 0,
+            "parentId": "8ac6f779ea7644138a5af5f8f45f92a5",
+            "depCode": null
+          }
+        },
+        {
+          "userList": [
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13759180616",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "刘延安",
+              "userNo": null,
+              "mobile": "13759180616",
+              "uid": "3f88d7caef914d6caea2bcf7a471e6a0",
+              "name": "刘延安",
+              "Id": "3f88d7caef914d6caea2bcf7a471e6a0",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "公务用车管理处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "9e39158f30914ece894b6f2f70eb1513",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 80,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.9e39158f30914ece894b6f2f70eb1513",
+                  "Id": "9e39158f30914ece894b6f2f70eb1513"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13888016681",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "智建立",
+              "userNo": null,
+              "mobile": "13888016681",
+              "uid": "5c7cb19373fe46cfa5a9b403b5bf0816",
+              "name": "智建立",
+              "Id": "5c7cb19373fe46cfa5a9b403b5bf0816",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "公务用车管理处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "9e39158f30914ece894b6f2f70eb1513",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 80,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.9e39158f30914ece894b6f2f70eb1513",
+                  "Id": "9e39158f30914ece894b6f2f70eb1513"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13658841061",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "蒋英",
+              "userNo": null,
+              "mobile": "13658841061",
+              "uid": "c7c33ef2feac49e39c427f068115e182",
+              "name": "蒋英",
+              "Id": "c7c33ef2feac49e39c427f068115e182",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "公务用车管理处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "9e39158f30914ece894b6f2f70eb1513",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 80,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.9e39158f30914ece894b6f2f70eb1513",
+                  "Id": "9e39158f30914ece894b6f2f70eb1513"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13888558668",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "何平",
+              "userNo": null,
+              "mobile": "13888558668",
+              "uid": "71ef8d6c7d6e49d49906b5aed3cb4a86",
+              "name": "何平",
+              "Id": "71ef8d6c7d6e49d49906b5aed3cb4a86",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "公务用车管理处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "9e39158f30914ece894b6f2f70eb1513",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 80,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.9e39158f30914ece894b6f2f70eb1513",
+                  "Id": "9e39158f30914ece894b6f2f70eb1513"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13888226581",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "杨代忠",
+              "userNo": null,
+              "mobile": "13888226581",
+              "uid": "7acb76358538455b824e1f72cd54b17f",
+              "name": "杨代忠",
+              "Id": "7acb76358538455b824e1f72cd54b17f",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "公务用车管理处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "9e39158f30914ece894b6f2f70eb1513",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 80,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.9e39158f30914ece894b6f2f70eb1513",
+                  "Id": "9e39158f30914ece894b6f2f70eb1513"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "18687126677",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "杨启进",
+              "userNo": null,
+              "mobile": "18687126677",
+              "uid": "5e0995d696a547bfa0b40a7a54de934d",
+              "name": "杨启进",
+              "Id": "5e0995d696a547bfa0b40a7a54de934d",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "公务用车管理处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "9e39158f30914ece894b6f2f70eb1513",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 80,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.9e39158f30914ece894b6f2f70eb1513",
+                  "Id": "9e39158f30914ece894b6f2f70eb1513"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13008675988",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "李世政",
+              "userNo": null,
+              "mobile": "13008675988",
+              "uid": "a90fe7f937ea4208ad571837b148f5a1",
+              "name": "李世政",
+              "Id": "a90fe7f937ea4208ad571837b148f5a1",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "公务用车管理处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "9e39158f30914ece894b6f2f70eb1513",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 80,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.9e39158f30914ece894b6f2f70eb1513",
+                  "Id": "9e39158f30914ece894b6f2f70eb1513"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13503095485",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "李德华",
+              "userNo": null,
+              "mobile": "13503095485",
+              "uid": "adcbb9ac11dd4c91ad9d59aeb6fb79a5",
+              "name": "李德华",
+              "Id": "adcbb9ac11dd4c91ad9d59aeb6fb79a5",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "公务用车管理处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "9e39158f30914ece894b6f2f70eb1513",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 80,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.9e39158f30914ece894b6f2f70eb1513",
+                  "Id": "9e39158f30914ece894b6f2f70eb1513"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "18687195366",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "黄为国",
+              "userNo": null,
+              "mobile": "18687195366",
+              "uid": "816c3590eb1a43f68cca051bc3838f15",
+              "name": "黄为国",
+              "Id": "816c3590eb1a43f68cca051bc3838f15",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "公务用车管理处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "9e39158f30914ece894b6f2f70eb1513",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 80,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.9e39158f30914ece894b6f2f70eb1513",
+                  "Id": "9e39158f30914ece894b6f2f70eb1513"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "lm",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "李茂",
+              "userNo": null,
+              "mobile": "13116952470",
+              "uid": "97366d03c384474282c60c0b58a0774e",
+              "name": "李茂",
+              "Id": "97366d03c384474282c60c0b58a0774e",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "公务用车管理处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "9e39158f30914ece894b6f2f70eb1513",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 80,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.9e39158f30914ece894b6f2f70eb1513",
+                  "Id": "9e39158f30914ece894b6f2f70eb1513"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "17708710707",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "陈广权",
+              "userNo": null,
+              "mobile": "17708710707",
+              "uid": "a4ae74dfca77488aae5ce77728faab63",
+              "name": "陈广权",
+              "Id": "a4ae74dfca77488aae5ce77728faab63",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "公务用车管理处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "9e39158f30914ece894b6f2f70eb1513",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 80,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.9e39158f30914ece894b6f2f70eb1513",
+                  "Id": "9e39158f30914ece894b6f2f70eb1513"
+                }
+              ],
+              "email": null
+            }
+          ],
+          "deptInfo": {
+            "specialUnitType": 1,
+            "displayOrder": 80,
+            "icon": "fa-university",
+            "name": "公务用车管理处",
+            "fullName": "公务用车管理处",
+            "childCount": 0,
+            "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.9e39158f30914ece894b6f2f70eb1513",
+            "Id": "9e39158f30914ece894b6f2f70eb1513",
+            "auditorLevel": 0,
+            "parentId": "8ac6f779ea7644138a5af5f8f45f92a5",
+            "depCode": null
+          }
+        },
+        {
+          "userList": [
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13888219419",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "朱湘",
+              "userNo": null,
+              "mobile": "13888219419",
+              "uid": "84ee4ded11f342dda8cf4ca9019e2239",
+              "name": "朱湘",
+              "Id": "84ee4ded11f342dda8cf4ca9019e2239",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "综合监管处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "adbf196cee414eebbff37bc299415250",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 90,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.adbf196cee414eebbff37bc299415250",
+                  "Id": "adbf196cee414eebbff37bc299415250"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13808719166",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "王晋疆",
+              "userNo": null,
+              "mobile": "13808719166",
+              "uid": "38815049e64743bd9227b1e6fdcf50ef",
+              "name": "王晋疆",
+              "Id": "38815049e64743bd9227b1e6fdcf50ef",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "综合监管处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "adbf196cee414eebbff37bc299415250",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 90,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.adbf196cee414eebbff37bc299415250",
+                  "Id": "adbf196cee414eebbff37bc299415250"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13987188768",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "杨政",
+              "userNo": null,
+              "mobile": "13987188768",
+              "uid": "4e8abd6f8df4482a81efb3f710ab3839",
+              "name": "杨政",
+              "Id": "4e8abd6f8df4482a81efb3f710ab3839",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "综合监管处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "adbf196cee414eebbff37bc299415250",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 90,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.adbf196cee414eebbff37bc299415250",
+                  "Id": "adbf196cee414eebbff37bc299415250"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "18206801777",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "史章平",
+              "userNo": null,
+              "mobile": "18206801777",
+              "uid": "c500755db9b64b73864f23f7850758e2",
+              "name": "史章平",
+              "Id": "c500755db9b64b73864f23f7850758e2",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "综合监管处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "adbf196cee414eebbff37bc299415250",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 90,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.adbf196cee414eebbff37bc299415250",
+                  "Id": "adbf196cee414eebbff37bc299415250"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13888065283",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "王文辉",
+              "userNo": null,
+              "mobile": "13888065283",
+              "uid": "55ffde6bcd5e456eb1d7be22dd83947f",
+              "name": "王文辉",
+              "Id": "55ffde6bcd5e456eb1d7be22dd83947f",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "综合监管处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "adbf196cee414eebbff37bc299415250",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 90,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.adbf196cee414eebbff37bc299415250",
+                  "Id": "adbf196cee414eebbff37bc299415250"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13987654799",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "王曙军",
+              "userNo": null,
+              "mobile": "13987654799",
+              "uid": "704c5a7b5d94465ca6b812de54390e45",
+              "name": "王曙军",
+              "Id": "704c5a7b5d94465ca6b812de54390e45",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "综合监管处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "adbf196cee414eebbff37bc299415250",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 90,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.adbf196cee414eebbff37bc299415250",
+                  "Id": "adbf196cee414eebbff37bc299415250"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "15925134717",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "石宇刚",
+              "userNo": null,
+              "mobile": "15925134717",
+              "uid": "64dc1bb738c349fcbaae8b037663bc29",
+              "name": "石宇刚",
+              "Id": "64dc1bb738c349fcbaae8b037663bc29",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "综合监管处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "adbf196cee414eebbff37bc299415250",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 90,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.adbf196cee414eebbff37bc299415250",
+                  "Id": "adbf196cee414eebbff37bc299415250"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "15812102750",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "林广云",
+              "userNo": null,
+              "mobile": "15812102750",
+              "uid": "44f04118939148088c850b3f51130e10",
+              "name": "林广云",
+              "Id": "44f04118939148088c850b3f51130e10",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "综合监管处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "adbf196cee414eebbff37bc299415250",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 90,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.adbf196cee414eebbff37bc299415250",
+                  "Id": "adbf196cee414eebbff37bc299415250"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13529290985",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "冯建磊",
+              "userNo": null,
+              "mobile": "13529290985",
+              "uid": "ce9d7e675d74404b87187d86e1a409eb",
+              "name": "冯建磊",
+              "Id": "ce9d7e675d74404b87187d86e1a409eb",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "综合监管处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "adbf196cee414eebbff37bc299415250",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 90,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.adbf196cee414eebbff37bc299415250",
+                  "Id": "adbf196cee414eebbff37bc299415250"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "18687514335",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "骆耘",
+              "userNo": null,
+              "mobile": "18687514335",
+              "uid": "0abd05a98c6546e2a03b166f571e8c73",
+              "name": "骆耘",
+              "Id": "0abd05a98c6546e2a03b166f571e8c73",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "综合监管处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "adbf196cee414eebbff37bc299415250",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 90,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.adbf196cee414eebbff37bc299415250",
+                  "Id": "adbf196cee414eebbff37bc299415250"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "18687522631",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "刘武",
+              "userNo": null,
+              "mobile": "18687522631",
+              "uid": "22ebe368d4e84f4aa98d6bd6201dd1cc",
+              "name": "刘武",
+              "Id": "22ebe368d4e84f4aa98d6bd6201dd1cc",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "综合监管处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "adbf196cee414eebbff37bc299415250",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 90,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.adbf196cee414eebbff37bc299415250",
+                  "Id": "adbf196cee414eebbff37bc299415250"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "18287147895",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "刘铭心",
+              "userNo": null,
+              "mobile": "18287147895",
+              "uid": "a22b70457089414783e250a39bd671ab",
+              "name": "刘铭心",
+              "Id": "a22b70457089414783e250a39bd671ab",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "综合监管处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "adbf196cee414eebbff37bc299415250",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 90,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.adbf196cee414eebbff37bc299415250",
+                  "Id": "adbf196cee414eebbff37bc299415250"
+                }
+              ],
+              "email": null
+            }
+          ],
+          "deptInfo": {
+            "specialUnitType": 1,
+            "displayOrder": 90,
+            "icon": "fa-university",
+            "name": "综合监管处",
+            "fullName": "综合监管处",
+            "childCount": 0,
+            "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.adbf196cee414eebbff37bc299415250",
+            "Id": "adbf196cee414eebbff37bc299415250",
+            "auditorLevel": 0,
+            "parentId": "8ac6f779ea7644138a5af5f8f45f92a5",
+            "depCode": null
+          }
+        },
+        {
+          "userList": [
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13888210862",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "孟庆福",
+              "userNo": null,
+              "mobile": "13888210862",
+              "uid": "2eaa6035db834765aa37bf3f7e1a1a7f",
+              "name": "孟庆福",
+              "Id": "2eaa6035db834765aa37bf3f7e1a1a7f",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "服务保障处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "f43198c7ef134db19d6456a02582709c",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 100,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.f43198c7ef134db19d6456a02582709c",
+                  "Id": "f43198c7ef134db19d6456a02582709c"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13987681338",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "高永芳",
+              "userNo": null,
+              "mobile": "13987681338",
+              "uid": "5f6a6b678a4f465dad5596d56a6d7d56",
+              "name": "高永芳",
+              "Id": "5f6a6b678a4f465dad5596d56a6d7d56",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "服务保障处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "f43198c7ef134db19d6456a02582709c",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 100,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.f43198c7ef134db19d6456a02582709c",
+                  "Id": "f43198c7ef134db19d6456a02582709c"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13708852896",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "马国荣",
+              "userNo": null,
+              "mobile": "13708852896",
+              "uid": "95dc138601e9425696647ab1fe41cf20",
+              "name": "马国荣",
+              "Id": "95dc138601e9425696647ab1fe41cf20",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "服务保障处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "f43198c7ef134db19d6456a02582709c",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 100,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.f43198c7ef134db19d6456a02582709c",
+                  "Id": "f43198c7ef134db19d6456a02582709c"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13308713598",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "帅杰",
+              "userNo": null,
+              "mobile": "13308713598",
+              "uid": "89d6de097d7a469ebaa51330b36655c8",
+              "name": "帅杰",
+              "Id": "89d6de097d7a469ebaa51330b36655c8",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "服务保障处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "f43198c7ef134db19d6456a02582709c",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 100,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.f43198c7ef134db19d6456a02582709c",
+                  "Id": "f43198c7ef134db19d6456a02582709c"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13888361799",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "张云安",
+              "userNo": null,
+              "mobile": "13888361799",
+              "uid": "adf512171e264f87bb5d44310f7de555",
+              "name": "张云安",
+              "Id": "adf512171e264f87bb5d44310f7de555",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "服务保障处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "f43198c7ef134db19d6456a02582709c",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 100,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.f43198c7ef134db19d6456a02582709c",
+                  "Id": "f43198c7ef134db19d6456a02582709c"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13678787891",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "李峰",
+              "userNo": null,
+              "mobile": "13678787891",
+              "uid": "fee0d1a8de774ee1950d89528969cb70",
+              "name": "李峰",
+              "Id": "fee0d1a8de774ee1950d89528969cb70",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "服务保障处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "f43198c7ef134db19d6456a02582709c",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 100,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.f43198c7ef134db19d6456a02582709c",
+                  "Id": "f43198c7ef134db19d6456a02582709c"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13888581791",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "黄锦勋",
+              "userNo": null,
+              "mobile": "13888581791",
+              "uid": "a5c4309e669f4116a83a6a5391f56809",
+              "name": "黄锦勋",
+              "Id": "a5c4309e669f4116a83a6a5391f56809",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "服务保障处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "f43198c7ef134db19d6456a02582709c",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 100,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.f43198c7ef134db19d6456a02582709c",
+                  "Id": "f43198c7ef134db19d6456a02582709c"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "15825220068",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "蒋学渊",
+              "userNo": null,
+              "mobile": "15825220068",
+              "uid": "51b961f1485d4356a931f4a5e88290c1",
+              "name": "蒋学渊",
+              "Id": "51b961f1485d4356a931f4a5e88290c1",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "服务保障处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "f43198c7ef134db19d6456a02582709c",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 100,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.f43198c7ef134db19d6456a02582709c",
+                  "Id": "f43198c7ef134db19d6456a02582709c"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "ycf",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "伊传峰",
+              "userNo": null,
+              "mobile": "13312655789",
+              "uid": "14bce03542ad4119a16b27f83d1376fd",
+              "name": "伊传峰",
+              "Id": "14bce03542ad4119a16b27f83d1376fd",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "服务保障处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "f43198c7ef134db19d6456a02582709c",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 100,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.f43198c7ef134db19d6456a02582709c",
+                  "Id": "f43198c7ef134db19d6456a02582709c"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "yxf",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "杨晓峰",
+              "userNo": null,
+              "mobile": "13988479100",
+              "uid": "8417899e51d04c838fad37e8d2d6662c",
+              "name": "杨晓峰",
+              "Id": "8417899e51d04c838fad37e8d2d6662c",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "服务保障处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "f43198c7ef134db19d6456a02582709c",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 100,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.f43198c7ef134db19d6456a02582709c",
+                  "Id": "f43198c7ef134db19d6456a02582709c"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13700663935",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "张国珊",
+              "userNo": null,
+              "mobile": "13700663935",
+              "uid": "c54ca714886545b68316528622f4523e",
+              "name": "张国珊",
+              "Id": "c54ca714886545b68316528622f4523e",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "服务保障处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "f43198c7ef134db19d6456a02582709c",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 100,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.f43198c7ef134db19d6456a02582709c",
+                  "Id": "f43198c7ef134db19d6456a02582709c"
+                }
+              ],
+              "email": null
+            }
+          ],
+          "deptInfo": {
+            "specialUnitType": 1,
+            "displayOrder": 100,
+            "icon": "fa-university",
+            "name": "服务保障处",
+            "fullName": "服务保障处",
+            "childCount": 0,
+            "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.f43198c7ef134db19d6456a02582709c",
+            "Id": "f43198c7ef134db19d6456a02582709c",
+            "auditorLevel": 0,
+            "parentId": "8ac6f779ea7644138a5af5f8f45f92a5",
+            "depCode": null
+          }
+        },
+        {
+          "userList": [
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13888198589",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "侯开萍",
+              "userNo": null,
+              "mobile": "13888198589",
+              "uid": "02ce4e02c6b944edae9efe84ab7d0c28",
+              "name": "侯开萍",
+              "Id": "02ce4e02c6b944edae9efe84ab7d0c28",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "人事处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "27f716f9c1704818b145fc843797771e",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 110,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.27f716f9c1704818b145fc843797771e",
+                  "Id": "27f716f9c1704818b145fc843797771e"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13648844199",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "熊伟",
+              "userNo": null,
+              "mobile": "13648844199",
+              "uid": "6533f1362de0494f80c956736b8bffd9",
+              "name": "熊伟",
+              "Id": "6533f1362de0494f80c956736b8bffd9",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "人事处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "27f716f9c1704818b145fc843797771e",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 110,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.27f716f9c1704818b145fc843797771e",
+                  "Id": "27f716f9c1704818b145fc843797771e"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "18787082229",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "谢建国",
+              "userNo": null,
+              "mobile": "18787082229",
+              "uid": "579dd3ab1e6c4952b7f021071d6b598f",
+              "name": "谢建国",
+              "Id": "579dd3ab1e6c4952b7f021071d6b598f",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "人事处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "27f716f9c1704818b145fc843797771e",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 110,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.27f716f9c1704818b145fc843797771e",
+                  "Id": "27f716f9c1704818b145fc843797771e"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13608858386",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "尹琳",
+              "userNo": null,
+              "mobile": "13608858386",
+              "uid": "ec1171ac14034ea790c190137ecb5c93",
+              "name": "尹琳",
+              "Id": "ec1171ac14034ea790c190137ecb5c93",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "人事处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "27f716f9c1704818b145fc843797771e",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 110,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.27f716f9c1704818b145fc843797771e",
+                  "Id": "27f716f9c1704818b145fc843797771e"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "18687121391",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "李滟鞠",
+              "userNo": null,
+              "mobile": "18687121391",
+              "uid": "b318dc5fb51b430aaa8dbdd3ff7abf52",
+              "name": "李滟鞠",
+              "Id": "b318dc5fb51b430aaa8dbdd3ff7abf52",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "人事处",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "27f716f9c1704818b145fc843797771e",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 110,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.27f716f9c1704818b145fc843797771e",
+                  "Id": "27f716f9c1704818b145fc843797771e"
+                }
+              ],
+              "email": null
+            }
+          ],
+          "deptInfo": {
+            "specialUnitType": 1,
+            "displayOrder": 110,
+            "icon": "fa-university",
+            "name": "人事处",
+            "fullName": "人事处",
+            "childCount": 0,
+            "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.27f716f9c1704818b145fc843797771e",
+            "Id": "27f716f9c1704818b145fc843797771e",
+            "auditorLevel": 0,
+            "parentId": "8ac6f779ea7644138a5af5f8f45f92a5",
+            "depCode": null
+          }
+        },
+        {
+          "userList": [
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13518796965",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "陈煜",
+              "userNo": null,
+              "mobile": "13518796965",
+              "uid": "79c9a006473249958acd8f58a12d864a",
+              "name": "陈煜",
+              "Id": "79c9a006473249958acd8f58a12d864a",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "机关党委",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "3973d134a6cd4b0d96af7d693a783026",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 120,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.3973d134a6cd4b0d96af7d693a783026",
+                  "Id": "3973d134a6cd4b0d96af7d693a783026"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13888076068",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "田中旺",
+              "userNo": null,
+              "mobile": "13888076068",
+              "uid": "a5d90093d172459ea5bf481ea374bca2",
+              "name": "田中旺",
+              "Id": "a5d90093d172459ea5bf481ea374bca2",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "机关党委",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "3973d134a6cd4b0d96af7d693a783026",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 120,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.3973d134a6cd4b0d96af7d693a783026",
+                  "Id": "3973d134a6cd4b0d96af7d693a783026"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13888938229",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "白夜",
+              "userNo": null,
+              "mobile": "13888938229",
+              "uid": "b5809c1e9a7f46b2801ae8d767d86004",
+              "name": "白夜",
+              "Id": "b5809c1e9a7f46b2801ae8d767d86004",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "机关党委",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "3973d134a6cd4b0d96af7d693a783026",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 120,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.3973d134a6cd4b0d96af7d693a783026",
+                  "Id": "3973d134a6cd4b0d96af7d693a783026"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "shj",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "孙宏杰",
+              "userNo": null,
+              "mobile": "13064297748",
+              "uid": "72909ecdf9fc4912998d8149f90a51e3",
+              "name": "孙宏杰",
+              "Id": "72909ecdf9fc4912998d8149f90a51e3",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "机关党委",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "3973d134a6cd4b0d96af7d693a783026",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 120,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.3973d134a6cd4b0d96af7d693a783026",
+                  "Id": "3973d134a6cd4b0d96af7d693a783026"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13888321201",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "胡开东",
+              "userNo": null,
+              "mobile": "13888321201",
+              "uid": "6efb2b7202364294a347b82ffafc9dbf",
+              "name": "胡开东",
+              "Id": "6efb2b7202364294a347b82ffafc9dbf",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "机关党委",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "3973d134a6cd4b0d96af7d693a783026",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 120,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.3973d134a6cd4b0d96af7d693a783026",
+                  "Id": "3973d134a6cd4b0d96af7d693a783026"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "18788576779",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "曹超",
+              "userNo": null,
+              "mobile": "18788576779",
+              "uid": "1de7930cd9734313a35b66514a93fddf",
+              "name": "曹超",
+              "Id": "1de7930cd9734313a35b66514a93fddf",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "机关党委",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "3973d134a6cd4b0d96af7d693a783026",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 120,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.3973d134a6cd4b0d96af7d693a783026",
+                  "Id": "3973d134a6cd4b0d96af7d693a783026"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13108848996",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "王涛",
+              "userNo": null,
+              "mobile": "13108848996",
+              "uid": "5a8c03b9627a4f139196a21d6cf569ce",
+              "name": "王涛",
+              "Id": "5a8c03b9627a4f139196a21d6cf569ce",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "机关党委",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "3973d134a6cd4b0d96af7d693a783026",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 120,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.3973d134a6cd4b0d96af7d693a783026",
+                  "Id": "3973d134a6cd4b0d96af7d693a783026"
+                }
+              ],
+              "email": null
+            }
+          ],
+          "deptInfo": {
+            "specialUnitType": 1,
+            "displayOrder": 120,
+            "icon": "fa-university",
+            "name": "机关党委",
+            "fullName": "机关党委",
+            "childCount": 0,
+            "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.3973d134a6cd4b0d96af7d693a783026",
+            "Id": "3973d134a6cd4b0d96af7d693a783026",
+            "auditorLevel": 0,
+            "parentId": "8ac6f779ea7644138a5af5f8f45f92a5",
+            "depCode": null
+          }
+        },
+        {
+          "userList": [
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "wy",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "王勇",
+              "userNo": null,
+              "mobile": "18687192331",
+              "uid": "710f1edcbdcf45e09fb825a824c4821a",
+              "name": "王勇",
+              "Id": "710f1edcbdcf45e09fb825a824c4821a",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "离退休办公室",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "e0738bec36ea4f5c863ef618c13aefd7",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 130,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.e0738bec36ea4f5c863ef618c13aefd7",
+                  "Id": "e0738bec36ea4f5c863ef618c13aefd7"
+                }
+              ],
+              "email": null
+            }
+          ],
+          "deptInfo": {
+            "specialUnitType": 1,
+            "displayOrder": 130,
+            "icon": "fa-university",
+            "name": "离退休办公室",
+            "fullName": "离退休办公室",
+            "childCount": 0,
+            "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.e0738bec36ea4f5c863ef618c13aefd7",
+            "Id": "e0738bec36ea4f5c863ef618c13aefd7",
+            "auditorLevel": 0,
+            "parentId": "8ac6f779ea7644138a5af5f8f45f92a5",
+            "depCode": null
+          }
+        },
+        {
+          "userList": [
+            {
+              "userList": [
+                {
+                  "qq": null,
+                  "birthDay": null,
+                  "userNameSpell": "yh1",
+                  "userPhoto": null,
+                  "gender": null,
+                  "nickName": "用户1",
+                  "userNo": null,
+                  "mobile": "用户1",
+                  "uid": "1e3bf321daf54e35b00a7c62b3363175",
+                  "name": "用户1",
+                  "Id": "1e3bf321daf54e35b00a7c62b3363175",
+                  "userType": 1,
+                  "groupInfo": [
+                    {
+                      "holdPostDate": null,
+                      "groupName": null,
+                      "post": "其他",
+                      "postLevel": null,
+                      "postType": null,
+                      "groupId": "833a64653a1f4c0faff55055e734d886",
+                      "isCurrentOrgResponsiblePerson": false,
+                      "isOrg": false,
+                      "displayOrder": 1,
+                      "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.5526726d5e5c4ffb818c5d34ca829360.833a64653a1f4c0faff55055e734d886",
+                      "Id": "833a64653a1f4c0faff55055e734d886"
+                    }
+                  ],
+                  "email": null
                 },
                 {
-                    "name": "eeqw",
-                    "information": "",
-                    "price": "156871"
+                  "qq": null,
+                  "birthDay": null,
+                  "userNameSpell": "yh2",
+                  "userPhoto": null,
+                  "gender": null,
+                  "nickName": "用户2",
+                  "userNo": null,
+                  "mobile": "用户2",
+                  "uid": "7901353ff82545aaab7dee1c2a1a18d5",
+                  "name": "用户2",
+                  "Id": "7901353ff82545aaab7dee1c2a1a18d5",
+                  "userType": 1,
+                  "groupInfo": [
+                    {
+                      "holdPostDate": null,
+                      "groupName": null,
+                      "post": "其他",
+                      "postLevel": null,
+                      "postType": null,
+                      "groupId": "833a64653a1f4c0faff55055e734d886",
+                      "isCurrentOrgResponsiblePerson": false,
+                      "isOrg": false,
+                      "displayOrder": 1,
+                      "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.5526726d5e5c4ffb818c5d34ca829360.833a64653a1f4c0faff55055e734d886",
+                      "Id": "833a64653a1f4c0faff55055e734d886"
+                    }
+                  ],
+                  "email": null
                 }
-            ]
+              ],
+              "deptInfo": {
+                "specialUnitType": 1,
+                "displayOrder": 1,
+                "icon": "fa-university",
+                "name": "test",
+                "fullName": null,
+                "childCount": 0,
+                "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.5526726d5e5c4ffb818c5d34ca829360.833a64653a1f4c0faff55055e734d886",
+                "Id": "833a64653a1f4c0faff55055e734d886",
+                "auditorLevel": 0,
+                "parentId": "5526726d5e5c4ffb818c5d34ca829360",
+                "depCode": null
+              }
+            },
+            {
+              "userList": [
+                {
+                  "qq": null,
+                  "birthDay": null,
+                  "userNameSpell": "yh3",
+                  "userPhoto": null,
+                  "gender": null,
+                  "nickName": "用户3",
+                  "userNo": null,
+                  "mobile": "用户3",
+                  "uid": "7e16b1c27dec4df7861f049038694437",
+                  "name": "用户3",
+                  "Id": "7e16b1c27dec4df7861f049038694437",
+                  "userType": 1,
+                  "groupInfo": [
+                    {
+                      "holdPostDate": null,
+                      "groupName": null,
+                      "post": "其他",
+                      "postLevel": null,
+                      "postType": null,
+                      "groupId": "d8dc11e0dc454059ba744a45f6d5f86e",
+                      "isCurrentOrgResponsiblePerson": false,
+                      "isOrg": false,
+                      "displayOrder": 1,
+                      "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.5526726d5e5c4ffb818c5d34ca829360.d8dc11e0dc454059ba744a45f6d5f86e",
+                      "Id": "d8dc11e0dc454059ba744a45f6d5f86e"
+                    }
+                  ],
+                  "email": null
+                }
+              ],
+              "deptInfo": {
+                "specialUnitType": 1,
+                "displayOrder": 1,
+                "icon": "fa-university",
+                "name": "部门2",
+                "fullName": null,
+                "childCount": 0,
+                "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.5526726d5e5c4ffb818c5d34ca829360.d8dc11e0dc454059ba744a45f6d5f86e",
+                "Id": "d8dc11e0dc454059ba744a45f6d5f86e",
+                "auditorLevel": 0,
+                "parentId": "5526726d5e5c4ffb818c5d34ca829360",
+                "depCode": null
+              }
+            }
+          ],
+          "deptInfo": {
+            "specialUnitType": 1,
+            "displayOrder": 140,
+            "icon": "fa-university",
+            "name": "直属单位",
+            "fullName": "直属单位",
+            "childCount": 2,
+            "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.5526726d5e5c4ffb818c5d34ca829360",
+            "Id": "5526726d5e5c4ffb818c5d34ca829360",
+            "auditorLevel": 0,
+            "parentId": "8ac6f779ea7644138a5af5f8f45f92a5",
+            "depCode": null
+          }
+        },
+        {
+          "userList": [
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13888666245",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "李莲",
+              "userNo": null,
+              "mobile": "13888666245",
+              "uid": "6de383e097a0489a800942468feda621",
+              "name": "李莲",
+              "Id": "6de383e097a0489a800942468feda621",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "云南云勤服务集团有限责任公司",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "0d184f0252694c3cb76eb114f660619a",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 2010,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.0d184f0252694c3cb76eb114f660619a",
+                  "Id": "0d184f0252694c3cb76eb114f660619a"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13888918515",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "王旭",
+              "userNo": null,
+              "mobile": "13888918515",
+              "uid": "4e43d31cbe8c4dbdbcd501f7eb14353b",
+              "name": "王旭",
+              "Id": "4e43d31cbe8c4dbdbcd501f7eb14353b",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "云南云勤服务集团有限责任公司",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "0d184f0252694c3cb76eb114f660619a",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 2010,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.0d184f0252694c3cb76eb114f660619a",
+                  "Id": "0d184f0252694c3cb76eb114f660619a"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "18608719919",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "李承栖",
+              "userNo": null,
+              "mobile": "18608719919",
+              "uid": "844a80d483aa40e79a927317670e6ac9",
+              "name": "李承栖",
+              "Id": "844a80d483aa40e79a927317670e6ac9",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "云南云勤服务集团有限责任公司",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "0d184f0252694c3cb76eb114f660619a",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 2010,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.0d184f0252694c3cb76eb114f660619a",
+                  "Id": "0d184f0252694c3cb76eb114f660619a"
+                }
+              ],
+              "email": null
+            }
+          ],
+          "deptInfo": {
+            "specialUnitType": 1,
+            "displayOrder": 2010,
+            "icon": "fa-university",
+            "name": "云南云勤集团公司",
+            "fullName": "云南云勤服务集团有限责任公司",
+            "childCount": 0,
+            "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.0d184f0252694c3cb76eb114f660619a",
+            "Id": "0d184f0252694c3cb76eb114f660619a",
+            "auditorLevel": 0,
+            "parentId": "8ac6f779ea7644138a5af5f8f45f92a5",
+            "depCode": null
+          }
+        },
+        {
+          "userList": [
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13888035690",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "李志琤",
+              "userNo": null,
+              "mobile": "13888035690",
+              "uid": "b24dc5b9f4fa4530ac46a68e25eb98ca",
+              "name": "李志琤",
+              "Id": "b24dc5b9f4fa4530ac46a68e25eb98ca",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "云南联云集团有限责任公司",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "070f94d7d51c4c82a69860cb97f27bb2",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 2020,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.070f94d7d51c4c82a69860cb97f27bb2",
+                  "Id": "070f94d7d51c4c82a69860cb97f27bb2"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": null,
+              "userNameSpell": "13808711296",
+              "userPhoto": null,
+              "gender": null,
+              "nickName": "刘靓靓",
+              "userNo": null,
+              "mobile": "13808711296",
+              "uid": "6bab4c067c3c432ea5b7a8bd2ef30de9",
+              "name": "刘靓靓",
+              "Id": "6bab4c067c3c432ea5b7a8bd2ef30de9",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "云南联云集团有限责任公司",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "070f94d7d51c4c82a69860cb97f27bb2",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 2020,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.070f94d7d51c4c82a69860cb97f27bb2",
+                  "Id": "070f94d7d51c4c82a69860cb97f27bb2"
+                }
+              ],
+              "email": null
+            },
+            {
+              "qq": null,
+              "birthDay": "2019-01-07",
+              "userNameSpell": "13908712398",
+              "userPhoto": "./assets/images/defaulthead.jpg",
+              "gender": "1",
+              "nickName": "刘容成",
+              "userNo": "",
+              "mobile": "13908712398",
+              "uid": "e3eaa21ffe334115b2aa0d6c4e59fc77",
+              "name": "刘容成",
+              "Id": "e3eaa21ffe334115b2aa0d6c4e59fc77",
+              "userType": 1,
+              "groupInfo": [
+                {
+                  "holdPostDate": null,
+                  "groupName": "云南联云集团有限责任公司",
+                  "post": "其他",
+                  "postLevel": null,
+                  "postType": null,
+                  "groupId": "070f94d7d51c4c82a69860cb97f27bb2",
+                  "isCurrentOrgResponsiblePerson": false,
+                  "isOrg": false,
+                  "displayOrder": 2020,
+                  "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.070f94d7d51c4c82a69860cb97f27bb2",
+                  "Id": "070f94d7d51c4c82a69860cb97f27bb2"
+                }
+              ],
+              "email": null
+            }
+          ],
+          "deptInfo": {
+            "specialUnitType": 1,
+            "displayOrder": 2020,
+            "icon": "fa-university",
+            "name": "云南联云集团有限责任公司",
+            "fullName": "云南联云集团有限责任公司",
+            "childCount": 0,
+            "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5.070f94d7d51c4c82a69860cb97f27bb2",
+            "Id": "070f94d7d51c4c82a69860cb97f27bb2",
+            "auditorLevel": 0,
+            "parentId": "8ac6f779ea7644138a5af5f8f45f92a5",
+            "depCode": null
+          }
         }
-    ]
-}
+      ],
+      "deptInfo": {
+        "specialUnitType": 1,
+        "displayOrder": 1,
+        "icon": "fa-university",
+        "name": "云南省机关事务管理局",
+        "fullName": "云南省机关事务管理局",
+        "childCount": 16,
+        "groupTreeCode": "1.8ac6f779ea7644138a5af5f8f45f92a5",
+        "Id": "8ac6f779ea7644138a5af5f8f45f92a5",
+        "auditorLevel": 0,
+        "parentId": "1",
+        "depCode": null
+      }
+    }
+  }
+  

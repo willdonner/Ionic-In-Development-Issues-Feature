@@ -12,14 +12,13 @@ export class HomePage {
 
   // item:any;
   constructor(public navCtrl: NavController, private http: Http) {
-    let localData = http.get('assets/information.json').map(res => res.json().items);
+    let localData = http.get('assets/information.json').map(res => res.json().data);
     localData.subscribe(data => {
-      this.information = data;
+      this.information = data.gpList;
       console.log(this.information);
     })
   } 
   ionViewDidEnter(){
-    
   }
 
   toggleSection(i) {
@@ -27,10 +26,11 @@ export class HomePage {
   }
  
   toggleItem(i, j) {
-    this.information[i].children[j].open = !this.information[i].children[j].open;
+    console.log(this.information[i].userList[j].userList);
+    this.information[i].userList[j].open = !this.information[i].userList[j].open;
   }
   buyItem(value) {
     console.log("value: ", value);
-    alert("name " + value.name + ". phone: " + value.price);
+    alert("name " + value.name + ". phone: " + value.mobile);
   }
 }

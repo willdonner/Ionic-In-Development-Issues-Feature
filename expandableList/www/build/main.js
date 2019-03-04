@@ -63,9 +63,9 @@ var HomePage = /** @class */ (function () {
         var _this = this;
         this.navCtrl = navCtrl;
         this.http = http;
-        var localData = http.get('assets/information.json').map(function (res) { return res.json().items; });
+        var localData = http.get('assets/information.json').map(function (res) { return res.json().data; });
         localData.subscribe(function (data) {
-            _this.information = data;
+            _this.information = data.gpList;
             console.log(_this.information);
         });
     }
@@ -75,19 +75,21 @@ var HomePage = /** @class */ (function () {
         this.information[i].open = !this.information[i].open;
     };
     HomePage.prototype.toggleItem = function (i, j) {
-        this.information[i].children[j].open = !this.information[i].children[j].open;
+        console.log(this.information[i].userList[j].userList);
+        this.information[i].userList[j].open = !this.information[i].userList[j].open;
     };
     HomePage.prototype.buyItem = function (value) {
         console.log("value: ", value);
-        alert("name " + value.name + ". phone: " + value.price);
+        alert("name " + value.name + ". phone: " + value.mobile);
     };
     HomePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-home',template:/*ion-inline-start:"/Users/willdonner/Ionic-In-Development-Issues-Feature/expandableList/src/pages/home/home.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      Academy Pizza\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n \n<ion-content>\n  <ion-list class="accordion-list">\n    <!-- First Level -->\n    <ion-list-header *ngFor="let item of information; let i = index" no-lines no-padding>\n      <!-- Toggle Button -->\n      <button ion-item (click)="toggleSection(i)" detail-none [ngClass]="{\'section-active\': item.open, \'section\': !item.open}">\n        <ion-icon item-left name="arrow-forward" *ngIf="!item.open"></ion-icon>\n        <ion-icon item-left name="arrow-down" *ngIf="item.open"></ion-icon>\n          {{ item.name }}\n      </button>\n \n      <ion-list *ngIf="item.children && item.open" no-lines>\n        <!-- Second Level -->\n        <ion-list-header *ngFor="let child of item.children; let j = index" no-padding>\n          <!-- Toggle Button -->\n          <button ion-item (click)="toggleItem(i, j)" *ngIf="child.children" class="child" detail-none>\n            <ion-icon item-left name="add" *ngIf="!child.open"></ion-icon>\n            <ion-icon item-left name="close" *ngIf="child.open"></ion-icon>\n            {{ child.name }}\n          </button>\n \n          <!-- Direct Add Button as Fallback -->\n          <ion-item *ngIf="!child.children" ion-item detail-none class="child-item" text-wrap>\n            <h2>{{ child.name }}</h2>\n            <p text-lowercase>{{ child.information }}</p>\n            <button ion-button outline item-end (click)="buyItem(child)">{{ child.price }}</button>\n          </ion-item>\n \n          <ion-list *ngIf="child.children && child.open">\n            <!-- Third Level -->\n            <ion-item *ngFor="let item of child.children; let k = index" detail-none class="child-item" text-wrap (click)="buyItem(item)">\n              <h2>{{ item.name }}</h2>\n              <p text-lowercase>{{ item.information }}</p>\n              <!-- Direct Add Button -->\n              <button ion-button outline item-end >{{ item.price }}</button>\n            </ion-item>\n          </ion-list>\n \n        </ion-list-header>\n      </ion-list>\n      \n    </ion-list-header>\n  </ion-list>\n</ion-content>'/*ion-inline-end:"/Users/willdonner/Ionic-In-Development-Issues-Feature/expandableList/src/pages/home/home.html"*/
+            selector: 'page-home',template:/*ion-inline-start:"/Users/willdonner/Ionic-In-Development-Issues-Feature/expandableList/src/pages/home/home.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      Address\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n \n<ion-content>\n  <ion-list class="accordion-list">\n    <!-- First Level -->\n    <ion-list-header *ngFor="let item of information; let i = index" no-lines no-padding>\n      <!-- Toggle Button -->\n      <button ion-item (click)="toggleSection(i)" detail-none [ngClass]="{\'section-active\': item.open, \'section\': !item.open}">\n        <ion-icon item-left name="arrow-forward" *ngIf="!item.open"></ion-icon>\n        <ion-icon item-left name="arrow-down" *ngIf="item.open"></ion-icon>\n          {{ item.deptInfo.name }}\n      </button>\n \n      <ion-list *ngIf="item.userList && item.open" no-lines>\n       \n        <ion-list-header *ngFor="let child of item.userList; let j = index" no-padding>\n          \n          <button ion-item (click)="toggleItem(i, j)" *ngIf="child.deptInfo" class="child" detail-none>\n            <ion-icon item-left name="add" *ngIf="!child.open"></ion-icon>\n            <ion-icon item-left name="close" *ngIf="child.open"></ion-icon>\n            {{ child.deptInfo.name }}\n          </button>\n\n         \n           <ion-item *ngIf="!child.userList" ion-item detail-none class="child-item" text-wrap>\n            <h2>{{ child.name }}</h2>\n            <p text-lowercase>{{ child.information }}</p>\n            <button ion-button outline item-end (click)="buyItem(child)">{{ child.mobile }}</button>\n          </ion-item>\n \n          <ion-list *ngIf="child.userList && child.open">\n            \n            <ion-item *ngFor="let item of child.userList; let k = index" detail-none class="child-item" text-wrap (click)="buyItem(item)">\n              <h2>{{ item.name }}</h2>\n              <p text-lowercase>{{ item.information }}</p>\n              <button ion-button outline item-end >{{ item.mobile }}</button>\n            </ion-item>\n          </ion-list> \n \n        </ion-list-header>\n      </ion-list>\n      \n    </ion-list-header>\n  </ion-list>\n</ion-content>'/*ion-inline-end:"/Users/willdonner/Ionic-In-Development-Issues-Feature/expandableList/src/pages/home/home.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */], __WEBPACK_IMPORTED_MODULE_2__angular_http__["a" /* Http */]])
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2__angular_http__["a" /* Http */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__angular_http__["a" /* Http */]) === "function" && _b || Object])
     ], HomePage);
     return HomePage;
+    var _a, _b;
 }());
 
 //# sourceMappingURL=home.js.map
