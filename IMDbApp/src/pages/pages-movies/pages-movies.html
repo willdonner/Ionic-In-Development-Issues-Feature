@@ -10,20 +10,20 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
+<ion-content>
   <ion-searchbar [(ngModel)]="searchTerm" (ionChange)="searchChanged($event)"></ion-searchbar>
  
-  <ion-item>
+  <!-- <ion-item>
     <ion-label>Select Searchtype</ion-label>
     <ion-select [(ngModel)]="type" (ionChange)="searchChanged($event)">
       <ion-option value="">All</ion-option>
       <ion-option value="movie">Movie</ion-option>
       <ion-option value="series">Series</ion-option>
-      <ion-option value="episode">Episode</ion-option>
+      <ion-option value="episode">Episode</ion-option> -->
       <!-- <ion-select-option value="f">Female</ion-select-option>
       <ion-select-option value="m">Male</ion-select-option> -->
-    </ion-select>
-  </ion-item>
+    <!-- </ion-select>
+  </ion-item> -->
  
   <!-- <ion-list>
  
@@ -45,18 +45,18 @@
  
   </ion-list> -->
   <div class="pins">
-    <ion-card class="pin" *ngFor="let post of results" (click)="viewdetail(item)">
+    <ion-card class="pin" *ngFor="let post of results" (click)="viewdetail(post)">
       <img [src]="post.Poster" />
       <div *ngIf="post.Title" class="post-description">
         <small>{{ post.Title }}</small>
       </div>
-      <ion-item>
+      <!-- <ion-item>
         <ion-avatar item-start>
           <img src="assets/img/avatar/marty-avatar.png">
         </ion-avatar>
         <small>McFly</small>
         <p><small>Category</small></p>
-      </ion-item>
+      </ion-item> -->
     </ion-card>
   </div>
  
