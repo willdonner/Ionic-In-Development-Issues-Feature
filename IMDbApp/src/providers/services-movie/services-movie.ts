@@ -22,8 +22,8 @@ export class ServicesMovieProvider {
   constructor(public http: HttpClient) {
     console.log('Hello ServicesMovieProvider Provider');
   }
-  searchData(title: string, type: SearchType): Observable<any> {
-    let act = this.http.get(`${this.url}?s=${encodeURI(title)}&type=${type}&apikey=${this.apiKey}`).pipe(
+  searchData(title: string, type: SearchType, page: any): Observable<any> {
+    let act = this.http.get(`${this.url}?s=${encodeURI(title)}&type=${type}&apikey=${this.apiKey}&page=${page}`).pipe(
       map(
         ret =>{
           let d = ret;
