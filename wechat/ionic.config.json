@@ -1,0 +1,7 @@
+{
+  "name": "wechat",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
