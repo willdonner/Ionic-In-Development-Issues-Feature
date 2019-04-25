@@ -8,7 +8,7 @@
 </ion-header>
 
 
-<ion-content padding>
+<ion-content>
 
   <h3>Welcome to your first Ionic app!</h3>
 
@@ -21,10 +21,26 @@
   <p>
     <button ion-button color="primary" menuToggle>Toggle Menu</button>
   </p>
-  <button ion-button (click)="download()">download</button>
+  <button ion-button (click)="downloadpdf()">download_pdf</button>
+  <button ion-button (click)="downloaddoc()">download_doc</button>
+  <button ion-button (click)="downloadpic()">download_pic</button>
+  <button ion-button (click)="downloadtxt()">download_txt</button>
+  <button ion-button (click)="downloadxls()">download_xls</button>
+  <button ion-button (click)="downloadppt()">download_ppt</button>
+  
   
   <p>
     <button ion-button (click)="open()">open</button>
   </p>
-  <progress-bar [progress]="load"></progress-bar>
+  <button full ion-button (click)="chooseFileIOS()">chooseFileIOS</button>
+
+
+  <button full ion-button (click)="chooseimage()">chooseimage</button>
+  
+  <button full ion-button (click)="takephoto()">takephoto</button>
+  
+  <!-- <progress-bar [progress]="load"></progress-bar> -->
+
+
+
 </ion-content>

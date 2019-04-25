@@ -25693,3 +25693,7 @@ progress-bar .progress-inner {
   border-radius: 20px;
   background-color: #488aff;
 }
+
+page-hello-ionic ion-progress-bar {
+  margin-top: 10%;
+}

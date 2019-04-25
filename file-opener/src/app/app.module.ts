@@ -1,5 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule, ErrorHandler } from '@angular/core';
+import { NgModule, ErrorHandler, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
 
@@ -14,6 +14,9 @@ import { FileTransfer, FileTransferObject, FileUploadOptions } from '@ionic-nati
 import { File } from '@ionic-native/file';
 import {ProgressBarModule} from "angular-progress-bar"
 import { ProgressBarComponent } from '../components/progress-bar/progress-bar';
+import { IOSFilePicker } from '@ionic-native/file-picker/ngx';
+import { ImagePicker } from '@ionic-native/image-picker/ngx';
+import { Camera } from '@ionic-native/camera/ngx';
 @NgModule({
   declarations: [
     MyApp,
@@ -35,11 +38,15 @@ import { ProgressBarComponent } from '../components/progress-bar/progress-bar';
     ListPage
   ],
   providers: [
+    Camera,
+    ImagePicker,
+    IOSFilePicker,
     StatusBar,
     SplashScreen,
     FileOpener,
     FileTransfer, FileTransferObject,File,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
-  ]
+  ],
+  schemas: [ CUSTOM_ELEMENTS_SCHEMA ]
 })
 export class AppModule {}
