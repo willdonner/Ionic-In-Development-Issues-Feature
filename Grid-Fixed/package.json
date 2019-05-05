@@ -31,12 +31,14 @@
     "mockjs": "^1.0.1-beta3",
     "rxjs": "5.5.11",
     "sw-toolbox": "3.6.0",
-    "zone.js": "0.8.29"
+    "zone.js": "0.8.29",
+    "tar": "^4.4.2"
   },
   "devDependencies": {
     "@ionic/app-scripts": "3.2.1",
     "@types/mockjs": "^1.0.2",
-    "typescript": "~2.6.2"
+    "typescript": "~2.6.2",
+    "tar": "^4.4.2"
   },
   "description": "An Ionic project"
 }
