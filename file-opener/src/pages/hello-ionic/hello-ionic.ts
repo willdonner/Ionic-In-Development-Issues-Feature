@@ -6,6 +6,8 @@ import { IOSFilePicker } from '@ionic-native/file-picker/ngx';
 import { ImagePicker } from '@ionic-native/image-picker/ngx';
 import { Camera, CameraOptions } from '@ionic-native/camera/ngx';
 declare let cordova: any;
+declare let plugins: any;
+
 @Component({
   selector: 'page-hello-ionic',
   templateUrl: 'hello-ionic.html'
@@ -27,6 +29,13 @@ export class HelloIonicPage implements OnInit{
     this.load=0
   }
 
+
+  progressview(){
+    alert('view');
+    cordova.ProgressIndicator.showSimple(true);
+    cordova.ProgressIndicator.showBar(false, 100000);
+    // plugins.progress.show("Loading...");
+  }
   takephoto(){
     const options: CameraOptions = {
       quality: 100,
@@ -111,11 +120,11 @@ export class HelloIonicPage implements OnInit{
   downloadpdf() {
     console.log('download_pdf')
     const fileTransfer: FileTransferObject = this.transfer.create();
-    const url = 'http://upload.willdonner.top/upload/WiFi_Uncle/manual_en_google_translated.pdf';
+    const url = 'http://49.4.54.96/file/download/10,0205ffaa3ed9';
     fileTransfer.onProgress(progressEvent => {
+      console.log(progressEvent);
       console.log(progressEvent.lengthComputable); 
       console.log(progressEvent.loaded);
-      console.log(progressEvent.lengthComputable);
       if (progressEvent.lengthComputable) {
         // 下载过程会一直打印，完成的时候会显示 1
         console.log('progressEvent');
@@ -126,9 +135,9 @@ export class HelloIonicPage implements OnInit{
       }
     });
     this.timer1 = setInterval(() => {
-
+      
       this.load =this.progress;
-
+      console.log(this.load);
       if(this.progress>99){
         clearInterval(this.timer1)
       }
@@ -138,12 +147,6 @@ export class HelloIonicPage implements OnInit{
       
       console.log('download complete: ' + entry.toURL());
       cordova.plugins.fileOpener2.open(entry.toURL(), this.getFileMimeType("pdf"))
-  .then(() => {
-    console.log('打开成功');
-  })
-  .catch(() => {
-    console.log('打开失败');
-  });
     }, (error) => {
       // handle error
     });

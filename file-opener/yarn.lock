@@ -78,10 +78,10 @@
   dependencies:
     tslib "^1.7.1"
 
-"@ionic-native/camera@^5.5.0":
-  version "5.5.0"
-  resolved "https://registry.npm.taobao.org/@ionic-native/camera/download/@ionic-native/camera-5.5.0.tgz#52e122d9f8eb409bbe0d1561c60845d969a6e46d"
-  integrity sha1-UuEi2fjrQJu+DRVhxghF2Wmm5G0=
+"@ionic-native/camera@^5.5.1":
+  version "5.5.1"
+  resolved "https://registry.npm.taobao.org/@ionic-native/camera/download/@ionic-native/camera-5.5.1.tgz#a652d51f6416bfbafaba9a1883d171824a31f9be"
+  integrity sha1-plLVH2QWv7r6upoYg9Fxgkox+b4=
   dependencies:
     "@types/cordova" latest
 
@@ -1072,6 +1072,11 @@ cordova-plugin-ionic-webview@^2.3.1:
   version "2.3.1"
   resolved "http://registry.npm.taobao.org/cordova-plugin-ionic-webview/download/cordova-plugin-ionic-webview-2.3.1.tgz#13106cef1354b8aa8a4a6ef879f8759a2e707f49"
   integrity sha1-ExBs7xNUuKqKSm74efh1mi5wf0k=
+
+cordova-plugin-progress@0.3.0:
+  version "0.3.0"
+  resolved "https://registry.npm.taobao.org/cordova-plugin-progress/download/cordova-plugin-progress-0.3.0.tgz#7b54bb6631e756e1e276232312d00e1b5076e8f9"
+  integrity sha1-e1S7ZjHnVuHidiMjEtAOG1B26Pk=
 
 cordova-plugin-splashscreen@^5.0.2:
   version "5.0.2"

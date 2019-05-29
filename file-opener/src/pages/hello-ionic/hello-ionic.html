@@ -39,6 +39,11 @@
   
   <button full ion-button (click)="takephoto()">takephoto</button>
   
+
+  <button full ion-button (click)="progressview()">progressview</button>
+
+  <progress-bar [progress]="load" [color]="'#488aff'" *ngIf='load>1'>
+  </progress-bar>
   <!-- <progress-bar [progress]="load"></progress-bar> -->
 
 

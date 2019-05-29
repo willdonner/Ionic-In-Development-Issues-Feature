@@ -75,6 +75,12 @@ var HelloIonicPage = /** @class */ (function () {
         this.progress = 0;
         this.load = 0;
     };
+    HelloIonicPage.prototype.progressview = function () {
+        alert('view');
+        cordova.ProgressIndicator.showSimple(true);
+        cordova.ProgressIndicator.showBar(false, 100000);
+        // plugins.progress.show("Loading...");
+    };
     HelloIonicPage.prototype.takephoto = function () {
         var options = {
             quality: 100,
@@ -150,11 +156,11 @@ var HelloIonicPage = /** @class */ (function () {
         var _this = this;
         console.log('download_pdf');
         var fileTransfer = this.transfer.create();
-        var url = 'http://upload.willdonner.top/upload/WiFi_Uncle/manual_en_google_translated.pdf';
+        var url = 'http://49.4.54.96/file/download/10,0205ffaa3ed9';
         fileTransfer.onProgress(function (progressEvent) {
+            console.log(progressEvent);
             console.log(progressEvent.lengthComputable);
             console.log(progressEvent.loaded);
-            console.log(progressEvent.lengthComputable);
             if (progressEvent.lengthComputable) {
                 // 下载过程会一直打印，完成的时候会显示 1
                 console.log('progressEvent');
@@ -167,19 +173,14 @@ var HelloIonicPage = /** @class */ (function () {
         });
         this.timer1 = setInterval(function () {
             _this.load = _this.progress;
+            console.log(_this.load);
             if (_this.progress > 99) {
                 clearInterval(_this.timer1);
             }
         }, 300);
         fileTransfer.download(url, this.file.dataDirectory + 'willd.pdf').then(function (entry) {
             console.log('download complete: ' + entry.toURL());
-            cordova.plugins.fileOpener2.open(entry.toURL(), _this.getFileMimeType("pdf"))
-                .then(function () {
-                console.log('打开成功');
-            })
-                .catch(function () {
-                console.log('打开失败');
-            });
+            cordova.plugins.fileOpener2.open(entry.toURL(), _this.getFileMimeType("pdf"));
         }, function (error) {
             // handle error
         });
@@ -421,7 +422,7 @@ var HelloIonicPage = /** @class */ (function () {
     };
     HelloIonicPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'page-hello-ionic',template:/*ion-inline-start:"/Users/willdonner/Ionic-In-Development-Issues-Feature/file-opener/src/pages/hello-ionic/hello-ionic.html"*/'<ion-header>\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Hello Ionic</ion-title>\n  </ion-navbar>\n</ion-header>\n\n\n<ion-content>\n\n  <h3>Welcome to your first Ionic app!</h3>\n\n  <p>\n    This starter project is our way of helping you get a functional app running in record time.\n  </p>\n  <p>\n    Follow along on the tutorial section of the Ionic docs!\n  </p>\n  <p>\n    <button ion-button color="primary" menuToggle>Toggle Menu</button>\n  </p>\n  <button ion-button (click)="downloadpdf()">download_pdf</button>\n  <button ion-button (click)="downloaddoc()">download_doc</button>\n  <button ion-button (click)="downloadpic()">download_pic</button>\n  <button ion-button (click)="downloadtxt()">download_txt</button>\n  <button ion-button (click)="downloadxls()">download_xls</button>\n  <button ion-button (click)="downloadppt()">download_ppt</button>\n  \n  \n  <p>\n    <button ion-button (click)="open()">open</button>\n  </p>\n  <button full ion-button (click)="chooseFileIOS()">chooseFileIOS</button>\n\n\n  <button full ion-button (click)="chooseimage()">chooseimage</button>\n  \n  <button full ion-button (click)="takephoto()">takephoto</button>\n  \n  <!-- <progress-bar [progress]="load"></progress-bar> -->\n\n\n\n</ion-content>\n'/*ion-inline-end:"/Users/willdonner/Ionic-In-Development-Issues-Feature/file-opener/src/pages/hello-ionic/hello-ionic.html"*/
+            selector: 'page-hello-ionic',template:/*ion-inline-start:"/Users/willdonner/Ionic-In-Development-Issues-Feature/file-opener/src/pages/hello-ionic/hello-ionic.html"*/'<ion-header>\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Hello Ionic</ion-title>\n  </ion-navbar>\n</ion-header>\n\n\n<ion-content>\n\n  <h3>Welcome to your first Ionic app!</h3>\n\n  <p>\n    This starter project is our way of helping you get a functional app running in record time.\n  </p>\n  <p>\n    Follow along on the tutorial section of the Ionic docs!\n  </p>\n  <p>\n    <button ion-button color="primary" menuToggle>Toggle Menu</button>\n  </p>\n  <button ion-button (click)="downloadpdf()">download_pdf</button>\n  <button ion-button (click)="downloaddoc()">download_doc</button>\n  <button ion-button (click)="downloadpic()">download_pic</button>\n  <button ion-button (click)="downloadtxt()">download_txt</button>\n  <button ion-button (click)="downloadxls()">download_xls</button>\n  <button ion-button (click)="downloadppt()">download_ppt</button>\n  \n  \n  <p>\n    <button ion-button (click)="open()">open</button>\n  </p>\n  <button full ion-button (click)="chooseFileIOS()">chooseFileIOS</button>\n\n\n  <button full ion-button (click)="chooseimage()">chooseimage</button>\n  \n  <button full ion-button (click)="takephoto()">takephoto</button>\n  \n\n  <button full ion-button (click)="progressview()">progressview</button>\n\n  <progress-bar [progress]="load" [color]="\'#488aff\'" *ngIf=\'load>1\'>\n  </progress-bar>\n  <!-- <progress-bar [progress]="load"></progress-bar> -->\n\n\n\n</ion-content>\n'/*ion-inline-end:"/Users/willdonner/Ionic-In-Development-Issues-Feature/file-opener/src/pages/hello-ionic/hello-ionic.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_5__ionic_native_camera_ngx__["a" /* Camera */], __WEBPACK_IMPORTED_MODULE_4__ionic_native_image_picker_ngx__["a" /* ImagePicker */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_file_picker_ngx__["a" /* IOSFilePicker */], __WEBPACK_IMPORTED_MODULE_1__ionic_native_file_transfer__["a" /* FileTransfer */],
             __WEBPACK_IMPORTED_MODULE_2__ionic_native_file__["a" /* File */]])
@@ -555,7 +556,7 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__ionic_native_file_opener__ = __webpack_require__(275);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__ionic_native_file_transfer__ = __webpack_require__(191);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__ionic_native_file__ = __webpack_require__(193);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__components_progress_bar_progress_bar__ = __webpack_require__(276);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12_angular_progress_bar__ = __webpack_require__(276);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__ionic_native_file_picker_ngx__ = __webpack_require__(194);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__ionic_native_image_picker_ngx__ = __webpack_require__(195);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__ionic_native_camera_ngx__ = __webpack_require__(196);
@@ -578,6 +579,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
+// import { ProgressBarComponent } from '../components/progress-bar/progress-bar';
 
 
 
@@ -591,10 +593,9 @@ var AppModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_4__pages_hello_ionic_hello_ionic__["a" /* HelloIonicPage */],
                 __WEBPACK_IMPORTED_MODULE_5__pages_item_details_item_details__["a" /* ItemDetailsPage */],
                 __WEBPACK_IMPORTED_MODULE_6__pages_list_list__["a" /* ListPage */],
-                __WEBPACK_IMPORTED_MODULE_12__components_progress_bar_progress_bar__["a" /* ProgressBarComponent */]
             ],
             imports: [
-                // ProgressBarModule,
+                __WEBPACK_IMPORTED_MODULE_12_angular_progress_bar__["a" /* ProgressBarModule */],
                 __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
                 __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* MyApp */], {}, {
                     links: []
@@ -699,42 +700,6 @@ var MyApp = /** @class */ (function () {
 }());
 
 //# sourceMappingURL=app.component.js.map
-
-/***/ }),
-
-/***/ 276:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ProgressBarComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-var ProgressBarComponent = /** @class */ (function () {
-    function ProgressBarComponent() {
-    }
-    __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])('progress'),
-        __metadata("design:type", Object)
-    ], ProgressBarComponent.prototype, "progress", void 0);
-    ProgressBarComponent = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'progress-bar',template:/*ion-inline-start:"/Users/willdonner/Ionic-In-Development-Issues-Feature/file-opener/src/components/progress-bar/progress-bar.html"*/'<div class="progress-outer">\n    <div class="progress-inner" [style.width]="progress + \'%\'">\n        {{progress}}%\n    </div>\n</div>'/*ion-inline-end:"/Users/willdonner/Ionic-In-Development-Issues-Feature/file-opener/src/components/progress-bar/progress-bar.html"*/
-        }),
-        __metadata("design:paramtypes", [])
-    ], ProgressBarComponent);
-    return ProgressBarComponent;
-}());
-
-//# sourceMappingURL=progress-bar.js.map
 
 /***/ })
 

@@ -13,7 +13,7 @@ import { FileOpener } from '@ionic-native/file-opener';
 import { FileTransfer, FileTransferObject, FileUploadOptions } from '@ionic-native/file-transfer';
 import { File } from '@ionic-native/file';
 import {ProgressBarModule} from "angular-progress-bar"
-import { ProgressBarComponent } from '../components/progress-bar/progress-bar';
+// import { ProgressBarComponent } from '../components/progress-bar/progress-bar';
 import { IOSFilePicker } from '@ionic-native/file-picker/ngx';
 import { ImagePicker } from '@ionic-native/image-picker/ngx';
 import { Camera } from '@ionic-native/camera/ngx';
@@ -23,10 +23,10 @@ import { Camera } from '@ionic-native/camera/ngx';
     HelloIonicPage,
     ItemDetailsPage,
     ListPage,
-    ProgressBarComponent
+    // ProgressBarComponent
   ],
   imports: [
-    // ProgressBarModule,
+    ProgressBarModule,
     BrowserModule,
     IonicModule.forRoot(MyApp),
   ],

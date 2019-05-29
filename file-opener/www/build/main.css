@@ -25674,26 +25674,6 @@ ion-navbar.toolbar {
   min-height: calc(46px + env(safe-area-inset-bottom));
 }
 
-progress-bar .progress-outer {
-  width: 96%;
-  margin: 10px 2%;
-  padding: 3px;
-  text-align: center;
-  background-color: #f4f4f4;
-  border: 1px solid #dcdcdc;
-  color: #fff;
-  border-radius: 20px;
-}
-
-progress-bar .progress-inner {
-  min-width: 15%;
-  white-space: nowrap;
-  overflow: hidden;
-  padding: 5px;
-  border-radius: 20px;
-  background-color: #488aff;
-}
-
 page-hello-ionic ion-progress-bar {
   margin-top: 10%;
 }

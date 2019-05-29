@@ -92,6 +92,8 @@
         <variable name="PHOTO_LIBRARY_USAGE_DESCRIPTION" value="your usage message" />
     </plugin>
     <plugin name="cordova-plugin-camera" spec="4.0.3" />
-    <engine name="android" spec="7.0.0" />
+    <plugin name="cordova-plugin-progress" spec="0.3.0" />
+    <plugin name="org.pbernasconi.progressindicator" spec="~1.1.0" />
+    <engine name="android" spec="7.1.4" />
     <engine name="ios" spec="4.5.5" />
 </widget>
