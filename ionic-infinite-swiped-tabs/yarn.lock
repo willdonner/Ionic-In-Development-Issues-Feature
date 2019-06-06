@@ -2978,7 +2978,7 @@ node-gyp@^3.3.1:
     request "^2.87.0"
     rimraf "2"
     semver "~5.3.0"
-    tar "^2.0.0"
+    tar "^2.2.2"
     which "1"
 
 node-libs-browser@^2.0.0:
@@ -4345,9 +4345,9 @@ tapable@^0.2.7:
   resolved "http://registry.npm.taobao.org/tapable/download/tapable-0.2.9.tgz#af2d8bbc9b04f74ee17af2b4d9048f807acd18a8"
   integrity sha1-ry2LvJsE907hevK02QSPgHrNGKg=
 
-tar@^2.0.0:
+tar@^2.2.2:
   version "2.2.1"
-  resolved "http://registry.npm.taobao.org/tar/download/tar-2.2.1.tgz#8e4d2a256c0e2185c6b18ad694aec968b83cb1d1"
+  resolved "http://registry.npm.taobao.org/tar/download/tar-2.2.2.tgz#8e4d2a256c0e2185c6b18ad694aec968b83cb1d1"
   integrity sha1-jk0qJWwOIYXGsYrWlK7JaLg8sdE=
   dependencies:
     block-stream "*"
