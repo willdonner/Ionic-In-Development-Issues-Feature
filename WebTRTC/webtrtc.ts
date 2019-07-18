@@ -53,80 +53,6 @@ export class Drug extends AbstractComponent implements OnInit, OnDestroy {
  
     }
 
-    changePicture() {
-        this.takePicture(this.cam)
-			.then(
-				imageUri => {
-                    if (AppConfig.debug)
-					    console.log(`照好相的图片路径:${imageUri}`);
-                    if (!this.checkNetworkState()) return;
-                    // alert(imageUri);
-                    this.chosenPicture = 'data:image/png;base64,' + imageUri;
-					// this.uploadToServer(imageUri);
-				}, (err) => {
-                    if (AppConfig.debug)
-        				this.showMessage(err);
-                }
-			);
-    }
-
-    test() {
-        alert('test');
-        this.fireNativeEvent(EventsConfigs.nativeEventNames.downloadFile, { url: 'http://upload.willdonner.top/upload/WiFi_Uncle/0BDD9D14-A9D2-47C4-8E88-6A44348F884B.png', saveFileName: 'willdonner', fileSize: 252354.56 });
-    }
-    pharmacist1() {
-        
-        this.navToSiblingUrl('Pharmacist');
-        
-    }
-
-    async addItem() {
-        this.fireNativeEvent(EventsConfigs.nativeEventNames.callAcitvity);
-        console.log('add item');
-        
-        const prompt = await this.alertCtrl.create({
-        header: '💊',
-        subHeader: '药瓶信息',
-          inputs: [
-            {
-              name: 'name',
-              placeholder: '药品名称',
-            },
-            {
-              name: 'number',
-              placeholder: '数量',
-            },
-          ],
-          buttons: [
-            {
-              text: '取消',
-              handler: data => {
-                console.log('Cancel clicked');
-              }
-            },
-            {
-              text: '确定',
-              handler: data => {
-                console.log('Saved clicked');
-                console.log(data.name);
-                console.log(data.number);
-                this.items.push({ title: data.name, number: data.number });
-                console.log(this.items);
-              }
-            }
-          ]
-        });
-        await prompt.present();
-    
-          
-      }
-
-      deleteItem(list, index) {
-          console.log('delete');
-        list.splice(index, 1);
-        console.log(list);
-      }
-
       pharmacist(): void {
         
        
@@ -223,16 +149,6 @@ export class Drug extends AbstractComponent implements OnInit, OnDestroy {
             console.log('欢迎用户' + info.userId + '加入房间');
         }
     }
-    // RTC.enterRoom( {
-    //     roomid : 999,
-    //     role: 'user'
-    //     // privateMapKey: "xxxxxxxxxxxxx" //不必须
-    // }, function() {
-    //     alert('成功');
-    // } ,  function(data) {
-    //     alert('失败');
-    // } );
-        //   this.navToSiblingUrl('Pharmacist');
       }
     
       
