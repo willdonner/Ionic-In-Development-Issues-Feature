@@ -180,8 +180,8 @@ export class Drug extends AbstractComponent implements OnInit, OnDestroy {
     }
     const RTC = new WebRTCAPI( {
         'userId': 'Web_trtc_01',
-        'sdkAppId':  1400229864,
-        'userSig': 'eJxlj11PgzAUhu-5FQ23M1rKiszEG5ARFM0QP7KrBmnB4xglXRE2439XcYlNPLfPk-d9z4eFELIf0vy0KEvZt5rpfSdsdIFsbJ-8wa4DzgrNXMX-QTF2oAQrKi3UBB1KKcHYdICLVkMFR*NZvDCtdMmwY0g7vmFT02-KHGNCFr43NxWoJ3gbPYZJFr45axnNgnqoxuyp8RrKiducaW8ZDOVVkWHoE5U2d3VDs6TmQbWCtRy3YhPmcMhfh*uoXOYyje8xF7ODH0T9zXk8rmL-0qjUsBXHtzyywA4l5uZ3oXYg20kg39AhLv452-q0vgC-rV9S',
+        'sdkAppId':  xxxx,
+        'userSig': 'xxx',
         'debug': {
             'log': true, // 是否在控制台打印调试日志 ,默认为false
             'vconsole': true, // 是否展示 vconsole （方便在移动端查看日志）
