@@ -20,7 +20,7 @@
         "@angular/core": "5.0.0",
         "@angular/forms": "5.0.0",
         "@angular/http": "5.0.0",
-        "@angular/platform-browser": "5.0.0",
+        "@angular/platform-browser": "10.0.1",
         "@angular/platform-browser-dynamic": "5.0.0",
         "@angular/tsc-wrapped": "4.2.6",
         "@ionic-native/barcode-scanner": "4.5.2",
