@@ -19,7 +19,7 @@
         "@angular/compiler-cli": "5.0.0",
         "@angular/core": "5.0.0",
         "@angular/forms": "5.0.0",
-        "@angular/http": "5.0.0",
+        "@angular/http": "7.2.16",
         "@angular/platform-browser": "10.0.1",
         "@angular/platform-browser-dynamic": "5.0.0",
         "@angular/tsc-wrapped": "4.2.6",
