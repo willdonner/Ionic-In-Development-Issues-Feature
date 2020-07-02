@@ -289,12 +289,12 @@ android-versions@^1.2.1:
   dependencies:
     semver "^5.4.1"
 
-angular2-swing@^0.12.1:
-  version "0.12.1"
-  resolved "http://registry.npm.taobao.org/angular2-swing/download/angular2-swing-0.12.1.tgz#b5666198fe4520b6414ec084c87de10641da2cca"
-  integrity sha1-tWZhmP5FILZBTsCEyH3hBkHaLMo=
+angular2-swing@^0.14.0:
+  version "0.14.0"
+  resolved "https://registry.yarnpkg.com/angular2-swing/-/angular2-swing-0.14.0.tgz#7bda1fca50d32bcf31fdb76641e7787dd3cb0176"
+  integrity sha512-SPsb0RgoPneQa4ECZTOpjhJH7KvE4xf6qfXfv6ZIijulV1cMjXOUGsVS9tjtU6pvu7FOfGzKiL7IdnrTckazxA==
   dependencies:
-    swing "^4.3.0"
+    swing "^3.1.1"
 
 ansi-escapes@^3.0.0:
   version "3.1.0"
@@ -4481,10 +4481,10 @@ sw-toolbox@3.6.0:
     path-to-regexp "^1.0.1"
     serviceworker-cache-polyfill "^4.0.0"
 
-swing@^4.3.0:
-  version "4.4.0"
-  resolved "http://registry.npm.taobao.org/swing/download/swing-4.4.0.tgz#1a7618030caef07a0271cc084c624228ff5f0d6a"
-  integrity sha1-GnYYAwyu8HoCccwITGJCKP9fDWo=
+swing@^3.1.1:
+  version "3.1.4"
+  resolved "https://registry.yarnpkg.com/swing/-/swing-3.1.4.tgz#1aebb051bb8865be84a356ff4fc05dfcd870f04c"
+  integrity sha512-Qqjl2ncOV/0mtc6cjFs7iEJ4pFhDwyf9HMjSFAAS/67bIG6CthVjUxrhoi3h0XeQfoFu3VRTJCYkb8tqSMMPng==
   dependencies:
     hammerjs "^2.0.4"
     lodash "^4.6.1"
