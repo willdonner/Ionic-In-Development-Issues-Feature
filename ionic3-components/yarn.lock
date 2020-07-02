@@ -1128,10 +1128,10 @@ cordova-plugin-device@^1.1.4:
   resolved "http://registry.npm.taobao.org/cordova-plugin-device/download/cordova-plugin-device-1.1.7.tgz#fc94111be6932628c66868938ddf3dc82c9fbfe6"
   integrity sha1-/JQRG+aTJijGaGiTjd89yCyfv+Y=
 
-cordova-plugin-geolocation@^2.4.3:
-  version "2.4.3"
-  resolved "http://registry.npm.taobao.org/cordova-plugin-geolocation/download/cordova-plugin-geolocation-2.4.3.tgz#1dd00023d1f1a2ce330f8767ed08f7b738fe7184"
-  integrity sha1-HdAAI9Hxos4zD4dn7Qj3tzj+cYQ=
+cordova-plugin-geolocation@^4.0.2:
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/cordova-plugin-geolocation/-/cordova-plugin-geolocation-4.0.2.tgz#4668a01ae8a49e27c5515f8b81880983e96d7eb3"
+  integrity sha512-QGThnPKzPxESHkruZlpE0+5aFBVOet8al0vIJ7laSUOQHIC1dd/JY6peVIbtLboKi5Dap1wCKRubOqPqH8xcQA==
 
 cordova-plugin-googlemaps@^1.4.5:
   version "1.4.5"
