@@ -117,10 +117,12 @@
   resolved "http://registry.npm.taobao.org/@ionic-native/core/download/@ionic-native/core-4.5.2.tgz#56c1ee0d3e9dd3f02c29c26eeb868ab36a48a6f5"
   integrity sha1-VsHuDT6d0/AsKcJu64aKs2pIpvU=
 
-"@ionic-native/diagnostic@4.5.2":
-  version "4.5.2"
-  resolved "http://registry.npm.taobao.org/@ionic-native/diagnostic/download/@ionic-native/diagnostic-4.5.2.tgz#5ca900a8141f61201ddb2d78d446179dc02ffa53"
-  integrity sha1-XKkAqBQfYSAd2y141EYXncAv+lM=
+"@ionic-native/diagnostic@5.27.0":
+  version "5.27.0"
+  resolved "https://registry.yarnpkg.com/@ionic-native/diagnostic/-/diagnostic-5.27.0.tgz#8e18f550f3e8b75fcad98c5d941416210247c347"
+  integrity sha512-TwRLorUXRrJiNMCOM+UGKDmb7akt8NaIJtQ9vscUUO8ym25wEqav63wIJbySNUyeSIRcfK/lJ0cobvs2scVXDw==
+  dependencies:
+    "@types/cordova" latest
 
 "@ionic-native/geolocation@5.27.0":
   version "5.27.0"
