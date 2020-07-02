@@ -18,7 +18,7 @@
     "@angular/animations": "5.2.11",
     "@angular/common": "10.0.1",
     "@angular/compiler": "5.2.11",
-    "@angular/compiler-cli": "5.2.11",
+    "@angular/compiler-cli": "10.0.1",
     "@angular/core": "5.2.11",
     "@angular/forms": "5.2.11",
     "@angular/http": "5.2.11",
