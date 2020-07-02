@@ -1049,9 +1049,9 @@ cordova-ios@6.1.0:
     xml-escape "^1.1.0"
 
 "cordova-plugin-alipay-v2@git+https://github.com/hhjjj1010/cordova-plugin-alipay-v2.git":
-  version "1.0.0"
-  uid "382fb0b3fcdf3bc09bc9838a3fd83acb08b12d67"
-  resolved "git+https://github.com/hhjjj1010/cordova-plugin-alipay-v2.git#382fb0b3fcdf3bc09bc9838a3fd83acb08b12d67"
+  version "2.0.0"
+  uid "18d23d7064325c882fabe4e7211a9daa98e73ad1"
+  resolved "git+https://github.com/hhjjj1010/cordova-plugin-alipay-v2.git#18d23d7064325c882fabe4e7211a9daa98e73ad1"
 
 cordova-plugin-device@^2.0.2:
   version "2.0.3"
