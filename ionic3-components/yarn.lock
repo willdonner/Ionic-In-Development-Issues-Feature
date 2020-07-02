@@ -137,10 +137,12 @@
   resolved "http://registry.npm.taobao.org/@ionic-native/splash-screen/download/@ionic-native/splash-screen-4.5.2.tgz#f4484e8a50e33edacfd07f934c118635c78772cd"
   integrity sha1-9EhOilDjPtrP0H+TTBGGNceHcs0=
 
-"@ionic-native/status-bar@4.5.2":
-  version "4.5.2"
-  resolved "http://registry.npm.taobao.org/@ionic-native/status-bar/download/@ionic-native/status-bar-4.5.2.tgz#8c32d48f3c46ea7477e99e8605d4dd885ab03805"
-  integrity sha1-jDLUjzxG6nR36Z6GBdTdiFqwOAU=
+"@ionic-native/status-bar@5.27.0":
+  version "5.27.0"
+  resolved "https://registry.yarnpkg.com/@ionic-native/status-bar/-/status-bar-5.27.0.tgz#a2e8c90537939ab51a3fb06b88ecc906b5a5905c"
+  integrity sha512-N0NIZTbi5KSA0GwTWsaJJLsve6ANQ+cy141+oUCXFPjtCYXyp1mOGcFiAE2UiI/N8SpmcLlV53zYhqIP8ish2Q==
+  dependencies:
+    "@types/cordova" latest
 
 "@ionic/app-scripts@3.1.7":
   version "3.1.7"
@@ -182,6 +184,11 @@
     "@types/localforage" "0.0.30"
     localforage "~1.4.2"
     localforage-cordovasqlitedriver "~1.5.0"
+
+"@types/cordova@latest":
+  version "0.0.34"
+  resolved "https://registry.yarnpkg.com/@types/cordova/-/cordova-0.0.34.tgz#ea7addf74ecec3d7629827a0c39e2c9addc73d04"
+  integrity sha1-6nrd907Ow9dimCegw54smt3HPQQ=
 
 "@types/localforage@0.0.30":
   version "0.0.30"
