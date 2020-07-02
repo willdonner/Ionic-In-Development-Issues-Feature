@@ -6,63 +6,140 @@ updates:
     interval: daily
     time: "21:00"
   open-pull-requests-limit: 10
+  automerged_updates:
+      - match:
+          dependency_type: "development"
+          update_type: "all"
+      - match:
+          dependency_type: "production"
+          update_type: "semver:patch"
 - package-ecosystem: npm
   directory: "/Grid-Fixed"
   schedule:
     interval: daily
     time: "21:00"
   open-pull-requests-limit: 10
+  automerged_updates:
+      - match:
+          dependency_type: "development"
+          update_type: "all"
+      - match:
+          dependency_type: "production"
+          update_type: "semver:patch"
 - package-ecosystem: npm
   directory: "/IMDbApp"
   schedule:
     interval: daily
     time: "21:00"
   open-pull-requests-limit: 10
+  automerged_updates:
+      - match:
+          dependency_type: "development"
+          update_type: "all"
+      - match:
+          dependency_type: "production"
+          update_type: "semver:patch"
 - package-ecosystem: npm
   directory: "/WebTRTC"
   schedule:
     interval: daily
     time: "21:00"
   open-pull-requests-limit: 10  
+  automerged_updates:
+      - match:
+          dependency_type: "development"
+          update_type: "all"
+      - match:
+          dependency_type: "production"
+          update_type: "semver:patch"
 - package-ecosystem: npm
   directory: "/alipay_v2_copy2"
   schedule:
     interval: daily
     time: "21:00"
   open-pull-requests-limit: 10    
+  automerged_updates:
+      - match:
+          dependency_type: "development"
+          update_type: "all"
+      - match:
+          dependency_type: "production"
+          update_type: "semver:patch"
 - package-ecosystem: npm
   directory: "/expandableList"
   schedule:
     interval: daily
     time: "21:00"
   open-pull-requests-limit: 10      
+  automerged_updates:
+      - match:
+          dependency_type: "development"
+          update_type: "all"
+      - match:
+          dependency_type: "production"
+          update_type: "semver:patch"
 - package-ecosystem: npm
   directory: "/file-opener"
   schedule:
     interval: daily
     time: "21:00"
   open-pull-requests-limit: 10        
+  automerged_updates:
+      - match:
+          dependency_type: "development"
+          update_type: "all"
+      - match:
+          dependency_type: "production"
+          update_type: "semver:patch"
 - package-ecosystem: npm
   directory: "/fixed-col-row"
   schedule:
     interval: daily
     time: "21:00"
   open-pull-requests-limit: 10      
+  automerged_updates:
+      - match:
+          dependency_type: "development"
+          update_type: "all"
+      - match:
+          dependency_type: "production"
+          update_type: "semver:patch"
 - package-ecosystem: npm
   directory: "/ionic-infinite-swiped-tabs"
   schedule:
     interval: daily
     time: "21:00"
   open-pull-requests-limit: 10        
+  automerged_updates:
+      - match:
+          dependency_type: "development"
+          update_type: "all"
+      - match:
+          dependency_type: "production"
+          update_type: "semver:patch"
 - package-ecosystem: npm
   directory: "/ionic_hot-code-push"
   schedule:
     interval: daily
     time: "21:00"
   open-pull-requests-limit: 10        
+  automerged_updates:
+      - match:
+          dependency_type: "development"
+          update_type: "all"
+      - match:
+          dependency_type: "production"
+          update_type: "semver:patch"
 - package-ecosystem: npm
   directory: "/wechat"
   schedule:
     interval: daily
     time: "21:00"
   open-pull-requests-limit: 10    
+  automerged_updates:
+      - match:
+          dependency_type: "development"
+          update_type: "all"
+      - match:
+          dependency_type: "production"
+          update_type: "semver:patch"
