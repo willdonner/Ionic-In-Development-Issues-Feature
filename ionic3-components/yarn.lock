@@ -71,10 +71,10 @@
   dependencies:
     tslib "^2.0.0"
 
-"@angular/tsc-wrapped@4.4.6":
-  version "4.4.6"
-  resolved "https://registry.yarnpkg.com/@angular/tsc-wrapped/-/tsc-wrapped-4.4.6.tgz#16787cbbf50bdc7e738123b19c32527f244e178d"
-  integrity sha1-Fnh8u/UL3H5zgSOxnDJSfyROF40=
+"@angular/tsc-wrapped@4.2.6":
+  version "4.2.6"
+  resolved "https://registry.yarnpkg.com/@angular/tsc-wrapped/-/tsc-wrapped-4.2.6.tgz#60e44b5b38f3340ee14c54a58a7a07133c64e898"
+  integrity sha1-YORLWzjzNA7hTFSlinoHEzxk6Jg=
   dependencies:
     tsickle "^0.21.0"
 
@@ -126,12 +126,10 @@
   dependencies:
     "@types/cordova" latest
 
-"@ionic-native/geolocation@5.27.0":
-  version "5.27.0"
-  resolved "https://registry.yarnpkg.com/@ionic-native/geolocation/-/geolocation-5.27.0.tgz#9c02a6058f131afa2121825ca96d7cc6aee44b20"
-  integrity sha512-D0OwSd+0IOh5ImCKKEeuscJWbqU/ewW199snwyBv1va+0C18GVM2nPz8t1RXfPTgsjl4KEpl7TtTUGBrcibwBg==
-  dependencies:
-    "@types/cordova" latest
+"@ionic-native/geolocation@4.5.2":
+  version "4.5.2"
+  resolved "https://registry.yarnpkg.com/@ionic-native/geolocation/-/geolocation-4.5.2.tgz#06597e70a63af4bc0208ddb56808a32f88df41f5"
+  integrity sha512-XCrUB1BJaGrzoWJ6rCQZSfslbRMiqB0ROU5XZOyYdg7Yf+DIX9o6qernDSRl9yHJ7c7QhI1XId6x5PHgZjNP/w==
 
 "@ionic-native/google-maps@4.5.2":
   version "4.5.2"
@@ -893,10 +891,10 @@ chardet@^0.4.0:
   resolved "http://registry.npm.taobao.org/chardet/download/chardet-0.4.2.tgz#b5473b33dc97c424e5d98dc87d55d4d8a29c8bf2"
   integrity sha1-tUc7M9yXxCTl2Y3IfVXU2KKci/I=
 
-chart.js@^2.4.0:
-  version "2.7.3"
-  resolved "http://registry.npm.taobao.org/chart.js/download/chart.js-2.7.3.tgz#cdb61618830bf216dc887e2f7b1b3c228b73c57e"
-  integrity sha1-zbYWGIML8hbciH4vexs8IotzxX4=
+chart.js@^2.9.3:
+  version "2.9.3"
+  resolved "https://registry.yarnpkg.com/chart.js/-/chart.js-2.9.3.tgz#ae3884114dafd381bc600f5b35a189138aac1ef7"
+  integrity sha512-+2jlOobSk52c1VU6fzkh3UwqHMdSlgH1xFv9FKMqHiNCpXsGPQa/+81AFa+i3jZ253Mq9aAycPwDjnn1XbRNNw==
   dependencies:
     chartjs-color "^2.1.0"
     moment "^2.10.2"
@@ -4928,11 +4926,6 @@ tslib@^1.0.0, tslib@^1.7.1, tslib@^1.8.0, tslib@^1.8.1, tslib@^1.9.0:
   version "1.13.0"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.13.0.tgz#c881e13cc7015894ed914862d276436fa9a47043"
   integrity sha512-i/6DQjL8Xf3be4K/E6Wgpekn5Qasl1usyw++dAA35Ue5orEn65VIxOA+YvNNl9HV3qv70T7CNwjODHZrLwvd1Q==
-
-tslib@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.0.0.tgz#18d13fc2dce04051e20f074cc8387fd8089ce4f3"
-  integrity sha512-lTqkx847PI7xEDYJntxZH89L2/aXInsyF2luSafe/+0fHOMjlBNXdH6th7f70qxLDhul7KZK0zC8V5ZIyHl0/g==
 
 tslib@^2.0.0:
   version "2.0.0"
