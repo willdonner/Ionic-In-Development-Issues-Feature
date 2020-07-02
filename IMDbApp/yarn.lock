@@ -2066,10 +2066,10 @@ ionic-angular@3.9.3:
   resolved "http://registry.npm.taobao.org/ionic-angular/download/ionic-angular-3.9.3.tgz#cdd9e46681e35fb2bbd827b4101eb5421451f2c9"
   integrity sha1-zdnkZoHjX7K72Ce0EB61QhRR8sk=
 
-ionicons@3.0.0:
-  version "3.0.0"
-  resolved "http://registry.npm.taobao.org/ionicons/download/ionicons-3.0.0.tgz#40b8daf4fd7a31150bd002160f66496e22a98c3c"
-  integrity sha1-QLja9P16MRUL0AIWD2ZJbiKpjDw=
+ionicons@5.1.2:
+  version "5.1.2"
+  resolved "https://registry.yarnpkg.com/ionicons/-/ionicons-5.1.2.tgz#f00f17d2f23be94e8a248c9ebbaea236a6132f0d"
+  integrity sha512-zO7ZgbBbXhpA7cXO2rDzTNdcCqErjg1Sprq/ossTvaiV0MriOjRE7JO3EGvYjDTPzF9YALGpvLXqCgsRT0tprA==
 
 ipaddr.js@1.8.0:
   version "1.8.0"
