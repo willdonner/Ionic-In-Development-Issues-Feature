@@ -64,12 +64,12 @@
   dependencies:
     tslib "^1.7.1"
 
-"@angular/platform-browser@5.0.0":
-  version "5.0.0"
-  resolved "http://registry.npm.taobao.org/@angular/platform-browser/download/@angular/platform-browser-5.0.0.tgz#c7038f7cde80705b62014897231e182eec976fed"
-  integrity sha1-xwOPfN6AcFtiAUiXIx4YLuyXb+0=
+"@angular/platform-browser@10.0.1":
+  version "10.0.1"
+  resolved "https://registry.yarnpkg.com/@angular/platform-browser/-/platform-browser-10.0.1.tgz#ee1fb9777a5a50e9b97057a49f3fd0551c52870d"
+  integrity sha512-xX/vwxWxQ2d52TVqAkSZBKnO8fd+cxuvoFjWTcdhWm91/U75em0WGxQHn2xwmERaAqezsovY/qeU4DDpOMsJxQ==
   dependencies:
-    tslib "^1.7.1"
+    tslib "^2.0.0"
 
 "@angular/tsc-wrapped@4.2.6":
   version "4.2.6"
@@ -124,10 +124,12 @@
   dependencies:
     "@types/cordova" latest
 
-"@ionic-native/geolocation@4.5.2":
-  version "4.5.2"
-  resolved "http://registry.npm.taobao.org/@ionic-native/geolocation/download/@ionic-native/geolocation-4.5.2.tgz#06597e70a63af4bc0208ddb56808a32f88df41f5"
-  integrity sha1-Bll+cKY69LwCCN21aAijL4jfQfU=
+"@ionic-native/geolocation@5.27.0":
+  version "5.27.0"
+  resolved "https://registry.yarnpkg.com/@ionic-native/geolocation/-/geolocation-5.27.0.tgz#9c02a6058f131afa2121825ca96d7cc6aee44b20"
+  integrity sha512-D0OwSd+0IOh5ImCKKEeuscJWbqU/ewW199snwyBv1va+0C18GVM2nPz8t1RXfPTgsjl4KEpl7TtTUGBrcibwBg==
+  dependencies:
+    "@types/cordova" latest
 
 "@ionic-native/google-maps@4.5.2":
   version "4.5.2"
@@ -4638,6 +4640,11 @@ tslib@^1.0.0, tslib@^1.7.1, tslib@^1.8.0, tslib@^1.8.1:
   version "1.9.3"
   resolved "http://registry.npm.taobao.org/tslib/download/tslib-1.9.3.tgz#d7e4dd79245d85428c4d7e4822a79917954ca286"
   integrity sha1-1+TdeSRdhUKMTX5IIqeZF5VMooY=
+
+tslib@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.0.0.tgz#18d13fc2dce04051e20f074cc8387fd8089ce4f3"
+  integrity sha512-lTqkx847PI7xEDYJntxZH89L2/aXInsyF2luSafe/+0fHOMjlBNXdH6th7f70qxLDhul7KZK0zC8V5ZIyHl0/g==
 
 tslint-config-airbnb@^5.11.2:
   version "5.11.2"
