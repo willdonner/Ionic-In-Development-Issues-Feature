@@ -23,7 +23,7 @@
         "@angular/platform-browser": "10.0.1",
         "@angular/platform-browser-dynamic": "5.0.0",
         "@angular/tsc-wrapped": "4.2.6",
-        "@ionic-native/barcode-scanner": "4.5.2",
+        "@ionic-native/barcode-scanner": "5.27.0",
         "@ionic-native/camera": "4.5.2",
         "@ionic-native/card-io": "4.5.2",
         "@ionic-native/core": "4.5.2",
