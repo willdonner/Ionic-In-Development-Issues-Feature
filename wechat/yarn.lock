@@ -104,10 +104,10 @@
   dependencies:
     "@types/cordova" latest
 
-"@ionic-native/wechat@^5.4.0":
-  version "5.4.0"
-  resolved "http://registry.npm.taobao.org/@ionic-native/wechat/download/@ionic-native/wechat-5.4.0.tgz#dcdad13bc2761afbde442ca85c5143bf94fb73af"
-  integrity sha1-3NrRO8J2GvveRCyoXFFDv5T7c68=
+"@ionic-native/wechat@^5.27.0":
+  version "5.27.0"
+  resolved "https://registry.yarnpkg.com/@ionic-native/wechat/-/wechat-5.27.0.tgz#faff15d49455abe2225ed13c593614dbc77e469f"
+  integrity sha512-n/4fCwM/sCjauAtYJHoMW+naauGRYYasLR+vqgSxlo6i06WDdjYcusVq3xcFC5Do6D6DnfelPvgzGY4S3g9Ksw==
   dependencies:
     "@types/cordova" latest
 
