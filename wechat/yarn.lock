@@ -45,12 +45,12 @@
     tslib "^2.0.0"
     yargs "15.3.0"
 
-"@angular/compiler@5.2.11":
-  version "5.2.11"
-  resolved "http://registry.npm.taobao.org/@angular/compiler/download/@angular/compiler-5.2.11.tgz#ca2c38cda6ddde52b5948b8cff6551ff19d5e9de"
-  integrity sha1-yiw4zabd3lK1lIuM/2VR/xnV6d4=
+"@angular/compiler@10.0.1":
+  version "10.0.1"
+  resolved "https://registry.yarnpkg.com/@angular/compiler/-/compiler-10.0.1.tgz#6ceaa0fc9157fe273a4877bdae49fe5e48fe0873"
+  integrity sha512-9DqDJ12D5/9DCs21d+UzTHAvls6OqO8VAoG43qI0CQubcmJ8ABY3wiUtu5kwF7ohDU2l/jIMGLt+4LG6KJJiPQ==
   dependencies:
-    tslib "^1.7.1"
+    tslib "^2.0.0"
 
 "@angular/core@5.2.11":
   version "5.2.11"
@@ -97,10 +97,12 @@
   resolved "http://registry.npm.taobao.org/@ionic-native/splash-screen/download/@ionic-native/splash-screen-4.18.0.tgz#2726448e20f447dac35e29f831f7342771050fd2"
   integrity sha1-JyZEjiD0R9rDXin4Mfc0J3EFD9I=
 
-"@ionic-native/status-bar@~4.18.0":
-  version "4.18.0"
-  resolved "http://registry.npm.taobao.org/@ionic-native/status-bar/download/@ionic-native/status-bar-4.18.0.tgz#793130baf26b6fb4172250f6fd839d25a926ffc7"
-  integrity sha1-eTEwuvJrb7QXIlD2/YOdJakm/8c=
+"@ionic-native/status-bar@~5.27.0":
+  version "5.27.0"
+  resolved "https://registry.yarnpkg.com/@ionic-native/status-bar/-/status-bar-5.27.0.tgz#a2e8c90537939ab51a3fb06b88ecc906b5a5905c"
+  integrity sha512-N0NIZTbi5KSA0GwTWsaJJLsve6ANQ+cy141+oUCXFPjtCYXyp1mOGcFiAE2UiI/N8SpmcLlV53zYhqIP8ish2Q==
+  dependencies:
+    "@types/cordova" latest
 
 "@ionic-native/wechat@^5.4.0":
   version "5.4.0"
@@ -4494,10 +4496,15 @@ type-is@~1.6.16:
     media-typer "0.3.0"
     mime-types "~2.1.18"
 
-typescript@~2.6.1, typescript@~2.6.2:
+typescript@~2.6.1:
   version "2.6.2"
   resolved "http://registry.npm.taobao.org/typescript/download/typescript-2.6.2.tgz#3c5b6fd7f6de0914269027f03c0946758f7673a4"
   integrity sha1-PFtv1/beCRQmkCfwPAlGdY92c6Q=
+
+typescript@~3.9.6:
+  version "3.9.6"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.9.6.tgz#8f3e0198a34c3ae17091b35571d3afd31999365a"
+  integrity sha512-Pspx3oKAPJtjNwE92YS05HQoY7z2SFyOpHo9MqJor3BXAGNaPUs83CuVp9VISFkSjyRfiTpmKuAYGJB7S7hOxw==
 
 uglify-es@3.2.2:
   version "3.2.2"
