@@ -60,7 +60,7 @@
     "devDependencies": {
         "@ionic/app-scripts": "3.1.7",
         "all-contributors-cli": "^4.5.0",
-        "typescript": "2.4.2"
+        "typescript": "3.9.6"
     },
     "cordovaPlugins": [
         "cordova-plugin-whitelist",
