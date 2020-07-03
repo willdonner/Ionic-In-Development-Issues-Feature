@@ -31,7 +31,7 @@
     "cordova-android": "7.0.0",
     "cordova-ios": "6.1.0",
     "cordova-plugin-alipay-v2": "git+https://github.com/hhjjj1010/cordova-plugin-alipay-v2.git",
-    "cordova-plugin-device": "^2.0.2",
+    "cordova-plugin-device": "^2.0.3",
     "cordova-plugin-ionic-keyboard": "^2.2.0",
     "cordova-plugin-ionic-webview": "^3.1.2",
     "cordova-plugin-splashscreen": "^5.0.4",
