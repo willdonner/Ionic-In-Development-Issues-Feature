@@ -1053,7 +1053,7 @@ cordova-ios@6.1.0:
   uid "18d23d7064325c882fabe4e7211a9daa98e73ad1"
   resolved "git+https://github.com/hhjjj1010/cordova-plugin-alipay-v2.git#18d23d7064325c882fabe4e7211a9daa98e73ad1"
 
-cordova-plugin-device@^2.0.2:
+cordova-plugin-device@^2.0.3:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/cordova-plugin-device/-/cordova-plugin-device-2.0.3.tgz#c2b41b7efd0455dd097f89356d85bfdd5dadeb0f"
   integrity sha512-Jb3V72btxf3XHpkPQsGdyc8N6tVBYn1vsxSFj43fIz9vonJDUThYPCJJHqk6PX6N4dJw6I4FjxkpfCR4LDYMlw==
@@ -1063,10 +1063,10 @@ cordova-plugin-ionic-keyboard@^2.2.0:
   resolved "https://registry.yarnpkg.com/cordova-plugin-ionic-keyboard/-/cordova-plugin-ionic-keyboard-2.2.0.tgz#53ba9ccd5e765165446a094cfe042a2ddd87d81d"
   integrity sha512-yDUG+9ieKVRitq5mGlNxjaZh/MgEhFFIgTIPhqSbUaQ8UuZbawy5mhJAVClqY97q8/rcQtL6dCDa7x2sEtCLcA==
 
-cordova-plugin-ionic-webview@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/cordova-plugin-ionic-webview/-/cordova-plugin-ionic-webview-5.0.0.tgz#d58741af85754d80da82c7f673842a3e71bde630"
-  integrity sha512-Wq0kCanxubK/JroTW4Mp5soayScnRyiY1eCkbwiz1Dyt1xHOiOW/v+1miqtBHtnZhcXw25TulCKAVJzkNBdmyg==
+cordova-plugin-ionic-webview@^3.1.2:
+  version "3.1.2"
+  resolved "https://registry.yarnpkg.com/cordova-plugin-ionic-webview/-/cordova-plugin-ionic-webview-3.1.2.tgz#80fe1e82067ad8dcbc5ecf00cad2f8dfa0d0e10f"
+  integrity sha512-i4hFMMebCPDe0KCNbwWhtYcxNIDdbUEfwuo+HBubfaRL/b5xjti/K5KdaJk5x/zB2pqDkY1E9ggZEt1+6j6iIg==
 
 cordova-plugin-splashscreen@^5.0.4:
   version "5.0.4"
