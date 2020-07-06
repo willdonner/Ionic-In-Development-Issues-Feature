@@ -12,12 +12,12 @@
     typescript "~2.6.1"
     webpack-sources "^1.0.1"
 
-"@angular/common@5.0.0":
-  version "5.0.0"
-  resolved "http://registry.npm.taobao.org/@angular/common/download/@angular/common-5.0.0.tgz#f96d66a517b995d1ba9b28309f15c2e359675825"
-  integrity sha1-+W1mpRe5ldG6mygwnxXC41lnWCU=
+"@angular/common@10.0.2":
+  version "10.0.2"
+  resolved "https://registry.yarnpkg.com/@angular/common/-/common-10.0.2.tgz#8d5422b3a3e1bc405606476b90b0caffc9c9155a"
+  integrity sha512-zpNB2XD6jinXZjfihoO5Q1Yg7urfpZTt/fitdmwFHCcQ/1qZ9T2BVh8+VqVRkh6Pjxmtvu0uPnJ1a/aZ5f9r9A==
   dependencies:
-    tslib "^1.7.1"
+    tslib "^2.0.0"
 
 "@angular/compiler-cli@10.0.1":
   version "10.0.1"
@@ -80,10 +80,10 @@
   dependencies:
     tslib "^2.0.0"
 
-"@angular/tsc-wrapped@4.2.6":
-  version "4.2.6"
-  resolved "https://registry.yarnpkg.com/@angular/tsc-wrapped/-/tsc-wrapped-4.2.6.tgz#60e44b5b38f3340ee14c54a58a7a07133c64e898"
-  integrity sha1-YORLWzjzNA7hTFSlinoHEzxk6Jg=
+"@angular/tsc-wrapped@4.4.6":
+  version "4.4.6"
+  resolved "https://registry.yarnpkg.com/@angular/tsc-wrapped/-/tsc-wrapped-4.4.6.tgz#16787cbbf50bdc7e738123b19c32527f244e178d"
+  integrity sha1-Fnh8u/UL3H5zgSOxnDJSfyROF40=
   dependencies:
     tsickle "^0.21.0"
 
