@@ -92,10 +92,12 @@
   resolved "http://registry.npm.taobao.org/@ionic-native/core/download/@ionic-native/core-4.18.0.tgz#d5f57e94c40f1b7bc1e86b4d7a17f02110249383"
   integrity sha1-1fV+lMQPG3vB6GtNehfwIRAkk4M=
 
-"@ionic-native/splash-screen@~4.18.0":
-  version "4.18.0"
-  resolved "http://registry.npm.taobao.org/@ionic-native/splash-screen/download/@ionic-native/splash-screen-4.18.0.tgz#2726448e20f447dac35e29f831f7342771050fd2"
-  integrity sha1-JyZEjiD0R9rDXin4Mfc0J3EFD9I=
+"@ionic-native/splash-screen@~5.27.0":
+  version "5.27.0"
+  resolved "https://registry.yarnpkg.com/@ionic-native/splash-screen/-/splash-screen-5.27.0.tgz#d2aa69808e9eff3b4bc79b95c58864a5539a535e"
+  integrity sha512-SZO5FjarVztlEBYJQsJv7NvZk+jRhElatruVpxMk4r8uuNL52Zt3TaPaGngwvI3tGHB42+l0rOsIusiBaIsSrA==
+  dependencies:
+    "@types/cordova" latest
 
 "@ionic-native/status-bar@~4.18.0":
   version "4.18.0"
@@ -148,6 +150,11 @@
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/@types/color-name/-/color-name-1.1.1.tgz#1c1261bbeaa10a8055bbc5d8ab84b7b2afc846a0"
   integrity sha512-rr+OQyAjxze7GgWrSaJwydHStIhHq2lvY3BOC2Mj7KnzI7XK0Uw1TOOdI9lDoajEbSWLiYgoo4f1R51erQfhPQ==
+
+"@types/cordova@latest":
+  version "0.0.34"
+  resolved "https://registry.yarnpkg.com/@types/cordova/-/cordova-0.0.34.tgz#ea7addf74ecec3d7629827a0c39e2c9addc73d04"
+  integrity sha1-6nrd907Ow9dimCegw54smt3HPQQ=
 
 abbrev@1:
   version "1.1.1"
