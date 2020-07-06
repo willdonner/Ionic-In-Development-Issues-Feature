@@ -2190,10 +2190,10 @@ invert-kv@^1.0.0:
   resolved "http://registry.npm.taobao.org/invert-kv/download/invert-kv-1.0.0.tgz#104a8e4aaca6d3d8cd157a8ef8bfab2d7a3ffdb6"
   integrity sha1-EEqOSqym09jNFXqO+L+rLXo//bY=
 
-ionic-angular@3.9.3:
-  version "3.9.3"
-  resolved "http://registry.npm.taobao.org/ionic-angular/download/ionic-angular-3.9.3.tgz#cdd9e46681e35fb2bbd827b4101eb5421451f2c9"
-  integrity sha1-zdnkZoHjX7K72Ce0EB61QhRR8sk=
+ionic-angular@3.9.10:
+  version "3.9.10"
+  resolved "https://registry.yarnpkg.com/ionic-angular/-/ionic-angular-3.9.10.tgz#6b3514b05f6c668c7e852844b66779b9e9fb4515"
+  integrity sha512-4nmGrdpu4Zy3SZwF0AaS/3gDrbFGU1dV+zn1eqInFgFj9q20N1cIITgvyIcoxUI/IoqYiohsJX1rGY5vB/HrhQ==
 
 ionicons@3.0.0:
   version "3.0.0"
