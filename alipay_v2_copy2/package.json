@@ -28,7 +28,7 @@
     "@ionic-native/splash-screen": "~4.20.0",
     "@ionic-native/status-bar": "~4.20.0",
     "@ionic/storage": "2.2.0",
-    "cordova-android": "7.0.0",
+    "cordova-android": "9.0.0",
     "cordova-ios": "6.1.0",
     "cordova-plugin-alipay-v2": "git+https://github.com/hhjjj1010/cordova-plugin-alipay-v2.git",
     "cordova-plugin-device": "^2.0.3",
