@@ -78,10 +78,10 @@
   dependencies:
     tslib "^1.7.1"
 
-"@ionic-native/core@~4.18.0":
-  version "4.18.0"
-  resolved "http://registry.npm.taobao.org/@ionic-native/core/download/@ionic-native/core-4.18.0.tgz#d5f57e94c40f1b7bc1e86b4d7a17f02110249383"
-  integrity sha1-1fV+lMQPG3vB6GtNehfwIRAkk4M=
+"@ionic-native/core@~4.20.0":
+  version "4.20.0"
+  resolved "https://registry.yarnpkg.com/@ionic-native/core/-/core-4.20.0.tgz#5877f45136add6f04a4d744012d1fcdc3f634774"
+  integrity sha512-8ppRT4zXKwtalv9HJomLQjDnMfPAiKdNUQSSKpwZePmI+8TpYRL7UNr0o0hmjiTXx1oGcKQFzHpDc1M2yeR3BA==
 
 "@ionic-native/splash-screen@~4.20.0":
   version "4.20.0"
