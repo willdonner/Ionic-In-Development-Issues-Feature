@@ -142,12 +142,10 @@
   dependencies:
     "@types/cordova" latest
 
-"@ionic-native/core@5.27.0":
-  version "5.27.0"
-  resolved "https://registry.yarnpkg.com/@ionic-native/core/-/core-5.27.0.tgz#2821f751992aaf9f4b8c5635d88d6718cba32074"
-  integrity sha512-qJcZJtXaXUpwKTMzLc6tGitHJVYQCcSlx2XNQUiKyck47g98Xxo8D0zgHoRiCQvApOqw1iEKzh6xs5PLkmcXqw==
-  dependencies:
-    "@types/cordova" latest
+"@ionic-native/core@4.5.2":
+  version "4.5.2"
+  resolved "https://registry.yarnpkg.com/@ionic-native/core/-/core-4.5.2.tgz#56c1ee0d3e9dd3f02c29c26eeb868ab36a48a6f5"
+  integrity sha512-/Y4gvrfNqO+wpa+i41tkud6WdVawju/+c+pD1E9b8lMeWimvFfqA0/q/6+S8VWjGLKz1GrZqW9cfwJU75SC4Ug==
 
 "@ionic-native/diagnostic@5.27.0":
   version "5.27.0"
@@ -161,10 +159,10 @@
   resolved "https://registry.yarnpkg.com/@ionic-native/geolocation/-/geolocation-4.5.2.tgz#06597e70a63af4bc0208ddb56808a32f88df41f5"
   integrity sha512-XCrUB1BJaGrzoWJ6rCQZSfslbRMiqB0ROU5XZOyYdg7Yf+DIX9o6qernDSRl9yHJ7c7QhI1XId6x5PHgZjNP/w==
 
-"@ionic-native/google-maps@4.5.2":
-  version "4.5.2"
-  resolved "http://registry.npm.taobao.org/@ionic-native/google-maps/download/@ionic-native/google-maps-4.5.2.tgz#3f44b3db89fcbef3324c71da27fbfa52e671d935"
-  integrity sha1-P0Sz24n8vvMyTHHaJ/v6UuZx2TU=
+"@ionic-native/google-maps@5.5.0":
+  version "5.5.0"
+  resolved "https://registry.yarnpkg.com/@ionic-native/google-maps/-/google-maps-5.5.0.tgz#02537e04bb0d01d5580f936d8ccce6745188d90a"
+  integrity sha512-+sCaB7cLR35ApsOyYSfwDX2ZTO2ItOI6FHkgTQ2rzOA1DVJ9rlU8HDL6jYBUhq+aDe3lhCPexSOryeBynaSvpQ==
 
 "@ionic-native/splash-screen@5.27.0":
   version "5.27.0"
