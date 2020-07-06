@@ -80,10 +80,10 @@
   dependencies:
     tslib "^2.0.0"
 
-"@angular/tsc-wrapped@4.2.6":
-  version "4.2.6"
-  resolved "https://registry.yarnpkg.com/@angular/tsc-wrapped/-/tsc-wrapped-4.2.6.tgz#60e44b5b38f3340ee14c54a58a7a07133c64e898"
-  integrity sha1-YORLWzjzNA7hTFSlinoHEzxk6Jg=
+"@angular/tsc-wrapped@4.4.6":
+  version "4.4.6"
+  resolved "https://registry.yarnpkg.com/@angular/tsc-wrapped/-/tsc-wrapped-4.4.6.tgz#16787cbbf50bdc7e738123b19c32527f244e178d"
+  integrity sha1-Fnh8u/UL3H5zgSOxnDJSfyROF40=
   dependencies:
     tsickle "^0.21.0"
 
