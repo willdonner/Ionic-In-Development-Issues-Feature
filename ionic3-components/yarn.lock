@@ -140,10 +140,12 @@
   resolved "http://registry.npm.taobao.org/@ionic-native/card-io/download/@ionic-native/card-io-4.5.2.tgz#dea7e8f22121e083bdb4ab2a5d8adf5fe07716aa"
   integrity sha1-3qfo8iEh4IO9tKsqXYrfX+B3Fqo=
 
-"@ionic-native/core@4.5.2":
-  version "4.5.2"
-  resolved "http://registry.npm.taobao.org/@ionic-native/core/download/@ionic-native/core-4.5.2.tgz#56c1ee0d3e9dd3f02c29c26eeb868ab36a48a6f5"
-  integrity sha1-VsHuDT6d0/AsKcJu64aKs2pIpvU=
+"@ionic-native/core@5.27.0":
+  version "5.27.0"
+  resolved "https://registry.yarnpkg.com/@ionic-native/core/-/core-5.27.0.tgz#2821f751992aaf9f4b8c5635d88d6718cba32074"
+  integrity sha512-qJcZJtXaXUpwKTMzLc6tGitHJVYQCcSlx2XNQUiKyck47g98Xxo8D0zgHoRiCQvApOqw1iEKzh6xs5PLkmcXqw==
+  dependencies:
+    "@types/cordova" latest
 
 "@ionic-native/diagnostic@5.27.0":
   version "5.27.0"
