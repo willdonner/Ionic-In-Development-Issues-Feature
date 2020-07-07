@@ -66,12 +66,12 @@
   dependencies:
     tslib "^1.9.0"
 
-"@angular/platform-browser-dynamic@10.0.2":
-  version "10.0.2"
-  resolved "https://registry.yarnpkg.com/@angular/platform-browser-dynamic/-/platform-browser-dynamic-10.0.2.tgz#b752e2110e5a4316087ce7922227b453e423c144"
-  integrity sha512-R1rt1/Ynm0DHgzMBcduCPoDg2y3MrYZVgT+N0DLobr2nCaVD74vGsJBVCRv7/m1sdCxyhPlOvq8Bm5sRauw2fw==
+"@angular/platform-browser-dynamic@5.0.0":
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/@angular/platform-browser-dynamic/-/platform-browser-dynamic-5.0.0.tgz#887e106c8b103b0415cf6156a425da6d83f4c89d"
+  integrity sha1-iH4QbIsQOwQVz2FWpCXabYP0yJ0=
   dependencies:
-    tslib "^2.0.0"
+    tslib "^1.7.1"
 
 "@angular/platform-browser@10.0.2":
   version "10.0.2"
@@ -1295,10 +1295,10 @@ cordova-common@^4.0.1:
     strip-bom "^4.0.0"
     underscore "^1.9.2"
 
-cordova-plugin-camera@^2.3.1:
-  version "2.4.1"
-  resolved "http://registry.npm.taobao.org/cordova-plugin-camera/download/cordova-plugin-camera-2.4.1.tgz#195e34e12db64f1c49e764f7d4e3f261aa3d94c1"
-  integrity sha1-GV404S22TxxJ52T31OPyYao9lME=
+cordova-plugin-camera@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/cordova-plugin-camera/-/cordova-plugin-camera-4.1.0.tgz#6474a3e080c4662aa00fd7425705d301c693ddc0"
+  integrity sha512-fCLhWjWYn49q3X5xaypAPgTz6MAWSKFFQvD2Gpi5SuVlrRPRphtX2jIqR2zCBuDTBR082QVnlc+yUDXt65Mjgw==
 
 cordova-plugin-compat@^1.2.0:
   version "1.2.0"
