@@ -52,7 +52,7 @@
         "ionicons": "5.1.2",
         "moment": "^2.27.0",
         "phonegap-plugin-barcodescanner": "^8.1.0",
-        "rxjs": "5.5.2",
+        "rxjs": "6.6.0",
         "sw-toolbox": "3.6.0",
         "tslint-config-airbnb": "^5.11.2",
         "zone.js": "0.8.18"
