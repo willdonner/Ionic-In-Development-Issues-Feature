@@ -66,12 +66,12 @@
   dependencies:
     tslib "^1.9.0"
 
-"@angular/platform-browser-dynamic@10.0.2":
-  version "10.0.2"
-  resolved "https://registry.yarnpkg.com/@angular/platform-browser-dynamic/-/platform-browser-dynamic-10.0.2.tgz#b752e2110e5a4316087ce7922227b453e423c144"
-  integrity sha512-R1rt1/Ynm0DHgzMBcduCPoDg2y3MrYZVgT+N0DLobr2nCaVD74vGsJBVCRv7/m1sdCxyhPlOvq8Bm5sRauw2fw==
+"@angular/platform-browser-dynamic@5.0.0":
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/@angular/platform-browser-dynamic/-/platform-browser-dynamic-5.0.0.tgz#887e106c8b103b0415cf6156a425da6d83f4c89d"
+  integrity sha1-iH4QbIsQOwQVz2FWpCXabYP0yJ0=
   dependencies:
-    tslib "^2.0.0"
+    tslib "^1.7.1"
 
 "@angular/platform-browser@10.0.2":
   version "10.0.2"
@@ -142,10 +142,12 @@
   dependencies:
     "@types/cordova" latest
 
-"@ionic-native/core@4.5.2":
-  version "4.5.2"
-  resolved "https://registry.yarnpkg.com/@ionic-native/core/-/core-4.5.2.tgz#56c1ee0d3e9dd3f02c29c26eeb868ab36a48a6f5"
-  integrity sha512-/Y4gvrfNqO+wpa+i41tkud6WdVawju/+c+pD1E9b8lMeWimvFfqA0/q/6+S8VWjGLKz1GrZqW9cfwJU75SC4Ug==
+"@ionic-native/core@5.27.0":
+  version "5.27.0"
+  resolved "https://registry.yarnpkg.com/@ionic-native/core/-/core-5.27.0.tgz#2821f751992aaf9f4b8c5635d88d6718cba32074"
+  integrity sha512-qJcZJtXaXUpwKTMzLc6tGitHJVYQCcSlx2XNQUiKyck47g98Xxo8D0zgHoRiCQvApOqw1iEKzh6xs5PLkmcXqw==
+  dependencies:
+    "@types/cordova" latest
 
 "@ionic-native/diagnostic@5.27.0":
   version "5.27.0"
