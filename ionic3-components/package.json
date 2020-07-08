@@ -58,7 +58,7 @@
         "zone.js": "0.10.3"
     },
     "devDependencies": {
-        "@ionic/app-scripts": "3.1.7",
+        "@ionic/app-scripts": "3.2.4",
         "all-contributors-cli": "^6.16.1",
         "typescript": "3.9.6"
     },
