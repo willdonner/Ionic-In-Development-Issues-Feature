@@ -1295,10 +1295,10 @@ cordova-common@^4.0.1:
     strip-bom "^4.0.0"
     underscore "^1.9.2"
 
-cordova-plugin-camera@^2.3.1:
-  version "2.4.1"
-  resolved "http://registry.npm.taobao.org/cordova-plugin-camera/download/cordova-plugin-camera-2.4.1.tgz#195e34e12db64f1c49e764f7d4e3f261aa3d94c1"
-  integrity sha1-GV404S22TxxJ52T31OPyYao9lME=
+cordova-plugin-camera@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/cordova-plugin-camera/-/cordova-plugin-camera-4.1.0.tgz#6474a3e080c4662aa00fd7425705d301c693ddc0"
+  integrity sha512-fCLhWjWYn49q3X5xaypAPgTz6MAWSKFFQvD2Gpi5SuVlrRPRphtX2jIqR2zCBuDTBR082QVnlc+yUDXt65Mjgw==
 
 cordova-plugin-compat@^1.2.0:
   version "1.2.0"

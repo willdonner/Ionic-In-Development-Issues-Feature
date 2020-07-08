@@ -37,7 +37,7 @@
         "card.io.cordova.mobilesdk": "git+https://github.com/card-io/card.io-Cordova-Plugin.git",
         "chart.js": "^2.9.3",
         "cordova-android": "9.0.0",
-        "cordova-plugin-camera": "^2.3.1",
+        "cordova-plugin-camera": "^4.1.0",
         "cordova-plugin-compat": "^1.2.0",
         "cordova-plugin-console": "^1.0.5",
         "cordova-plugin-device": "^2.0.3",
