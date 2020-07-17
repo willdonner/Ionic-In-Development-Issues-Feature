@@ -50,12 +50,12 @@
   dependencies:
     tslib "^2.0.0"
 
-"@angular/forms@5.2.11":
-  version "5.2.11"
-  resolved "http://registry.npm.taobao.org/@angular/forms/download/@angular/forms-5.2.11.tgz#712534fa317e194caa452d0c1a8efc72f5e040d6"
-  integrity sha1-cSU0+jF+GUyqRS0MGo78cvXgQNY=
+"@angular/forms@10.0.4":
+  version "10.0.4"
+  resolved "https://registry.yarnpkg.com/@angular/forms/-/forms-10.0.4.tgz#d37fe47d5c91b0ef249066e904338905b2687847"
+  integrity sha512-SJSYZCfHua9fi/dks1q+ad9OGBblRUn3Q1V4B7r99fJYr39qRiIHcegikhY4h8H3Wk1bJRGJG7iXmxJhjWXK3Q==
   dependencies:
-    tslib "^1.7.1"
+    tslib "^2.0.0"
 
 "@angular/http@7.2.16":
   version "7.2.16"
