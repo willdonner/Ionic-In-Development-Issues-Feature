@@ -45,10 +45,10 @@
     tslib "^2.0.0"
     yargs "15.3.0"
 
-"@angular/compiler@10.0.3":
-  version "10.0.3"
-  resolved "https://registry.yarnpkg.com/@angular/compiler/-/compiler-10.0.3.tgz#3bfb16d42e04b41effd31729e1798fc1c83335e0"
-  integrity sha512-SmzMYxBprs8bVS9WctiCDj6KVp3jZFEaxGTbC/FwtdvesMIdOktpHggUeJW+OzUTwTnYVmKrm6d8rdg3QSaXFQ==
+"@angular/compiler@10.0.4":
+  version "10.0.4"
+  resolved "https://registry.yarnpkg.com/@angular/compiler/-/compiler-10.0.4.tgz#786a5c1653a429233bee9f53614b5a82c62841ce"
+  integrity sha512-1rnEmSHJtrKC1QD+PyF36xwMnSqG4Slgi5+PYk3BxIa5vbWBibrYijtd/uCNhscfPSpfb06MVM2mRsrc+BmbQg==
   dependencies:
     tslib "^2.0.0"
 
@@ -59,12 +59,12 @@
   dependencies:
     tslib "^2.0.0"
 
-"@angular/forms@5.2.11":
-  version "5.2.11"
-  resolved "http://registry.npm.taobao.org/@angular/forms/download/@angular/forms-5.2.11.tgz#712534fa317e194caa452d0c1a8efc72f5e040d6"
-  integrity sha1-cSU0+jF+GUyqRS0MGo78cvXgQNY=
+"@angular/forms@10.0.4":
+  version "10.0.4"
+  resolved "https://registry.yarnpkg.com/@angular/forms/-/forms-10.0.4.tgz#d37fe47d5c91b0ef249066e904338905b2687847"
+  integrity sha512-SJSYZCfHua9fi/dks1q+ad9OGBblRUn3Q1V4B7r99fJYr39qRiIHcegikhY4h8H3Wk1bJRGJG7iXmxJhjWXK3Q==
   dependencies:
-    tslib "^1.7.1"
+    tslib "^2.0.0"
 
 "@angular/http@7.2.16":
   version "7.2.16"
@@ -99,10 +99,12 @@
   dependencies:
     "@types/cordova" latest
 
-"@ionic-native/status-bar@~4.20.0":
-  version "4.20.0"
-  resolved "https://registry.yarnpkg.com/@ionic-native/status-bar/-/status-bar-4.20.0.tgz#76b3f44ee496a4815fe4ddb9b5701aea22e6855f"
-  integrity sha512-y/Sqo4c0rQcLVhF/mj72wcn2ReKOW5SxBOD5I7YILNfXvEpDlUgWUxkTM5gNZn3ecCbYFrypNXIn2tsxZBAd+w==
+"@ionic-native/status-bar@~5.27.0":
+  version "5.27.0"
+  resolved "https://registry.yarnpkg.com/@ionic-native/status-bar/-/status-bar-5.27.0.tgz#a2e8c90537939ab51a3fb06b88ecc906b5a5905c"
+  integrity sha512-N0NIZTbi5KSA0GwTWsaJJLsve6ANQ+cy141+oUCXFPjtCYXyp1mOGcFiAE2UiI/N8SpmcLlV53zYhqIP8ish2Q==
+  dependencies:
+    "@types/cordova" latest
 
 "@ionic/app-scripts@3.2.4":
   version "3.2.4"
@@ -2693,15 +2695,10 @@ lodash.mergewith@^4.6.0:
   resolved "https://registry.yarnpkg.com/lodash.mergewith/-/lodash.mergewith-4.6.2.tgz#617121f89ac55f59047c7aec1ccd6654c6590f55"
   integrity sha512-GK3g5RPZWTRSeLSpgP8Xhra+pnjBC56q9FZYe1d5RN3TJ35dbkGy3YqBSMbyCrlbi+CM9Z3Jk5yTL7RCsqboyQ==
 
-lodash@^4.0.0, lodash@^4.17.11, lodash@~4.17.10:
-  version "4.17.11"
-  resolved "http://registry.npm.taobao.org/lodash/download/lodash-4.17.11.tgz#b39ea6229ef607ecd89e2c8df12536891cac9b8d"
-  integrity sha1-s56mIp72B+zYniyN8SU2iRysm40=
-
-lodash@^4.17.15:
-  version "4.17.15"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
-  integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
+lodash@^4.0.0, lodash@^4.17.11, lodash@^4.17.15, lodash@~4.17.10:
+  version "4.17.19"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
+  integrity sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ==
 
 longest@^1.0.1:
   version "1.0.1"
