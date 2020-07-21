@@ -71,12 +71,12 @@
   dependencies:
     tslib "^2.0.0"
 
-"@angular/platform-browser@5.2.11":
-  version "5.2.11"
-  resolved "http://registry.npm.taobao.org/@angular/platform-browser/download/@angular/platform-browser-5.2.11.tgz#5be379f96d74b4ebe84a447633ed5279cb7e641e"
-  integrity sha1-W+N5+W10tOvoSkR2M+1Sect+ZB4=
+"@angular/platform-browser@10.0.4":
+  version "10.0.4"
+  resolved "https://registry.yarnpkg.com/@angular/platform-browser/-/platform-browser-10.0.4.tgz#58131215e414be7ee9d4024e47f61b4a02166b28"
+  integrity sha512-iaZ8pFS5XUgPCO6/C47TzSFPzlzgleayq099cVOOx9z0t/SwUCSKt4AdAVhyQ8RTnx6l1JmmwBgRaXpScZlqzg==
   dependencies:
-    tslib "^1.7.1"
+    tslib "^2.0.0"
 
 "@ionic-native/core@~4.20.0":
   version "4.20.0"
