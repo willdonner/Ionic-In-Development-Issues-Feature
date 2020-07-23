@@ -1328,10 +1328,10 @@ cordova-plugin-whitelist@^1.3.4:
   resolved "https://registry.yarnpkg.com/cordova-plugin-whitelist/-/cordova-plugin-whitelist-1.3.4.tgz#31938545c7c3e7de35c20ab08c2c3afa06e8a3f9"
   integrity sha512-EYC5eQFVkoYXq39l7tYKE6lEjHJ04mvTmKXxGL7quHLdFPfJMNzru/UYpn92AOfpl3PQaZmou78C7EgmFOwFQQ==
 
-cordova.plugins.diagnostic@^6.0.0:
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/cordova.plugins.diagnostic/-/cordova.plugins.diagnostic-6.0.0.tgz#3d9a7f55b828409b37b7e64801c32fd1ea0549df"
-  integrity sha512-2JecbYJnyJvAwvqSSf6CHG0g3e0IxyFqNKqSZJch5C1K1ebJrPl4SZoSOfWTOz+H/7p1ZxEp6bsk3fGfuC91pw==
+cordova.plugins.diagnostic@^6.0.1:
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/cordova.plugins.diagnostic/-/cordova.plugins.diagnostic-6.0.1.tgz#70d9c95875d3f0b3d64330c16a08485f8e55fbac"
+  integrity sha512-+nfAJvD5QnXS18VvD1RmPT+Zmb03uATcEts7N7AgF85pADeOM2blDqrQqZck6JbenM/ZnfGyyShbL+fFE9yJKg==
   dependencies:
     colors "^1.1.2"
     elementtree "^0.1.6"
