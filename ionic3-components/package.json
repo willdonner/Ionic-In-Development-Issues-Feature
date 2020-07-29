@@ -14,7 +14,7 @@
         "postdeploy": "node copy_www_to_docs.js"
     },
     "dependencies": {
-        "@angular/common": "10.0.3",
+        "@angular/common": "10.0.6",
         "@angular/compiler": "10.0.4",
         "@angular/compiler-cli": "10.0.4",
         "@angular/core": "10.0.5",
