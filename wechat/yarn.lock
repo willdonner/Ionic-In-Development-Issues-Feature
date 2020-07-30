@@ -45,17 +45,17 @@
     tslib "^2.0.0"
     yargs "15.3.0"
 
-"@angular/compiler@10.0.4":
-  version "10.0.4"
-  resolved "https://registry.yarnpkg.com/@angular/compiler/-/compiler-10.0.4.tgz#786a5c1653a429233bee9f53614b5a82c62841ce"
-  integrity sha512-1rnEmSHJtrKC1QD+PyF36xwMnSqG4Slgi5+PYk3BxIa5vbWBibrYijtd/uCNhscfPSpfb06MVM2mRsrc+BmbQg==
+"@angular/compiler@10.0.6":
+  version "10.0.6"
+  resolved "https://registry.yarnpkg.com/@angular/compiler/-/compiler-10.0.6.tgz#ab72dfe14c3edbbc7d60f9cea80860cd2914e40a"
+  integrity sha512-UyckS8aqd6rSYDOFtpMFN3WtZ2tqJ9b67G4owJn2qKI87otPRe7dOIKAcSailxz0lKSyt1Pf8Bjx9mrlRY6jxg==
   dependencies:
     tslib "^2.0.0"
 
-"@angular/core@10.0.6":
-  version "10.0.6"
-  resolved "https://registry.yarnpkg.com/@angular/core/-/core-10.0.6.tgz#91feaa070a65db22cf8eb65523351b653ce80d2a"
-  integrity sha512-mk/7XmZg7EeWEgl2UEyhyU6eukm2h+Thw1Ue84aBxMDaqt1RUpsPwpGCfIRfzH9gdzAjJUAPxiHAN2CF+3Wohw==
+"@angular/core@10.0.3":
+  version "10.0.3"
+  resolved "https://registry.yarnpkg.com/@angular/core/-/core-10.0.3.tgz#2cfef68c2ac088f9e1bf72cb4601391cff4f9c92"
+  integrity sha512-EfWAz5StlPYo2ZtvVzeoNlGrFAXRncwGd/CExbLFOZx4HcDXVkATw5d4vnKHmmKacDqnbuvMD2M0Tl0EJi5q4g==
   dependencies:
     tslib "^2.0.0"
 
