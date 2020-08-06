@@ -45,10 +45,10 @@
   dependencies:
     tslib "^2.0.0"
 
-"@angular/core@10.0.6":
-  version "10.0.6"
-  resolved "https://registry.yarnpkg.com/@angular/core/-/core-10.0.6.tgz#91feaa070a65db22cf8eb65523351b653ce80d2a"
-  integrity sha512-mk/7XmZg7EeWEgl2UEyhyU6eukm2h+Thw1Ue84aBxMDaqt1RUpsPwpGCfIRfzH9gdzAjJUAPxiHAN2CF+3Wohw==
+"@angular/core@10.0.8":
+  version "10.0.8"
+  resolved "https://registry.yarnpkg.com/@angular/core/-/core-10.0.8.tgz#dd8855e9faa3f2ba37268144d15402d346b1be57"
+  integrity sha512-52M1krR/TRZsV9WKPd+r7IPVT8c5Nh+Im1z3/ZY7rG0HmxXsV7YzuTuKV7oyHbWPg0WPJAwyH0+qxBK3kpvc8w==
   dependencies:
     tslib "^2.0.0"
 
