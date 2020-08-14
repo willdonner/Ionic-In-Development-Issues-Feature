@@ -59,7 +59,7 @@
     },
     "devDependencies": {
         "@ionic/app-scripts": "3.2.4",
-        "all-contributors-cli": "^6.17.0",
+        "all-contributors-cli": "^6.17.1",
         "typescript": "3.9.7"
     },
     "cordovaPlugins": [
