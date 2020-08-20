@@ -12,10 +12,10 @@
     typescript "~2.6.1"
     webpack-sources "^1.0.1"
 
-"@angular/animations@10.0.8":
-  version "10.0.8"
-  resolved "https://registry.yarnpkg.com/@angular/animations/-/animations-10.0.8.tgz#f033a7043f41075fae128ea6e91bcdaec3a4df2f"
-  integrity sha512-vxJRNz6CbguuoLxZpKbaCRcJRFg+/UeXvrUjRlUxwJpAni5hFYkWZUjjXvHDszI97q8FkDNLpGDPcggGqPfo4w==
+"@angular/animations@10.0.11":
+  version "10.0.11"
+  resolved "https://registry.yarnpkg.com/@angular/animations/-/animations-10.0.11.tgz#9925920864ce005a30aa1aa2779380398cf22752"
+  integrity sha512-nTw9KctjWE+8Jt3TFJu9c7rPT48FRCqEsTvfzcQW0aq4+s6htmnH0DUY26dCVHjvTNoH71jJyA4IsV0ICTw15A==
   dependencies:
     tslib "^2.0.0"
 
@@ -80,10 +80,10 @@
   dependencies:
     tslib "^2.0.0"
 
-"@angular/platform-browser@10.0.8":
-  version "10.0.8"
-  resolved "https://registry.yarnpkg.com/@angular/platform-browser/-/platform-browser-10.0.8.tgz#9d9880f090664fc1908f42e4be0a899d435681c8"
-  integrity sha512-x6ZJz6K+YvsgZFTTD5Rv/uwJAGVWzCqvYUspq25MjvkYTFAEOc6kQ9cfsqS/dTqhPBDoTTjGu6qhIxgm4ovGjA==
+"@angular/platform-browser@10.0.11":
+  version "10.0.11"
+  resolved "https://registry.yarnpkg.com/@angular/platform-browser/-/platform-browser-10.0.11.tgz#6f553bc6c27a2d7151284c4fd46d559915428be3"
+  integrity sha512-u3kXnnsuKRUTeA47+SnmGUhs1k9HKVm3rKaXUfqbHouDHz2SMQg/bvWBG5Nq8FFZYdNa3lV6q1l03/Zf7kaZNg==
   dependencies:
     tslib "^2.0.0"
 
