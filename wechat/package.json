@@ -15,7 +15,7 @@
     "minify": "ionic-app-scripts minify"
   },
   "dependencies": {
-    "@angular/animations": "10.0.8",
+    "@angular/animations": "10.0.11",
     "@angular/common": "10.0.8",
     "@angular/compiler": "10.0.8",
     "@angular/compiler-cli": "10.0.9",
