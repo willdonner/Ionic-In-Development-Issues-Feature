@@ -16,7 +16,7 @@
     "dependencies": {
         "@angular/common": "10.0.11",
         "@angular/compiler": "10.0.11",
-        "@angular/compiler-cli": "10.0.9",
+        "@angular/compiler-cli": "10.0.11",
         "@angular/core": "10.0.11",
         "@angular/forms": "10.0.10",
         "@angular/http": "7.2.16",
