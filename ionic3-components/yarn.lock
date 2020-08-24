@@ -121,10 +121,10 @@
     reflect-metadata "^0.1.12"
     tslib "^1.8.1"
 
-"@ionic-native/barcode-scanner@5.27.0":
-  version "5.27.0"
-  resolved "https://registry.yarnpkg.com/@ionic-native/barcode-scanner/-/barcode-scanner-5.27.0.tgz#85f1c97d469b6eb2560628fb390babe33288b529"
-  integrity sha512-rBtZzQ7ed2bmf65sXzdzk7CFeCY1VKAJ6c6zZMlIYPJ13zKJ93U1qL9hsgSLQcUxhA86SJk8A4e7MurfKnPSFw==
+"@ionic-native/barcode-scanner@5.28.0":
+  version "5.28.0"
+  resolved "https://registry.yarnpkg.com/@ionic-native/barcode-scanner/-/barcode-scanner-5.28.0.tgz#8b3b9bfabfb78d665ed2c135f25bedb08832aa2c"
+  integrity sha512-GOdxngZdwHbuc30HWZPlHEe7USfmwO8s9Y1KzOdGsp99/VopKsAsigG1toZN9MAUBrH/be5Jx8+D92RbJu2ZxQ==
   dependencies:
     "@types/cordova" latest
 
