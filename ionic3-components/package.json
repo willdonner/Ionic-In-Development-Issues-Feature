@@ -14,10 +14,10 @@
         "postdeploy": "node copy_www_to_docs.js"
     },
     "dependencies": {
-        "@angular/common": "10.0.11",
+        "@angular/common": "10.0.14",
         "@angular/compiler": "10.0.11",
         "@angular/compiler-cli": "10.0.9",
-        "@angular/core": "10.0.11",
+        "@angular/core": "10.0.14",
         "@angular/forms": "10.0.10",
         "@angular/http": "7.2.16",
         "@angular/platform-browser": "10.0.14",
