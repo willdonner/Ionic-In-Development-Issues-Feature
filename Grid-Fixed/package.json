@@ -36,7 +36,7 @@
   },
   "devDependencies": {
     "@ionic/app-scripts": "3.2.4",
-    "@types/mockjs": "^1.0.2",
+    "@types/mockjs": "^1.0.3",
     "typescript": "~2.6.2",
     "tar": "^6.0.5"
   },
