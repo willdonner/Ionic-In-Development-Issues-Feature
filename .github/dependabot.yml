@@ -12,7 +12,8 @@ updates:
           update_type: "all"
       - match:
           dependency_type: "production"
-          update_type: "semver:patch"
+          update_type: "all"
+          #update_type: "semver:patch"
 - package-ecosystem: npm
   directory: "/Grid-Fixed"
   schedule:
@@ -25,7 +26,8 @@ updates:
           update_type: "all"
       - match:
           dependency_type: "production"
-          update_type: "semver:patch"
+          update_type: "all"
+          #update_type: "semver:patch"
 - package-ecosystem: npm
   directory: "/IMDbApp"
   schedule:
@@ -38,7 +40,8 @@ updates:
           update_type: "all"
       - match:
           dependency_type: "production"
-          update_type: "semver:patch"
+          update_type: "all"
+          #update_type: "semver:patch"
 - package-ecosystem: npm
   directory: "/WebTRTC"
   schedule:
@@ -51,7 +54,8 @@ updates:
           update_type: "all"
       - match:
           dependency_type: "production"
-          update_type: "semver:patch"
+          update_type: "all"
+          #update_type: "semver:patch"
 - package-ecosystem: npm
   directory: "/alipay_v2_copy2"
   schedule:
@@ -64,7 +68,8 @@ updates:
           update_type: "all"
       - match:
           dependency_type: "production"
-          update_type: "semver:patch"
+          update_type: "all"
+          #update_type: "semver:patch"
 - package-ecosystem: npm
   directory: "/expandableList"
   schedule:
@@ -77,7 +82,8 @@ updates:
           update_type: "all"
       - match:
           dependency_type: "production"
-          update_type: "semver:patch"
+          update_type: "all"
+          #update_type: "semver:patch"
 - package-ecosystem: npm
   directory: "/file-opener"
   schedule:
@@ -90,7 +96,8 @@ updates:
           update_type: "all"
       - match:
           dependency_type: "production"
-          update_type: "semver:patch"
+          update_type: "all"
+          #update_type: "semver:patch"
 - package-ecosystem: npm
   directory: "/fixed-col-row"
   schedule:
@@ -103,7 +110,8 @@ updates:
           update_type: "all"
       - match:
           dependency_type: "production"
-          update_type: "semver:patch"
+          update_type: "all"
+          #update_type: "semver:patch"
 - package-ecosystem: npm
   directory: "/ionic-infinite-swiped-tabs"
   schedule:
@@ -116,7 +124,8 @@ updates:
           update_type: "all"
       - match:
           dependency_type: "production"
-          update_type: "semver:patch"
+          update_type: "all"
+          #update_type: "semver:patch"
 - package-ecosystem: npm
   directory: "/ionic_hot-code-push"
   schedule:
@@ -129,7 +138,8 @@ updates:
           update_type: "all"
       - match:
           dependency_type: "production"
-          update_type: "semver:patch"
+          update_type: "all"
+          #update_type: "semver:patch"
 - package-ecosystem: npm
   directory: "/wechat"
   schedule:
@@ -142,4 +152,5 @@ updates:
           update_type: "all"
       - match:
           dependency_type: "production"
-          update_type: "semver:patch"
+          update_type: "all"
+          #update_type: "semver:patch"
