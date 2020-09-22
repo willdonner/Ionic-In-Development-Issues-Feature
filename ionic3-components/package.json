@@ -15,7 +15,7 @@
     },
     "dependencies": {
         "@angular/common": "10.1.1",
-        "@angular/compiler": "10.1.0",
+        "@angular/compiler": "10.1.2",
         "@angular/compiler-cli": "10.1.1",
         "@angular/core": "10.1.1",
         "@angular/forms": "10.1.2",
@@ -37,7 +37,7 @@
         "card.io.cordova.mobilesdk": "git+https://github.com/card-io/card.io-Cordova-Plugin.git",
         "chart.js": "^2.9.3",
         "cordova-android": "9.0.0",
-        "cordova-plugin-camera": "^4.1.0",
+        "cordova-plugin-camera": "^5.0.0",
         "cordova-plugin-compat": "^1.2.0",
         "cordova-plugin-console": "^1.0.5",
         "cordova-plugin-device": "^2.0.3",
@@ -59,8 +59,8 @@
     },
     "devDependencies": {
         "@ionic/app-scripts": "3.2.4",
-        "all-contributors-cli": "^6.17.2",
-        "typescript": "4.0.2"
+        "all-contributors-cli": "^6.17.4",
+        "typescript": "4.0.3"
     },
     "cordovaPlugins": [
         "cordova-plugin-whitelist",
