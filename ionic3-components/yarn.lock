@@ -12,10 +12,10 @@
     typescript "~2.6.1"
     webpack-sources "^1.0.1"
 
-"@angular/common@10.1.5":
-  version "10.1.5"
-  resolved "https://registry.yarnpkg.com/@angular/common/-/common-10.1.5.tgz#8a2cca7ea70091f4d5db8736292ec60ff143137a"
-  integrity sha512-xo10mSQYuf6x1XrnTfwt3Rs7JtSMkSyrJtAS/vNQKdBP/8zmn6pP9zRpp7vhQ5qF+W3HN8rPLb+YI2F6uaGjBg==
+"@angular/common@10.2.0":
+  version "10.2.0"
+  resolved "https://registry.yarnpkg.com/@angular/common/-/common-10.2.0.tgz#f9f50363a1fc5051750fd290ab8ea907ff9003ea"
+  integrity sha512-4q7cb6Z18R1nQ8dN8uj6cckuk4jzY40lF7kpxf/wja0pQBUBtWwExwXsdHTVWGZ/mgQv9a5dTAPQq8/tSmf+hw==
   dependencies:
     tslib "^2.0.0"
 
