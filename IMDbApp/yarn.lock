@@ -45,10 +45,10 @@
     tslib "^2.0.0"
     yargs "15.3.0"
 
-"@angular/compiler@10.2.1":
-  version "10.2.1"
-  resolved "https://registry.yarnpkg.com/@angular/compiler/-/compiler-10.2.1.tgz#6abffc69d2c67aa10289af98142915cb9230a69c"
-  integrity sha512-nJkRSqwQSGeudBWr9JK30Yi2yBvURYTKW4x4GxdW3YiEGBIlKU6aX6q5yi2xHdWO4AEgRs21ZjTs/wp00qnqTg==
+"@angular/compiler@11.0.1":
+  version "11.0.1"
+  resolved "https://registry.yarnpkg.com/@angular/compiler/-/compiler-11.0.1.tgz#c46e5636c87d3a2e7a49c76c43e24a9b7e3a3af2"
+  integrity sha512-96IT7zZPQ4JQGYxknj8XyJxStS6feoR5L8K6dKREDzmSUt3fP1nzZe/pDdfrMvUiiwWx73yPpKJXYNaxNbIWMA==
   dependencies:
     tslib "^2.0.0"
 
