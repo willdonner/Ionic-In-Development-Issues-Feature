@@ -149,10 +149,10 @@
   dependencies:
     "@types/cordova" latest
 
-"@ionic-native/diagnostic@5.28.0":
-  version "5.28.0"
-  resolved "https://registry.yarnpkg.com/@ionic-native/diagnostic/-/diagnostic-5.28.0.tgz#530cdca06efc042c5b7d9869dfb220a53ba46cfc"
-  integrity sha512-Xw4+aYp8A0VFQMv4FIeggioBrB2giXXlXy2BwU69Is4vb5HZGx6bR49EM/cw7C4ar2biLtyZBdawgTWvT3Nt9w==
+"@ionic-native/diagnostic@5.30.0":
+  version "5.30.0"
+  resolved "https://registry.yarnpkg.com/@ionic-native/diagnostic/-/diagnostic-5.30.0.tgz#fea7f86c3f70af157331342e91cf2ba928e026b8"
+  integrity sha512-tcpPUZeOWhJUWNV5IpES0qZATUvtqDstz7WvXk4al9AN5/0uXt9C0W4jjfjaCYPWtfmHyz7LB9DccRaSVVvYiw==
   dependencies:
     "@types/cordova" latest
 
