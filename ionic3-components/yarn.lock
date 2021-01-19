@@ -66,17 +66,17 @@
   dependencies:
     tslib "^1.9.0"
 
-"@angular/platform-browser-dynamic@10.1.5":
-  version "10.1.5"
-  resolved "https://registry.yarnpkg.com/@angular/platform-browser-dynamic/-/platform-browser-dynamic-10.1.5.tgz#05e58c1a3468371a553fad0291756d4f2d7d8b8e"
-  integrity sha512-wxHm1UFCtB+oU+IJ6pACGmjO9H8KVzJOLYL5hp2w0k8s7k7Zg73f6BdRgWWEEYv6uYIfF77qtKwgbH0X5H9S+w==
+"@angular/platform-browser-dynamic@11.0.9":
+  version "11.0.9"
+  resolved "https://registry.yarnpkg.com/@angular/platform-browser-dynamic/-/platform-browser-dynamic-11.0.9.tgz#280f5733ffd0135ad232d56022d445b57cee976d"
+  integrity sha512-OCbXCXxPvpPu7vh3Ra1X+FfqA27TP2NcL/AlWhPTSGB+ggrEUgfdUjBSsULpMVPsD6pG/runGdM9CQjEK7g+DQ==
   dependencies:
     tslib "^2.0.0"
 
-"@angular/platform-browser@10.2.2":
-  version "10.2.2"
-  resolved "https://registry.yarnpkg.com/@angular/platform-browser/-/platform-browser-10.2.2.tgz#96517ecb01e6ab717209404ade21bdaa0524ccbb"
-  integrity sha512-vxUKppRS5rIytzp8rV7pcqobopqBqSpXd5Rv/C5yVU9fTqg/hxbMPF8fRDITRqhArtuT7iT3Vv3TK+whqXTyNQ==
+"@angular/platform-browser@11.0.9":
+  version "11.0.9"
+  resolved "https://registry.yarnpkg.com/@angular/platform-browser/-/platform-browser-11.0.9.tgz#354795d82b961c164e40b54fe8125ceabcd096b6"
+  integrity sha512-snuq8SaIRuVDYJLy80kYCEuVITZZbtG3PvxamATvzpgYpAzBskToc4/7LKJk0IEVSMvKzi8eSBCDaK2f2ZJB3A==
   dependencies:
     tslib "^2.0.0"
 
