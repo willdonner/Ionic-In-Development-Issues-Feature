@@ -59,10 +59,10 @@
   dependencies:
     tslib "^2.0.0"
 
-"@angular/forms@10.2.1":
-  version "10.2.1"
-  resolved "https://registry.yarnpkg.com/@angular/forms/-/forms-10.2.1.tgz#2b1018ef8c06872355c1d75eeb251ca45b316dd5"
-  integrity sha512-cGJZRb/caqHeNLpl/f4uFUtCxF8hc1Jd1dkDzfxG3Ea3J96qNsApxWCdwI09aI6KyYADSvQKTjZcgdASmTr/cA==
+"@angular/forms@11.0.9":
+  version "11.0.9"
+  resolved "https://registry.yarnpkg.com/@angular/forms/-/forms-11.0.9.tgz#c7238af3d42e75f436840f5cf3002cbd41811d84"
+  integrity sha512-DHi4puesP5iSBToT4FZVqLYZZpZDlAy2wgBe+OhCq7GCIqi8OLejB3bp9BnUd/WnNAHJd3zEjytexih6EPE0Xg==
   dependencies:
     tslib "^2.0.0"
 
