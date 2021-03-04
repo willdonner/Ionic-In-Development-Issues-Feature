@@ -12,10 +12,10 @@
     typescript "~2.6.1"
     webpack-sources "^1.0.1"
 
-"@angular/animations@11.0.5":
-  version "11.0.5"
-  resolved "https://registry.yarnpkg.com/@angular/animations/-/animations-11.0.5.tgz#44157c8bbb3f20ce1d3d6386eae956659cefd9d7"
-  integrity sha512-ghE/xDTYuEWkKNZtioH9JBrSlux0MLHzWoE7tNP+XMaplt80lCm979vWsEBO3/xpQLRmRlGPul6RacCAoeqogg==
+"@angular/animations@11.2.4":
+  version "11.2.4"
+  resolved "https://registry.yarnpkg.com/@angular/animations/-/animations-11.2.4.tgz#3372b45e70d128cf0fe260d452bf95da69126222"
+  integrity sha512-t04jQwoqpaBT3tJIAnPKZ2p43Hy0Vhq7FoyZZQB0TZZyPzxgl8DenBPMsNZxfaV9QM5i2gFE0eqkCy7YfXvvPA==
   dependencies:
     tslib "^2.0.0"
 
