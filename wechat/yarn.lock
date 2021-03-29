@@ -87,10 +87,10 @@
   dependencies:
     tslib "^2.0.0"
 
-"@ionic-native/core@~5.28.0":
-  version "5.28.0"
-  resolved "https://registry.yarnpkg.com/@ionic-native/core/-/core-5.28.0.tgz#9fdbc3657d778c4c524c7091e6f0c8e4426bcd28"
-  integrity sha512-YmR70U+bIk1e4V36bke8HCol2XwuplAr4OTok4Jdx6MaAfJ1xR1AWt2PiQOIgM8bAq8qkVlbgsYi2rEOzKVc7A==
+"@ionic-native/core@~5.31.1":
+  version "5.31.1"
+  resolved "https://registry.yarnpkg.com/@ionic-native/core/-/core-5.31.1.tgz#189d67f20b46cfe7930091fa382539efafa8d03b"
+  integrity sha512-dbJHezSuY8OqyFwyQiS+5QscA/BONhWitXgniljEblC5kQeLOCe+8p30JYHXj9xDciYzfqFP8ICmyaGOqUHJYw==
   dependencies:
     "@types/cordova" latest
 
