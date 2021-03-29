@@ -12,10 +12,10 @@
     typescript "~2.6.1"
     webpack-sources "^1.0.1"
 
-"@angular/animations@11.0.9":
-  version "11.0.9"
-  resolved "https://registry.yarnpkg.com/@angular/animations/-/animations-11.0.9.tgz#fb8052f55aa2851ab375dcb99d8d59c34a03a745"
-  integrity sha512-/KsMBUbRTqp29CNLbRIe4/8IxWxhnbUUZWqULaySnRDDW/p2m4miPcFVSp4zjrDZPqdXSibDiCyTiWmQ5PTuKA==
+"@angular/animations@11.2.7":
+  version "11.2.7"
+  resolved "https://registry.yarnpkg.com/@angular/animations/-/animations-11.2.7.tgz#b0e6fd30fa1ac284be7d1c1815e721b38085ef41"
+  integrity sha512-i+H5vC2/NUqZwGeoDHpLDn81R3prQGwT1AajMqFw9D3U6VX6G5EfYmn1zLvu8nL2r4cYMsSQ/LKnKl2jnQX0sQ==
   dependencies:
     tslib "^2.0.0"
 
@@ -3553,10 +3553,10 @@ rollup@0.50.0:
   resolved "http://registry.npm.taobao.org/rollup/download/rollup-0.50.0.tgz#4c158f4e780e6cb33ff0dbfc184a52cc58cd5f3b"
   integrity sha1-TBWPTngObLM/8Nv8GEpSzFjNXzs=
 
-rxjs@6.6.3:
-  version "6.6.3"
-  resolved "https://registry.yarnpkg.com/rxjs/-/rxjs-6.6.3.tgz#8ca84635c4daa900c0d3967a6ee7ac60271ee552"
-  integrity sha512-trsQc+xYYXZ3urjOiJOuCOa5N3jAZ3eiSpQB5hIT8zGlL2QfnHLJ2r7GMkBGuIausdJN1OneaI6gQlsqNHHmZQ==
+rxjs@6.6.7:
+  version "6.6.7"
+  resolved "https://registry.yarnpkg.com/rxjs/-/rxjs-6.6.7.tgz#90ac018acabf491bf65044235d5863c4dab804c9"
+  integrity sha512-hTdwr+7yYNIT5n4AMYp85KA6yw2Va0FLa3Rguvbpa4W3I5xynaBZo41cM3XM+4Q6fRMj3sBYIR1VAmZMXYJvRQ==
   dependencies:
     tslib "^1.9.0"
 
