@@ -47,10 +47,10 @@
     tslib "^2.0.0"
     yargs "^16.1.1"
 
-"@angular/compiler@11.2.7":
-  version "11.2.7"
-  resolved "https://registry.yarnpkg.com/@angular/compiler/-/compiler-11.2.7.tgz#aeeed88bed201691559271dc9b9eb54d9eba8234"
-  integrity sha512-VikD6d33TjBYqLfECzVSbD/T7DFmNRx9rA4b2R2RNrQ3efW7zUJjJMsYwuQEWhYe0dFsBfMKCb/+yCjH9DYTFg==
+"@angular/compiler@10.0.8":
+  version "10.0.8"
+  resolved "https://registry.yarnpkg.com/@angular/compiler/-/compiler-10.0.8.tgz#87becc64f1a2ef100c369c182959a0562a759969"
+  integrity sha512-8zpxmDgDs45Q0rm1D3Gb4NP4CToizdOy7oBhDN7ijukRXAl19oE5vj1mHWvalbtgeC13kfdrdlQ8Ke2z61cd/g==
   dependencies:
     tslib "^2.0.0"
 
@@ -263,10 +263,10 @@
     lodash "^4.17.19"
     to-fast-properties "^2.0.0"
 
-"@ionic-native/core@~5.28.0":
-  version "5.28.0"
-  resolved "https://registry.yarnpkg.com/@ionic-native/core/-/core-5.28.0.tgz#9fdbc3657d778c4c524c7091e6f0c8e4426bcd28"
-  integrity sha512-YmR70U+bIk1e4V36bke8HCol2XwuplAr4OTok4Jdx6MaAfJ1xR1AWt2PiQOIgM8bAq8qkVlbgsYi2rEOzKVc7A==
+"@ionic-native/core@~5.31.1":
+  version "5.31.1"
+  resolved "https://registry.yarnpkg.com/@ionic-native/core/-/core-5.31.1.tgz#189d67f20b46cfe7930091fa382539efafa8d03b"
+  integrity sha512-dbJHezSuY8OqyFwyQiS+5QscA/BONhWitXgniljEblC5kQeLOCe+8p30JYHXj9xDciYzfqFP8ICmyaGOqUHJYw==
   dependencies:
     "@types/cordova" latest
 
