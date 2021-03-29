@@ -47,10 +47,10 @@
     tslib "^2.0.0"
     yargs "^16.1.1"
 
-"@angular/compiler@11.2.7":
-  version "11.2.7"
-  resolved "https://registry.yarnpkg.com/@angular/compiler/-/compiler-11.2.7.tgz#aeeed88bed201691559271dc9b9eb54d9eba8234"
-  integrity sha512-VikD6d33TjBYqLfECzVSbD/T7DFmNRx9rA4b2R2RNrQ3efW7zUJjJMsYwuQEWhYe0dFsBfMKCb/+yCjH9DYTFg==
+"@angular/compiler@10.0.8":
+  version "10.0.8"
+  resolved "https://registry.yarnpkg.com/@angular/compiler/-/compiler-10.0.8.tgz#87becc64f1a2ef100c369c182959a0562a759969"
+  integrity sha512-8zpxmDgDs45Q0rm1D3Gb4NP4CToizdOy7oBhDN7ijukRXAl19oE5vj1mHWvalbtgeC13kfdrdlQ8Ke2z61cd/g==
   dependencies:
     tslib "^2.0.0"
 
@@ -4867,10 +4867,10 @@ typescript@~2.6.1:
   resolved "http://registry.npm.taobao.org/typescript/download/typescript-2.6.2.tgz#3c5b6fd7f6de0914269027f03c0946758f7673a4"
   integrity sha1-PFtv1/beCRQmkCfwPAlGdY92c6Q=
 
-typescript@~3.9.7:
-  version "3.9.7"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.9.7.tgz#98d600a5ebdc38f40cb277522f12dc800e9e25fa"
-  integrity sha512-BLbiRkiBzAwsjut4x/dsibSTB6yWpwT5qWmC2OfuCg3GgVQCSgMs4vEctYPhsaGtd0AeuuHMkjZ2h2WG8MSzRw==
+typescript@~4.2.3:
+  version "4.2.3"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.2.3.tgz#39062d8019912d43726298f09493d598048c1ce3"
+  integrity sha512-qOcYwxaByStAWrBf4x0fibwZvMRG+r4cQoTjbPtUlrWjBHbmCAww1i448U0GJ+3cNNEtebDteo/cHOR3xJ4wEw==
 
 uglify-es@3.2.2:
   version "3.2.2"
