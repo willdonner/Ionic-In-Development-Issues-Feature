@@ -12,17 +12,17 @@
     typescript "~2.6.1"
     webpack-sources "^1.0.1"
 
-"@angular/animations@11.0.5":
-  version "11.0.5"
-  resolved "https://registry.yarnpkg.com/@angular/animations/-/animations-11.0.5.tgz#44157c8bbb3f20ce1d3d6386eae956659cefd9d7"
-  integrity sha512-ghE/xDTYuEWkKNZtioH9JBrSlux0MLHzWoE7tNP+XMaplt80lCm979vWsEBO3/xpQLRmRlGPul6RacCAoeqogg==
+"@angular/animations@11.2.7":
+  version "11.2.7"
+  resolved "https://registry.yarnpkg.com/@angular/animations/-/animations-11.2.7.tgz#b0e6fd30fa1ac284be7d1c1815e721b38085ef41"
+  integrity sha512-i+H5vC2/NUqZwGeoDHpLDn81R3prQGwT1AajMqFw9D3U6VX6G5EfYmn1zLvu8nL2r4cYMsSQ/LKnKl2jnQX0sQ==
   dependencies:
     tslib "^2.0.0"
 
-"@angular/common@11.0.5":
-  version "11.0.5"
-  resolved "https://registry.yarnpkg.com/@angular/common/-/common-11.0.5.tgz#7ec508cb7e14cf38640fe4e1c0fa3dd322a52505"
-  integrity sha512-aoXdTkoni65LWhrPKNsAiOnO70XFaTaisO+K8ZYMpciMTTAxHx3hFCF9sj4a+Bo3M1a5UDjpsFDYMeGgJOkmFA==
+"@angular/common@11.2.7":
+  version "11.2.7"
+  resolved "https://registry.yarnpkg.com/@angular/common/-/common-11.2.7.tgz#4e631f322c28df99c695d4c2d925ce40ac3b942f"
+  integrity sha512-+bz/0TYzl/CiQCS1L2iwC7uiV+d+PnhvCs6scu66YKnBK2gSKxdypZZ3UZNbWDyYonAYmghEt+xHvKVpZgzhbw==
   dependencies:
     tslib "^2.0.0"
 
@@ -298,10 +298,10 @@
   dependencies:
     "@types/cordova" latest
 
-"@ionic-native/status-bar@~5.30.0":
-  version "5.30.0"
-  resolved "https://registry.yarnpkg.com/@ionic-native/status-bar/-/status-bar-5.30.0.tgz#fc2c393378de4056affd4409ee10a2cf3eb98dd1"
-  integrity sha512-AQglp5M5E3QN/aA3ERl76Fajpb1G2Zvnk4sJOo4ra5uRlw2lZ6E36DdpNo/NO/7ALxaddD9qXO/LCmvU72Obsg==
+"@ionic-native/status-bar@~5.31.1":
+  version "5.31.1"
+  resolved "https://registry.yarnpkg.com/@ionic-native/status-bar/-/status-bar-5.31.1.tgz#8e45830a52262927e0389479d221a389cd973e0f"
+  integrity sha512-o5gugiuyYjWqQqzajbfqYKvuWX0BSTppwoLXU0PidgvBWtw3yBb7z4FZoo6JQSkUVn2AWYD1XEj/4KKh9D4Pkg==
   dependencies:
     "@types/cordova" latest
 
@@ -338,14 +338,12 @@
     ws "3.3.2"
     xml2js "^0.4.19"
 
-"@ionic/storage@2.3.1":
-  version "2.3.1"
-  resolved "https://registry.yarnpkg.com/@ionic/storage/-/storage-2.3.1.tgz#38ceb2fc9085074cf60043c3485cbeeb92abab27"
-  integrity sha512-IdYKr6xRatumkhceVbjmySCrA20KKcojQN0MyS857D4OgvcDtQhG9mvTXtfX/tU2hxaFlN6WkUaQOy3oPFcJvA==
+"@ionic/storage@3.0.2":
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/@ionic/storage/-/storage-3.0.2.tgz#ddb735499f0fdad4794c87159b3bf3e39c7284ec"
+  integrity sha512-EjBZb6Pu2RgqwsB/YyrDpDoU12MpKhdgXMy6RxPC5S/URumTAosYczuIpKmAeFNFdiIcTpeKJypIEAQT35QBkA==
   dependencies:
-    localforage "1.7.1"
-    localforage-cordovasqlitedriver "1.7.0"
-    tslib "^1.10.0"
+    localforage "^1.9.0"
 
 "@netflix/nerror@^1.1.3":
   version "1.1.3"
@@ -2874,24 +2872,10 @@ loader-utils@^1.1.0:
     emojis-list "^2.0.0"
     json5 "^1.0.1"
 
-localforage-cordovasqlitedriver@1.7.0:
-  version "1.7.0"
-  resolved "http://registry.npm.taobao.org/localforage-cordovasqlitedriver/download/localforage-cordovasqlitedriver-1.7.0.tgz#8b93957759ee688d3a58d5ba7c0477f6ccb53838"
-  integrity sha1-i5OVd1nuaI06WNW6fAR39sy1ODg=
-  dependencies:
-    localforage ">=1.5.0"
-
-localforage@1.7.1:
-  version "1.7.1"
-  resolved "http://registry.npm.taobao.org/localforage/download/localforage-1.7.1.tgz#e4927e042302b864db30f3211f13b5c6f0de965d"
-  integrity sha1-5JJ+BCMCuGTbMPMhHxO1xvDell0=
-  dependencies:
-    lie "3.1.1"
-
-localforage@>=1.5.0:
-  version "1.7.3"
-  resolved "http://registry.npm.taobao.org/localforage/download/localforage-1.7.3.tgz#0082b3ca9734679e1bd534995bdd3b24cf10f204"
-  integrity sha1-AIKzypc0Z54b1TSZW907JM8Q8gQ=
+localforage@^1.9.0:
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/localforage/-/localforage-1.9.0.tgz#f3e4d32a8300b362b4634cc4e066d9d00d2f09d1"
+  integrity sha512-rR1oyNrKulpe+VM9cYmcFn6tsHuokyVHFaCM3+osEmxaHTbEk8oQu6eGDfS6DQLWi/N67XRmB8ECG37OES368g==
   dependencies:
     lie "3.1.1"
 
@@ -4150,10 +4134,10 @@ run-parallel@^1.1.9:
   resolved "https://registry.yarnpkg.com/run-parallel/-/run-parallel-1.1.9.tgz#c9dd3a7cf9f4b2c4b6244e173a6ed866e61dd679"
   integrity sha512-DEqnSRTDw/Tc3FXf49zedI638Z9onwUotBMiUFKmrO2sdFKIbXamXGQ3Axd4qgphxKB4kw/qP1w5kTxnfU1B9Q==
 
-rxjs@6.6.3:
-  version "6.6.3"
-  resolved "https://registry.yarnpkg.com/rxjs/-/rxjs-6.6.3.tgz#8ca84635c4daa900c0d3967a6ee7ac60271ee552"
-  integrity sha512-trsQc+xYYXZ3urjOiJOuCOa5N3jAZ3eiSpQB5hIT8zGlL2QfnHLJ2r7GMkBGuIausdJN1OneaI6gQlsqNHHmZQ==
+rxjs@6.6.7:
+  version "6.6.7"
+  resolved "https://registry.yarnpkg.com/rxjs/-/rxjs-6.6.7.tgz#90ac018acabf491bf65044235d5863c4dab804c9"
+  integrity sha512-hTdwr+7yYNIT5n4AMYp85KA6yw2Va0FLa3Rguvbpa4W3I5xynaBZo41cM3XM+4Q6fRMj3sBYIR1VAmZMXYJvRQ==
   dependencies:
     tslib "^1.9.0"
 
@@ -4769,7 +4753,7 @@ trim-newlines@^1.0.0:
   dependencies:
     glob "^7.1.2"
 
-tslib@^1.0.0, tslib@^1.10.0, tslib@^1.8.0, tslib@^1.8.1, tslib@^1.9.0:
+tslib@^1.0.0, tslib@^1.8.0, tslib@^1.8.1, tslib@^1.9.0:
   version "1.13.0"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.13.0.tgz#c881e13cc7015894ed914862d276436fa9a47043"
   integrity sha512-i/6DQjL8Xf3be4K/E6Wgpekn5Qasl1usyw++dAA35Ue5orEn65VIxOA+YvNNl9HV3qv70T7CNwjODHZrLwvd1Q==
