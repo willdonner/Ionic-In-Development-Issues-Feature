@@ -168,10 +168,10 @@
   resolved "https://registry.yarnpkg.com/@ionic-native/google-maps/-/google-maps-5.5.0.tgz#02537e04bb0d01d5580f936d8ccce6745188d90a"
   integrity sha512-+sCaB7cLR35ApsOyYSfwDX2ZTO2ItOI6FHkgTQ2rzOA1DVJ9rlU8HDL6jYBUhq+aDe3lhCPexSOryeBynaSvpQ==
 
-"@ionic-native/splash-screen@5.28.0":
-  version "5.28.0"
-  resolved "https://registry.yarnpkg.com/@ionic-native/splash-screen/-/splash-screen-5.28.0.tgz#b38494f3a9fa0d61682da5691860d27994fd321c"
-  integrity sha512-qhr/i320BgFNFvzNOoPe2G3bDF4YN7LjpKPp9JoP+Tr1JjWwok02gT896q5GgUxYMuTCRKVQMTkp4C3J1Q8/Qg==
+"@ionic-native/splash-screen@5.31.1":
+  version "5.31.1"
+  resolved "https://registry.yarnpkg.com/@ionic-native/splash-screen/-/splash-screen-5.31.1.tgz#323d984cb951b9b56d07439754abfca0ce43966c"
+  integrity sha512-Hcy1cMjWLnFE0TrIhpcNwld39dFipOQE63XpKuEhSJXfix1hibrC+0Nc3jEn0zBJUbbAHVJph6s9dohUxRycqg==
   dependencies:
     "@types/cordova" latest
 
