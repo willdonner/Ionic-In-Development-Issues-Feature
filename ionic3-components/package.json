@@ -35,7 +35,7 @@
         "@ionic/storage": "2.3.1",
         "angular2-swing": "^0.14.0",
         "card.io.cordova.mobilesdk": "git+https://github.com/card-io/card.io-Cordova-Plugin.git",
-        "chart.js": "^2.9.3",
+        "chart.js": "^3.0.1",
         "cordova-android": "9.0.0",
         "cordova-plugin-camera": "^5.0.0",
         "cordova-plugin-compat": "^1.2.0",
