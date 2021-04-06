@@ -24,7 +24,7 @@
         "@angular/platform-browser-dynamic": "10.1.5",
         "@angular/tsc-wrapped": "4.4.6",
         "@ionic-native/barcode-scanner": "5.28.0",
-        "@ionic-native/camera": "5.27.0",
+        "@ionic-native/camera": "5.32.0",
         "@ionic-native/card-io": "5.28.0",
         "@ionic-native/core": "5.28.0",
         "@ionic-native/diagnostic": "5.28.0",
