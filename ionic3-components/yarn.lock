@@ -135,10 +135,10 @@
   dependencies:
     "@types/cordova" latest
 
-"@ionic-native/card-io@5.28.0":
-  version "5.28.0"
-  resolved "https://registry.yarnpkg.com/@ionic-native/card-io/-/card-io-5.28.0.tgz#4c187f31263b088d310162bf9681e4ead0fed44f"
-  integrity sha512-H2ApguxSx8G7cLBP45gt6LKobIzFFFrqg0msKTTcSFMGHgOdIrKX13GMdkxLuc9+64MsF6mnAgh4u8bbjCqWGA==
+"@ionic-native/card-io@5.33.0":
+  version "5.33.0"
+  resolved "https://registry.yarnpkg.com/@ionic-native/card-io/-/card-io-5.33.0.tgz#907e7365af7cc618b736b9258d6a3f55251f2a03"
+  integrity sha512-CVJxLKZxhL7qyAhUz9thoJmMGWLoSXPx1EOs7HkgCiXHMMe4twnZw79/fSajn9WvQWSk3zoqESgLcmcnY+Ah4g==
   dependencies:
     "@types/cordova" latest
 
