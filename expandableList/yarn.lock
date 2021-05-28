@@ -94,10 +94,12 @@
   dependencies:
     "@types/cordova" latest
 
-"@ionic-native/splash-screen@~4.18.0":
-  version "4.18.0"
-  resolved "https://registry.yarnpkg.com/@ionic-native/splash-screen/-/splash-screen-4.18.0.tgz#2726448e20f447dac35e29f831f7342771050fd2"
-  integrity sha512-u5VVcIGVUFoiUHUP8SIWEspk7GxR1tUYUjwMX56g8ZmL6d8D7R9o0Tj8p2bzJj6aaUY0cQ27eZ+vDmX+3OsBoQ==
+"@ionic-native/splash-screen@~5.33.1":
+  version "5.33.1"
+  resolved "https://registry.yarnpkg.com/@ionic-native/splash-screen/-/splash-screen-5.33.1.tgz#5e4080af10c799b5dbeef3b8d1e8f7e7ca34862b"
+  integrity sha512-tSrWkm+hIgc049bRHbUDRIxxNi201LFMxD9CL78h8XzJGb+FJkkxxfA6dsCI60zm2tPOeC42ronBqss99mxeEQ==
+  dependencies:
+    "@types/cordova" latest
 
 "@ionic-native/status-bar@~5.28.0":
   version "5.28.0"
