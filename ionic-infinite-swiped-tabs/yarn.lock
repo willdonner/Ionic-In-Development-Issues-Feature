@@ -263,10 +263,10 @@
     lodash "^4.17.19"
     to-fast-properties "^2.0.0"
 
-"@ionic-native/core@5.30.0":
-  version "5.30.0"
-  resolved "https://registry.yarnpkg.com/@ionic-native/core/-/core-5.30.0.tgz#f377c10c680da9b2978f5cbaff93de2ded0cca97"
-  integrity sha512-UkktFoSOAt/lgsc1nxnwjCul29yD06qHNjyv7/K7JxhqeJrqPBKihnkLu7OTAe52KdFBozRxLKDP6HWcGderqA==
+"@ionic-native/core@5.35.0":
+  version "5.35.0"
+  resolved "https://registry.yarnpkg.com/@ionic-native/core/-/core-5.35.0.tgz#b84cfcc2cf8993c09c2b8fe1fe2e3d8646d44f09"
+  integrity sha512-x2mShlaLOzCxwdqvPOvUFX4g0ctMvEYiYak6Hlh+HP9eNWfruT0EcMoXs6KSvIRFRsyFaYAXHyDZseKtB3aqsA==
   dependencies:
     "@types/cordova" latest
 
