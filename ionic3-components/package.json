@@ -27,7 +27,7 @@
         "@ionic-native/camera": "5.27.0",
         "@ionic-native/card-io": "5.28.0",
         "@ionic-native/core": "5.28.0",
-        "@ionic-native/diagnostic": "5.28.0",
+        "@ionic-native/diagnostic": "5.35.0",
         "@ionic-native/geolocation": "5.28.0",
         "@ionic-native/google-maps": "5.5.0",
         "@ionic-native/splash-screen": "5.28.0",
