@@ -187,6 +187,11 @@
     "@nodelib/fs.scandir" "2.1.3"
     fastq "^1.6.0"
 
+"@stencil/core@^2.5.0":
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/@stencil/core/-/core-2.6.0.tgz#29da96d8b6fc83e689b9f297ef3e8b59b90a676a"
+  integrity sha512-QsxWayZyusnqSZrlCl81R71rA3KqFjVVQSH4E0rGN15F1GdQaFonKlHLyCOLKLig1zzC+DQkLLiUuocexuvdeQ==
+
 "@types/color-name@^1.1.1":
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/@types/color-name/-/color-name-1.1.1.tgz#1c1261bbeaa10a8055bbc5d8ab84b7b2afc846a0"
@@ -2256,10 +2261,12 @@ ionic-angular@3.9.10:
   resolved "https://registry.yarnpkg.com/ionic-angular/-/ionic-angular-3.9.10.tgz#6b3514b05f6c668c7e852844b66779b9e9fb4515"
   integrity sha512-4nmGrdpu4Zy3SZwF0AaS/3gDrbFGU1dV+zn1eqInFgFj9q20N1cIITgvyIcoxUI/IoqYiohsJX1rGY5vB/HrhQ==
 
-ionicons@5.1.2:
-  version "5.1.2"
-  resolved "https://registry.yarnpkg.com/ionicons/-/ionicons-5.1.2.tgz#f00f17d2f23be94e8a248c9ebbaea236a6132f0d"
-  integrity sha512-zO7ZgbBbXhpA7cXO2rDzTNdcCqErjg1Sprq/ossTvaiV0MriOjRE7JO3EGvYjDTPzF9YALGpvLXqCgsRT0tprA==
+ionicons@5.5.3:
+  version "5.5.3"
+  resolved "https://registry.yarnpkg.com/ionicons/-/ionicons-5.5.3.tgz#33cfc4c8a590ac45895f2b10309ef4586ed244c1"
+  integrity sha512-L71djrMi8pAad66tpwdnO1vwcyluCFvehzxU1PpH1k/HpYBZhZ5IaYhqXipmqUvu5aEbd4cbRguYyI5Fd4bxTw==
+  dependencies:
+    "@stencil/core" "^2.5.0"
 
 ipaddr.js@1.8.0:
   version "1.8.0"
