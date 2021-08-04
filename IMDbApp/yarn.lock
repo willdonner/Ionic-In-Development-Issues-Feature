@@ -81,12 +81,12 @@
   dependencies:
     tslib "^2.2.0"
 
-"@angular/platform-browser@11.0.9":
-  version "11.0.9"
-  resolved "https://registry.yarnpkg.com/@angular/platform-browser/-/platform-browser-11.0.9.tgz#354795d82b961c164e40b54fe8125ceabcd096b6"
-  integrity sha512-snuq8SaIRuVDYJLy80kYCEuVITZZbtG3PvxamATvzpgYpAzBskToc4/7LKJk0IEVSMvKzi8eSBCDaK2f2ZJB3A==
+"@angular/platform-browser@12.2.0":
+  version "12.2.0"
+  resolved "https://registry.yarnpkg.com/@angular/platform-browser/-/platform-browser-12.2.0.tgz#d3d01602e331ace3752111e7e64efc9c4a10e561"
+  integrity sha512-MIoWBhhMmPBFfuOPBgEG21uqCZVudTj4YMGxQH4iVlI9GD9ZAht8XgopN9Vw4cytPNfKWsspLoruhIWRNSJlNA==
   dependencies:
-    tslib "^2.0.0"
+    tslib "^2.2.0"
 
 "@babel/code-frame@^7.12.13":
   version "7.12.13"
