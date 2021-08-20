@@ -108,10 +108,10 @@
   dependencies:
     "@types/cordova" latest
 
-"@ionic-native/wechat@^5.28.0":
-  version "5.28.0"
-  resolved "https://registry.yarnpkg.com/@ionic-native/wechat/-/wechat-5.28.0.tgz#51c34873fa2ded65fbe5b44c43d0c6b8cc69cb29"
-  integrity sha512-tDJ/ENPUYokM0U2fit85R1u6dAjR+ACRCa2XqWonEle8x8PMN+Lh2VAPrhQV5yCFi4/JAVQQPYnSMGBCjOjQHg==
+"@ionic-native/wechat@^5.36.0":
+  version "5.36.0"
+  resolved "https://registry.yarnpkg.com/@ionic-native/wechat/-/wechat-5.36.0.tgz#398b5fb4112545edd4272e18ebf95c5f0bd268fa"
+  integrity sha512-e8yZairpw2+RSN25d+fL2Do6rMCwPUSqQ7Y5stwRxGpnWCkoYnTO31fjrK163tnuYc9No/IXR8otJijJ57JQhg==
   dependencies:
     "@types/cordova" latest
 
