@@ -47,12 +47,12 @@
     tslib "^2.0.0"
     yargs "^16.1.1"
 
-"@angular/compiler@11.2.7":
-  version "11.2.7"
-  resolved "https://registry.yarnpkg.com/@angular/compiler/-/compiler-11.2.7.tgz#aeeed88bed201691559271dc9b9eb54d9eba8234"
-  integrity sha512-VikD6d33TjBYqLfECzVSbD/T7DFmNRx9rA4b2R2RNrQ3efW7zUJjJMsYwuQEWhYe0dFsBfMKCb/+yCjH9DYTFg==
+"@angular/compiler@12.2.3":
+  version "12.2.3"
+  resolved "https://registry.yarnpkg.com/@angular/compiler/-/compiler-12.2.3.tgz#a528dcda48c17c9b844caba5b61cfd119e515d17"
+  integrity sha512-jlS7XUokGb4eH6aYEIanrq6a7ZxcMI9GmMr5tBAdIHusH3b40dcMpZVXIxoGzv1Ws47m2izDCrjWjkFKeXPavQ==
   dependencies:
-    tslib "^2.0.0"
+    tslib "^2.2.0"
 
 "@angular/core@10.1.2":
   version "10.1.2"
@@ -4823,10 +4823,10 @@ tslib@^1.0.0, tslib@^1.10.0, tslib@^1.8.0, tslib@^1.8.1, tslib@^1.9.0:
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.13.0.tgz#c881e13cc7015894ed914862d276436fa9a47043"
   integrity sha512-i/6DQjL8Xf3be4K/E6Wgpekn5Qasl1usyw++dAA35Ue5orEn65VIxOA+YvNNl9HV3qv70T7CNwjODHZrLwvd1Q==
 
-tslib@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.0.0.tgz#18d13fc2dce04051e20f074cc8387fd8089ce4f3"
-  integrity sha512-lTqkx847PI7xEDYJntxZH89L2/aXInsyF2luSafe/+0fHOMjlBNXdH6th7f70qxLDhul7KZK0zC8V5ZIyHl0/g==
+tslib@^2.0.0, tslib@^2.2.0:
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.3.1.tgz#e8a335add5ceae51aa261d32a490158ef042ef01"
+  integrity sha512-77EbyPPpMz+FRFRuAFlWMtmgUWGe9UOG2Z25NqCwiIjRhOf5iKGuzSe5P2w1laq+FkRy4p+PCuVkJSGkzTEKVw==
 
 tslint-eslint-rules@^4.1.1:
   version "4.1.1"
