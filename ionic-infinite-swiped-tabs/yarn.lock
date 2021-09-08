@@ -54,12 +54,12 @@
   dependencies:
     tslib "^2.0.0"
 
-"@angular/core@10.1.2":
-  version "10.1.2"
-  resolved "https://registry.yarnpkg.com/@angular/core/-/core-10.1.2.tgz#53fc470383f7850aa6f025b89b12643109d2cf24"
-  integrity sha512-iBVkCgXMp3TofrbZVwpuSbLAiLHF/fbx9xHnFcjBQUXBUIoxiEB4NcrPHibmBVNX0J45hO6iLsG+ZtFZbMifNg==
+"@angular/core@12.2.5":
+  version "12.2.5"
+  resolved "https://registry.yarnpkg.com/@angular/core/-/core-12.2.5.tgz#52eaabb648a2335ec88ca2e9f4c947a40e2e3560"
+  integrity sha512-bwxxEy1UrV+hWzjT6ow/Ge8upebglJwlWuKadPdd3ZVrWKPI0saoUUBv4S8EGiIxyW821GfEbzWzmBYUSUCiGQ==
   dependencies:
-    tslib "^2.0.0"
+    tslib "^2.2.0"
 
 "@angular/forms@11.2.12":
   version "11.2.12"
