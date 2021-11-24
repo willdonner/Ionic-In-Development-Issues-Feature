@@ -13,7 +13,7 @@
   "dependencies": {
     "@angular/animations": "5.2.11",
     "@angular/common": "5.2.11",
-    "@angular/compiler": "12.2.7",
+    "@angular/compiler": "13.0.2",
     "@angular/compiler-cli": "5.2.11",
     "@angular/core": "5.2.11",
     "@angular/forms": "5.2.11",
@@ -24,7 +24,7 @@
     "@ionic-native/splash-screen": "~4.20.0",
     "@ionic-native/status-bar": "~4.20.0",
     "@ionic/storage": "2.3.1",
-    "@types/jquery": "^3.5.6",
+    "@types/jquery": "^3.5.9",
     "ionic-angular": "3.9.10",
     "ionicons": "5.2.3",
     "jquery": "^3.5.1",
