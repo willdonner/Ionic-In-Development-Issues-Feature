@@ -50,7 +50,7 @@
         "ionic-angular": "3.9.10",
         "ionic-plugin-keyboard": "^2.2.1",
         "ionicons": "5.2.3",
-        "moment": "^2.28.0",
+        "moment": "^2.29.2",
         "phonegap-plugin-barcodescanner": "^8.1.0",
         "rxjs": "6.6.3",
         "sw-toolbox": "3.6.0",
